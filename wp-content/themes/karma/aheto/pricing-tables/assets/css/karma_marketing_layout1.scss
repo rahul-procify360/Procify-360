@@ -1,0 +1,168 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-pricing {
+  $pricing: &;
+
+  &--karma-marketing-isotope {
+    display: flex;
+    flex-wrap: wrap;
+
+    #{$pricing}__head {
+      width: 40%;
+      padding-right: 70px;
+      @include md-size-max{
+        width: 100%;
+      }
+      @include xs-size-max{
+        padding-right: 0;
+      }
+    }
+
+    #{$pricing}__content {
+      width: 60%;
+      @include md-size-max{
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+
+    #{$pricing}__main-title {
+      margin-top: 45px;
+      position: relative;
+
+      &:after {
+        content: '';
+        width: 100px;
+        display: block;
+        background: var(--c-grey);
+        height: 5px;
+        transform: translate(-50px, 0);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        position: relative;
+        @include md-size-max{
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    #{$pricing}__main-desc {
+      margin-bottom: 50px;
+      @include md-size-max{
+        margin-bottom: 20px;
+      }
+    }
+    #{$pricing}__main-link {
+     transition: 0.5s;
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+
+    #{$pricing}__box {
+      box-sizing: border-box;
+      width: 50%;
+      min-height: 400px;
+      margin-bottom: 20px;
+      padding: 45px 50px 60px;
+      border-radius: 5px;
+      margin-top: 25px;
+      background-color: var(--c-light);
+      @include sm-size-max {
+        width: 100%;
+        box-shadow: 0 10px 40px rgba(var(--ca-dark), 0.07);
+        margin-top: 0;
+      }
+      @include xs-size-max {
+        padding: 15px 30px 25px;
+      }
+
+      &-header {
+        text-align: center;
+      }
+
+      &-title {
+        margin-bottom: 33px;
+      }
+
+      &-price {
+        margin-bottom: 50px;
+        border-radius: 5px;
+        border: 1px solid var(--c-grey);
+        padding: 0 12px;
+        display: inline-block;
+      }
+
+      &-descr {
+        margin-bottom: 45px;
+
+        li {
+          position: relative;
+          padding-left: 35px;
+          margin-bottom: 20px;
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: calc(50% - 4px);
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--c-alter);
+          }
+        }
+
+        @include xs-size-max {
+          margin-bottom: 0;
+        }
+      }
+
+      &-active {
+        box-shadow: 0 10px 40px rgba(var(--ca-dark), 0.07);
+        z-index: 1;
+        margin-top: 0;
+      }
+
+      &-btn {
+        text-align: center;
+      }
+    }
+
+    #{$pricing}__list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      margin-top: 50px;
+      @include md-size-max{
+        margin-bottom: 25px;
+        margin-top: 30px;
+      }
+      &-item {
+        margin: 20px -3px;
+      }
+
+      &-item a {
+        min-width: 180px;
+        margin: 0;
+        position: relative;
+        border: 1px solid var(--c-grey);
+        padding: 20px 45px;
+        z-index: 0;
+        @include xs-size-max {
+          min-width: 150px;
+          padding: 18px 35px;
+        }
+
+        &.active,
+        &:hover {
+          z-index: 1;
+          box-shadow: 0 10px 20px rgba(var(--ca-dark), 0.07);
+          border-radius: 5px;
+          background-color: var(--c-light);
+        }
+      }
+    }
+  }
+}

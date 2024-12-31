@@ -1,0 +1,339 @@
+@import '../../../../assets/css/mixin';
+
+// wrapper
+.aheto-banner-wrap {
+  &--karma_events-style-1 {
+    .swiper {
+      &-button-prev,
+      &-button-next {
+        top: auto;
+        bottom: 0;
+        width: 60px;
+        height: 60px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        text-align: center;
+        transform: translate(0%, 0%);
+        opacity: 1;
+        @include lg-size-max {
+          bottom: 50%;
+        }
+        @include sm-size-max {
+          bottom: 0;
+        }
+        @include xs-size-max {
+          width: 45px;
+          height: 45px;
+        }
+
+        &::before {
+          font-weight: bold;
+          transition: 0.3s;
+        }
+      }
+
+      &-button-prev {
+        left: auto;
+        right: 60px;
+        background-color: var(--c-active);
+        color: var(--c-light);
+
+        &:hover {
+          color: var(--c-light);
+
+          &::before {
+            transform: translateX(-7px);
+          }
+        }
+
+        @include lg-size-max {
+          right: auto;
+          left: 20px;
+        }
+        @include sm-size-max {
+          left: auto;
+          right: 60px;
+        }
+        @include xs-size-max {
+          right: 45px;
+        }
+
+        &::before {
+          content: "\f3d5";
+        }
+
+
+      }
+
+      &-button-next {
+        right: 0;
+        background-color: var(--c-light);
+        color: var(--c-active);
+
+        &:hover {
+          &::before {
+            transform: translateX(7px);
+          }
+        }
+
+        @include lg-size-max {
+          right: 20px;
+        }
+        @include sm-size-max {
+          right: 0;
+        }
+
+        &:before {
+          content: "\f3d6";
+        }
+      }
+
+    }
+
+    &.aheto-banner-wrap--arrow-position {
+      .swiper {
+        &-button-prev,
+        &-button-next {
+          top: 50%;
+          bottom: auto;
+          width: 18px;
+          height: 48px;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 0;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          opacity: 1;
+          background-color: transparent;
+          color: var(--c-light);
+
+          &:hover {
+            color: rgba(var(--ca-light), 0.8);
+          }
+
+          &::before {
+            font-weight: normal;
+            font-size: 1.9em;
+            transition: 0.3s;
+            @include md-size-max {
+              font-size: 1.5em;
+            }
+            @include xs-size-max {
+              font-size: 1.1em;
+            }
+          }
+        }
+
+        &-button-prev {
+          left: 100px;
+          right: auto;
+          @include md-size-max {
+            left: 40px;
+          }
+          @include xs-size-max {
+            left: 10px;
+          }
+
+          &::before {
+            content: "\f3d2";
+          }
+        }
+
+        &-button-next {
+          right: 100px;
+          @include md-size-max {
+            right: 40px;
+          }
+          @include xs-size-max {
+            right: 10px;
+          }
+
+          &:before {
+            content: "\f3d3";
+          }
+        }
+      }
+    }
+  }
+}
+
+// content
+.aheto-banner {
+  $p: &;
+
+  position: relative;
+
+  &--karma_events-style-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0 75px 0;
+    @include sm-size-max{
+      padding: 60px 0 50px 0;
+
+    }
+
+    #{$p}__content {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 15px 20px;
+      z-index: 2;
+      @include lg-size-max {
+        padding: 50px 15px;
+      }
+
+      @include md-size-max {
+        max-width: 800px;
+      }
+    }
+
+    #{$p}__contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #{$p}__contact-item {
+      color: var(--c-light);
+      margin: 0 20px 5px;
+      padding-left: 25px;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: 'Ionicons';
+        font-size: inherit;
+      }
+
+      &#{$p}__date {
+        &::before {
+          content: '\f117';
+        }
+      }
+
+      &#{$p}__place {
+        &::before {
+          content: "\f393";
+        }
+      }
+    }
+
+    #{$p}__title {
+      margin: 0;
+      color: var(--c-light);
+    }
+
+    #{$p}__links {
+      margin: 25px -10px -16px;
+      display: flex;
+      flex-wrap: wrap;
+
+      i {
+        font-size: 1.7em;
+      }
+
+      &-col {
+        flex-direction: column;
+        align-items: center;
+
+        .aheto-btn {
+          margin-bottom: 0;
+
+          &:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+      a {
+        margin: 16px 10px;
+        @include xs-size-max {
+          margin: 10px 10px;
+        }
+      }
+    }
+
+    #{$p}__socials {
+      margin: auto auto 0;
+      padding: 0 20px;
+      max-width: 1700px;
+      width: 100%;
+      display: flex;
+    }
+
+    #{$p}__social-items {
+      color: var(--c-light);
+      font-family: 'Ionicons';
+      font-size: 22px;
+      margin-right: 32px;
+      transition: 0.5s;
+      z-index: 2;
+      &:hover{
+        color: var(--c-active);
+      }
+    }
+
+    &.t-center {
+      #{$p}__links {
+        justify-content: center;
+      }
+
+      #{$p}__contact {
+        justify-content: center;
+      }
+
+      #{$p}__links-col {
+        align-items: center;
+      }
+    }
+
+    &.t-left {
+      #{$p}__links-col {
+        align-items: flex-start;
+      }
+
+      #{$p}__contact {
+        align-items: flex-start;
+      }
+    }
+
+    &.t-right {
+      #{$p}__links {
+        justify-content: flex-end;
+      }
+
+      #{$p}__links-col {
+        align-items: flex-end;
+      }
+
+      #{$p}__contact {
+        align-items: flex-end;
+      }
+    }
+
+  }
+
+  &-wrap--karma_events-style-1 {
+    #{$p}__overlay-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background-position: center;
+    }
+  }
+}

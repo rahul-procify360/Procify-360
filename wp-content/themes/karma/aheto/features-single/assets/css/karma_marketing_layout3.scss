@@ -1,0 +1,53 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-content-block {
+  $p: &;
+
+  &--karma_marketing-layout3 {
+    display: flex;
+    #{$p}__image{
+      width: 50px;
+      margin-right: 20px;
+      @include xs-size-max{
+        width: 35px;
+        margin-top: 5px;
+      }
+      img{
+        max-width: 100%;
+      }
+    }
+    #{$p}__text-wrap {
+      width: calc(100% - 70px);
+      @include xs-size-max{
+        width: calc(100% - 55px);
+      }
+    }
+    #{$p}__title {
+      margin-bottom: 15px;
+    }
+
+    #{$p}__info-text {
+      margin-bottom: 15px;
+    }
+    #{$p}__link a {
+      position: relative;
+      &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -7px;
+        height: 1px;
+        background-color: var(--c-alter);
+        opacity: 0;
+        transition: 0.5s;
+      }
+      &:hover{
+        &::after{
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+}

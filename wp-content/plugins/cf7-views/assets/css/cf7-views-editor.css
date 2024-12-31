@@ -1,0 +1,41 @@
+body.admin_page_cf7-views #wpcontent {
+	padding-left: 0 !important;
+	padding-bottom: 0 !important;
+}
+body.admin_page_cf7-views #wpbody-content {
+	padding-bottom: 0 !important;
+}
+
+body.admin_page_cf7-views #cf7ooter,
+.post-type-cf7-views .cf7-footer-promotion {
+	display: none !important;
+}
+
+body.dashboard_page_cf7-views #wpcontent {
+	padding-left: 0 !important;
+	padding-bottom: 0 !important;
+}
+body.dashboard_page_cf7-views #wpbody-content {
+	padding-bottom: 0 !important;
+}
+
+body.dashboard_page_cf7-views #cf7ooter {
+	display: none !important;
+}
+.update-nag,
+.notice,
+.is-dismissible {
+	display: none !important;
+}
+body.cf7-views_page_cf7-views #wpcontent {
+	padding-left: 0 !important;
+	padding-bottom: 0 !important;
+}
+body.cf7-views_page_cf7-views #wpbody-content {
+	padding-bottom: 0 !important;
+}
+
+body.cf7-views_page_cf7-views #cf7ooter,
+.post-type-cf7-views .cf7-footer-promotion {
+	display: none !important;
+}

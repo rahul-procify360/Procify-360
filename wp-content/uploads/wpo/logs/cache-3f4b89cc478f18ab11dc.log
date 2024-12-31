@@ -1,0 +1,18 @@
+[2024-12-31 05:06:20 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:10:42 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:11:02 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:11:44 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:12:04 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:13:01 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:13:24 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:13:50 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:14:16 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:26:12 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::maybe_update_advanced_cache 
+[2024-12-31 05:26:13 : INFO] - Cache for archive page associated with post_type: custom-css-js and Title: "Auto Draft" has been purged, triggered by action: save_post 
+[2024-12-31 05:26:28 : INFO] - Pruning the Cache log file 
+[2024-12-31 05:30:55 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:31:18 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:32:26 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:33:40 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:34:02 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2024-12-31 05:34:21 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 

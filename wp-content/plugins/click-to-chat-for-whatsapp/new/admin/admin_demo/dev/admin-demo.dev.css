@@ -1,0 +1,28 @@
+/* .ctc_demo_load {
+    background: yellow;
+    padding: 40px;
+    min-width: 400px;
+    min-height: 200px;
+} */
+
+.ctc_run_demo_btn {
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 1px solid #ddd;
+}
+
+.ctc_ad_show_hide_demo {
+    cursor: pointer;
+}
+
+
+
+/* less than 1200 */
+@media only screen and (max-width: 1200px) {
+
+    .ctc_ad_page_link,
+    .ctc_run_demo_btn {
+        display: none !important;
+    }
+
+}

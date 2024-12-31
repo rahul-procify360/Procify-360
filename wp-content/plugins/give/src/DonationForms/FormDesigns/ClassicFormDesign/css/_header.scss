@@ -1,0 +1,37 @@
+@use 'fn';
+
+.givewp-layouts {
+    &-header {
+        width: 100%;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        box-shadow: var(--givewp-shadow-xs);
+        background-color: var(--givewp-primary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--givewp-spacing-6);
+        color: #fff;
+        text-align: center;
+
+        + .givewp-layouts-form {
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+    }
+}
+
+.givewp-form-secure-badge {
+    display: flex;
+    gap: var(--givewp-spacing-2);
+    align-items: center;
+    width: fit-content;
+    padding: var(--givewp-spacing-1) var(--givewp-spacing-4);
+    border-radius: var(--givewp-rounded-full);
+    background-color: var(--givewp-shades-white);
+    color: var(--givewp-grey-900);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.43;
+    margin: 0 auto;
+}

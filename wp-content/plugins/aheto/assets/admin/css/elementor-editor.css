@@ -1,0 +1,27 @@
+.elementor-choices input:checked+.elementor-choices-label{
+	background: transparent;
+	border-color: #d30c5c!important;
+}
+
+.elementor-choices input + .elementor-choices-label .thumbnail-wrapper{
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.elementor-choices > li{
+	margin-bottom: 5px!important;
+}
+
+.elementor-control-type-image_selector .elementor-choices{
+	display: block;
+}
+
+.elementor-control-type-image_selector .elementor-choices li{
+	width: 100% !important;
+}
+
+.elementor-control-type-section .elementor-panel-heading-title i{
+	display: none;
+}

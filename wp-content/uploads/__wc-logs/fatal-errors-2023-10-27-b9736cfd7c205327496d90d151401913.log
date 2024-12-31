@@ -1,0 +1,248 @@
+2023-10-27T06:24:27+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('woocommerce_run...', Array, 1698387867, 'woocommerce-db-...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/includes/queue/class-wc-action-queue.php(44): as_schedule_single_action(1698387867, 'woocommerce_run...', Array, 'woocommerce-db-...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/DataRegenerator.php(200): WC_Action_Queue->schedule_single(1698387867, 'woocommerce_run...', Array, 'woocommerce-db-...')
+#6 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/DataRegenerator.php(107): Automattic\WooCommerce\Internal\ProductAttributesLookup\DataRegenerator->enqueue_regeneration_step_run()
+#7 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/DataRegenerator.php(525): Automattic\WooCommerce\Internal\ProductAttributesLookup\DataRegenerator->initiate_regeneration()
+#8 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/DataRegenerator.php(77): Automattic\WooCommerce\Internal\ProductAttributesLookup\DataRegenerator->run_woocommerce_installed_callback()
+#9 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\ProductAttributesLookup\DataRegenerator->Automattic\WooCommerce\Internal\ProductAttributesLookup\{closure}('')
+#10 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/includes/class-wc-install.php(410): do_action('woocommerce_ins...')
+#13 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): WC_Install::install(false)
+#14 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#15 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /home3/thebrxne/procify360.com/wp-admin/includes/plugin.php(693): do_action('activate_woocom...', false)
+#17 /home3/thebrxne/procify360.com/wp-admin/plugins.php(58): activate_plugin('woocommerce/woo...', 'https://procify...', false)
+#18 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:39+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388059, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388059, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin-ajax.php(22): require_once('/home3/thebrxne...')
+#13 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:42+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388062, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388062, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin-ajax.php(22): require_once('/home3/thebrxne...')
+#13 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:42+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388062, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388062, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin.php(34): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/wp-admin/plugins.php(10): require_once('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:42+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388062, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388062, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388064, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388064, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin.php(34): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/wp-admin/plugins.php(10): require_once('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388064, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388064, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:48+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388068, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388068, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin.php(34): require_once('/home3/thebrxne...')
+#13 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:48+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388068, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388068, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388073, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388073, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-admin/admin.php(34): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/wp-admin/index.php(10): require_once('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388073, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388073, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:26:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388079, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388079, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-27T06:27:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1698388080, 'action-schedule...')
+#4 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1698388080, 'action_schedule...', Array, 'action-schedule...')
+#5 /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php(119): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(310): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 /home3/thebrxne/procify360.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home3/thebrxne/procify360.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home3/thebrxne/procify360.com/wp-settings.php(654): do_action('wp_loaded')
+#10 /home3/thebrxne/procify360.com/wp-config.php(81): require_once('/home3/thebrxne...')
+#11 /home3/thebrxne/procify360.com/wp-load.php(50): require_once('/home3/thebrxne...')
+#12 /home3/thebrxne/procify360.com/wp-blog-header.php(13): require_once('/home3/thebrxne...')
+#13 /home3/thebrxne/procify360.com/index.php(17): require('/home3/thebrxne...')
+#14 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+

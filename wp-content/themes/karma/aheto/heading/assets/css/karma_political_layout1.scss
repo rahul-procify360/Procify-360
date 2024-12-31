@@ -1,0 +1,29 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-heading {
+    $heading: &;
+
+    &--karma_political__simple {
+        #{$heading}__subtitle {
+            margin-top: 30px;
+            margin-bottom: 0;
+
+            @include md-size-max {
+                margin-top: 25px;
+
+            }
+
+            @include xs-size-max {
+                margin-top: 20px;
+            }
+        }
+
+        #{$heading}__title {
+            margin: 0;
+
+            span {
+                color: var(--c-active);
+            }
+        }
+    }
+}

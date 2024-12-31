@@ -1,0 +1,147 @@
+@import "../../../../assets/css/mixin";
+
+.aheto__cf {
+  $p: &;
+
+  &--line-karma_marketing {
+
+    p {
+	 margin-bottom: 0;
+	 display: flex;
+	 justify-content: center;
+	 overflow: hidden;
+	 @media screen and (max-width: 575px) {
+	   display: block;
+	 }
+	 span {
+	   font: inherit;
+	   color: inherit;
+	 }
+
+	 .wpcf7-form-control-wrap {
+	   display: flex;
+	   position: relative;
+	   flex: 1;
+
+	   &:nth-child(1) {
+		input {
+		  border-radius: 5px 0 0 5px;
+		  border: 0;
+		}
+	   }
+	 }
+
+	 input:not([type="submit"]) {
+	   padding: 20px;
+	   border: 0;
+	   max-width: 100%;
+	   width: 100%;
+	   box-shadow: none;
+	   font-size: 0.9375em;
+	   height: 100%;
+	   font-family: var(--t-primary-font-family);
+	   background-color: rgba(var(--ca-dark), 0.07);
+	   color: var(--c-dark);
+	   border-radius: 0;
+	   border-left: 1px solid rgba(var(--ca-grey), .4);
+	   &::placeholder {
+		font-family: var(--t-primary-font-family);
+		font-size: 0.9375em;
+		color: var(--c-grey);
+	   }
+	 }
+
+	 input[type="submit"] {
+	   border: 0;
+	   border-radius: 0 5px 5px 0;
+	   @media (max-width: 575px) {
+		justify-content: center;
+		border-radius: 0;
+	   }
+
+	   &:hover {
+		opacity: 1;
+	   }
+	 }
+
+	 .wpcf7-not-valid-tip {
+	   position: absolute;
+	   font-size: 0 !important;
+	   padding: 0;
+	   right: 15px;
+	   top: 5px;
+
+	   &::before {
+		content: '*';
+		color: red;
+		font-size: 15px;
+	   }
+	 }
+
+	 .ajax-loader {
+	   display: none;
+	 }
+    }
+
+    div.wpcf7-response-output {
+	 padding: 10px;
+	 margin: 15px 0 0;
+	 color: var(--c-grey);
+	 font-size: 75%;
+    }
+
+    .aheto-form-btn.aheto-btn--full-width {
+	 p {
+	   flex-wrap: wrap;
+	   .wpcf7-form-control-wrap {
+		width: 50%;
+		input {
+		  border-radius: 0;
+		}
+	   }
+	   input[type="submit"] {
+		width: 100%;
+		border-radius: 0 0 5px 5px;
+		display: flex;
+		justify-content: center;
+		border-top: 1px solid rgba(var(--ca-grey), .4);
+	   }
+	 }
+    }
+    .aheto-form-btn {
+	 @media screen and (max-width: 768px) {
+	   p {
+		flex-wrap: wrap;
+		.wpcf7-form-control-wrap {
+		  width: 100%;
+		  input {
+		    border-radius: 0;
+		  }
+		}
+		input[type="submit"] {
+		  width: 100%;
+		  border-radius: 0 0 5px 5px;
+		  display: flex;
+		  justify-content: center;
+		  border-top: 1px solid rgba(var(--ca-grey), .4) !important;
+		}
+	   }
+	 }
+    }
+  }
+
+  .aheto-form-btn.aheto-btn--light {
+    input[type="submit"] {
+	 color: var(--c-active);
+	 letter-spacing: 0.64px;
+    }
+    &:hover {
+	 input[type="submit"] {
+	   color: var(--c-light);
+	   background-color: var(--c-alter);
+	   letter-spacing: 0.64px;
+	 }
+    }
+  }
+}
+

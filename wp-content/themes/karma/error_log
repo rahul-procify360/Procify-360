@@ -1,0 +1,4 @@
+[10-Nov-2024 20:59:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/thebrxne/wpa_projects/procify360.com/wp-content/themes/karma/404.php:6
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-content/themes/karma/404.php on line 6

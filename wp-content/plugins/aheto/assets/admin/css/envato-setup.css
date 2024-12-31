@@ -1,0 +1,297 @@
+
+
+/*.envato-setup-wrapper{*/
+    /*margin: 50px auto 0;*/
+    /*padding: 0 15px;*/
+/*}*/
+/*@media (min-width:768px){*/
+    /*.envato-setup-wrapper{*/
+        /*width:750px;*/
+    /*}*/
+/*}*/
+/*@media (min-width:992px){*/
+    /*.envato-setup-wrapper{*/
+        /*width:970px;*/
+    /*}*/
+/*}*/
+
+/*#wc-logo {*/
+    /*border: 0;*/
+    /*margin: 0 0 24px;*/
+    /*padding: 0;*/
+    /*text-align: center*/
+/*}*/
+
+/*#wc-logo img {*/
+    /*max-width: 50%*/
+/*}*/
+
+/*.envato-setup-steps {*/
+    /*padding: 0 0 24px;*/
+    /*margin: 30px 0 0;*/
+    /*list-style: none;*/
+    /*overflow: hidden;*/
+    /*color: #ccc;*/
+    /*width: 100%;*/
+    /*display: -webkit-inline-flex;*/
+    /*display: -ms-inline-flexbox;*/
+    /*display: inline-flex*/
+/*}*/
+
+/*.envato-setup-steps li {*/
+    /*width: 25%;*/
+    /*float: left;*/
+    /*padding: 0 0 .8em;*/
+    /*margin: 0;*/
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*border-bottom: 4px solid #ccc;*/
+    /*line-height: 1.4em*/
+/*}*/
+
+/*.envato-setup-steps li:before {*/
+    /*content: "";*/
+    /*border: 4px solid #ccc;*/
+    /*border-radius: 100%;*/
+    /*width: 4px;*/
+    /*height: 4px;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 50%;*/
+    /*margin-left: -6px;*/
+    /*margin-bottom: -8px;*/
+    /*background: #fff*/
+/*}*/
+
+/*.envato-setup-steps li a{*/
+    /*text-decoration: none;*/
+/*}*/
+/*.envato-setup-steps li.active {*/
+    /*border-color: #0091cd;*/
+    /*color: #0091cd*/
+/*}*/
+/*.envato-setup-steps li.active a{*/
+    /*color: #0091cd*/
+/*}*/
+
+/*.envato-setup-steps li.active:before {*/
+    /*border-color: #0091cd*/
+/*}*/
+
+/*.envato-setup-steps li.done {*/
+    /*border-color: #0091cd;*/
+    /*color: #0091cd*/
+/*}*/
+/*.envato-setup-steps li.done a {*/
+    /*color: #0091cd*/
+/*}*/
+
+/*.envato-setup-steps li.done:before {*/
+    /*border-color: #0091cd;*/
+    /*background: #0091cd*/
+/*}*/
+
+/*.envato-setup .aheto-required-plugins-buttons {*/
+    /*overflow: hidden*/
+/*}*/
+
+/*.envato-setup .aheto-required-plugins-buttons .button {*/
+    /*float: right;*/
+    /*font-size: 1.25em;*/
+    /*padding: .5em 1em;*/
+    /*line-height: 1em;*/
+    /*margin-right: .5em;*/
+    /*height: auto*/
+/*}*/
+
+/*.envato-setup .aheto-required-plugins-buttons .button-primary {*/
+    /*margin: 0;*/
+    /*float: right;*/
+    /*opacity: 1;*/
+/*}*/
+
+/*.wc-return-to-dashboard {*/
+    /*font-size: .85em;*/
+    /*color: #b5b5b5;*/
+    /*margin: 1.18em 0;*/
+    /*display: block;*/
+    /*text-align: center*/
+/*}*/
+
+
+/*.dtbaker_loading_button_current{*/
+    /*color:#CCC !important;*/
+    /*text-align: center;*/
+
+/*}*/
+
+
+/*.theme-presets ul{*/
+    /*list-style:none;*/
+    /*margin:0px 0 15px 0;*/
+    /*padding: 0;*/
+    /*overflow-x:auto;*/
+    /*display: block;*/
+    /*white-space: nowrap;*/
+/*}*/
+/*.theme-presets ul li{*/
+    /*list-style:none;*/
+    /*display: inline-block;*/
+    /*padding: 6px;*/
+    /*margin:0;*/
+    /*vertical-align: bottom;*/
+/*}*/
+/*.theme-presets ul li.current{*/
+    /*background: #FE529E;*/
+    /*border-radius: 5px;*/
+/*}*/
+/*.theme-presets ul li a{*/
+    /*float:left;*/
+    /*line-height:0;*/
+/*}*/
+/*.theme-presets ul li a img{*/
+    /*width: 90px;*/
+    /*height:auto;*/
+/*}*/
+
+
+/*.envato_default_content{*/
+    /*margin-bottom: 20px;*/
+    /*color: #252631;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+/*}*/
+
+/*.envato_default_content:last-of-type{*/
+    /*margin-bottom: 0;*/
+/*}*/
+
+/*.envato_default_content.defgroup{*/
+    /*padding: 0;*/
+/*}*/
+/*.envato_default_content.defgroup label{*/
+    /*padding: 10px 15px;*/
+    /*display: block;*/
+/*}*/
+
+/*.envato_default_content label{*/
+    /*text-transform: capitalize;*/
+/*}*/
+
+/*.envato_default_content input{*/
+    /*margin-top: 0;*/
+    /*border: 1px solid #b2b2b2;*/
+/*}*/
+
+
+
+/*.custom-steps a{*/
+    /*padding: 0 20px 2px!important;*/
+/*}*/
+
+/*.custom-steps a.prev.disable{*/
+    /*opacity: .7;*/
+/*}*/
+/*.custom-steps{*/
+    /*margin-bottom: 50px;*/
+    /*padding: 20px;*/
+    /*text-align: right;*/
+/*}*/
+
+/*.aheto-required-plugins-buttons.step{*/
+    /*display: block;*/
+    /*clear:both;*/
+/*}*/
+
+
+
+/*.envato_default_content.defgroup[data-content="media"],*/
+/*.envato_default_content.defgroup[data-content="media2"],*/
+/*.envato_default_content.defgroup[data-content="media3"]{*/
+    /*display: none!important;*/
+/*}*/
+/*div.envato_default_content input[type=checkbox]{*/
+    /*display: none;*/
+/*}*/
+
+/*div.envato_default_content{*/
+    /*border: 4px solid #eaeaea;*/
+    /*transition: all 300ms ease;*/
+/*}*/
+
+/*div.envato_default_content:hover,*/
+/*div.envato_default_content.checkes{*/
+    /*border:4px solid #222222;*/
+/*}*/
+
+
+
+/*.custom-steps.up{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+/*.text-info-server-wrap table{*/
+    /*width: 100%;*/
+    /*margin-top: 15px;*/
+    /*border-collapse: collapse;*/
+/*}*/
+
+/*.text-info-server-wrap td{*/
+    /*border: 1px solid #b2b2b2;*/
+    /*padding: 10px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.text-info-server-wrap tr:first-child td{*/
+    /*font-weight: 500;*/
+/*}*/
+/*.text-info-server-wrap td:first-child{*/
+    /*font-weight: 500;*/
+/*}*/
+
+/*.text-info-server-wrap td:not(:first-child){*/
+    /*text-align: center;*/
+/*}*/
+
+/*.text-info-server-wrap tr:nth-child(odd){*/
+    /*background-color: #eaeaea;*/
+/*}*/
+
+/*.text-info-server-wrap .item-info{*/
+    /*text-align: right;*/
+/*}*/
+
+/*.text-info-server-wrap .text-info{*/
+    /*margin-bottom: 30px;*/
+    /*margin-top: 20px;*/
+/*}*/
+
+/*.text-info-server-wrap td.red{*/
+    /*color: red;*/
+/*}*/
+
+/*.text-info-server-wrap td.green{*/
+    /*color: green;*/
+/*}*/
+
+
+/*.envato-setup-steps li.active,*/
+/*.envato-setup-steps li.done {*/
+    /*border-color: #4d7cfe;*/
+/*}*/
+/*.envato-setup-steps li.active,*/
+/*.envato-setup-steps li.done a {*/
+    /*color: #4d7cfe;*/
+/*}*/
+/*.envato-setup-steps li.active::before,*/
+/*.envato-setup-steps li.done::before {*/
+    /*border-color: #4d7cfe;*/
+/*}*/
+/*.envato-setup-steps li.done::before {*/
+    /*background-color: #4d7cfe;*/
+/*}*/
+/*div.envato_default_content:hover,*/
+/*div.envato_default_content.checkes {*/
+    /*border-color: #4d7cfe;*/
+/*}*/
+

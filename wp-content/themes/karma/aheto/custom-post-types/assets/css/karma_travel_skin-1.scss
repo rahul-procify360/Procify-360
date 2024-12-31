@@ -1,0 +1,137 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-cpt {
+  .aheto-cpt-article {
+    $p: &;
+
+    &--karma_travel_skin-1.aheto-cpt-article {
+      width: calc(100% / 4);
+      --img-height: 100 !important;
+      @include md-size-max {
+        width: calc(100% / 2);
+        --img-height: 100 !important;
+
+      }
+      @include sm-size-max {
+        width: 100%;
+      }
+
+      &:nth-child(8n - 6),
+      &:nth-child(8n) {
+        width: calc(100% / 2);
+        --img-height: 100 !important;
+        @include md-size-max {
+          width: calc(100% / 2);
+          --img-height: 100 !important;
+        }
+        @include sm-size-max {
+          width: 100%;
+        }
+      }
+
+      &:nth-child(8n + 5),
+      &:nth-child(8n + 1) {
+        width: calc(100% / 2);
+        --img-height: 50 !important;
+        @include md-size-max {
+          width: calc(100% / 2);
+          --img-height: 100 !important;
+        }
+        @include sm-size-max {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.aheto-cpt-article {
+  $p: &;
+
+  &--karma_travel_skin-1.aheto-cpt-article {
+
+    #{$p}__img {
+      width: 100%;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      padding-bottom: calc(var(--img-height) * 1% - 15px);
+      z-index: 0;
+
+      a {
+        display: none;
+      }
+    }
+
+    #{$p}__inner {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+
+    #{$p}__title {
+      margin-bottom: 15px;
+
+      a {
+        color: inherit;
+        line-height: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        letter-spacing: inherit;
+
+        &:hover {
+          color: var(--c-active);
+        }
+      }
+    }
+
+
+    #{$p}__content {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      transition: 0.5s;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 30px 30px 45px;
+      background-image: linear-gradient(to top, var(--c-dark) 0, transparent 100%);
+      @include xs-size-max {
+        padding: 30px 30px 20px;
+      }
+    }
+
+
+    #{$p}__price {
+      margin-bottom: 5px;
+    }
+
+    #{$p}__price .price {
+      display: flex;
+      flex-direction: column;
+
+      .amount {
+        width: 100%;
+        display: block;
+      }
+
+      ins {
+        background-color: transparent;
+        color: var(--c-active);
+      }
+    }
+
+  }
+}

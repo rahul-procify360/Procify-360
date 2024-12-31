@@ -1,0 +1,72 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-pricing {
+  $p: &;
+
+  &--karma_events-simple  {
+    max-width: 370px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: 0.35s  all;
+    display: flex;
+    flex-direction: column;
+    &#{$p}--karma_events-active {
+      #{$p}__btn {
+        margin-top: 5px;
+      }
+    }
+
+
+    #{$p}__box-descr {
+      margin-bottom: 30px;
+      @include sm-size-max{
+        margin-bottom: 15px;
+      }
+    }
+    #{$p}__box-descr,
+    #{$p}__box-title,
+    #{$p}__box-subtitle,
+    #{$p}__box-price,
+    #{$p}__links {
+      padding: 0 30px;
+      @include sm-size-max{
+        padding: 0 15px;
+      }
+    }
+
+    #{$p}__content {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+    }
+    #{$p}__content-header {
+      padding: 45px 30px 20px;
+      border-bottom: 2px dotted var(--c-alter3);
+      @include sm-size-max{
+        padding: 20px 20px 15px;
+      }
+    }
+    #{$p}__box-price{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      @include sm-size-max{
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    }
+    #{$p}__box-title {
+      margin: 0 0 10px;
+    }
+    #{$p}__links{
+      margin-top: 45px;
+      padding-bottom: 55px;
+      @include sm-size-max{
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+

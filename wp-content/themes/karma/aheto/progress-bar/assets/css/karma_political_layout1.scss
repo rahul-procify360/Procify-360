@@ -1,0 +1,42 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-counter {
+    $pb: &;
+
+    &--karma-political-number {
+        position: relative;
+
+        @include lg-size-max {
+            margin: 20px 0;
+        }
+
+        img {
+            position: relative;
+            justify-content: center;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        #{$pb}__number {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -95%);
+            color: var(--c-light);
+            //font-size: 80px;
+            //color: var(--c-alter2);
+            //text-align: center;
+            //font-family: var(--t-secondary-font-family);
+
+            //@include lg-size-max {
+            //    font-size: 60px;
+            //}
+        }
+
+        #{$pb}__desc {
+            display: inline-block;
+            width: 100%;
+            margin-top: 25px;
+        }
+    }
+}

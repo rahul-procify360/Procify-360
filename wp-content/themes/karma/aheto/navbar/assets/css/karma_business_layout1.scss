@@ -1,0 +1,206 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-navbar {
+  $p: &;
+  &--karma_business {
+    .aheto-navbar--item {
+      &:before {
+        display: none;
+      }
+    }
+    max-width: 100%;
+    margin: auto;
+    @include xs-size-max {
+      padding: 0 17px;
+    }
+
+    &.two-columns {
+      #{$p}--left {
+        width: calc(50% + 48px);
+        @include sm-size-max {
+          width: calc(50% + 28px);
+        }
+
+        #{$p}--item {
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 12px;
+            width: 2px;
+            background-color: var(--c-dark);
+            @include xs-size-max {
+              display: none;
+            }
+          }
+          &:first-of-type {
+            &::before {
+              display: none;
+            }
+          }
+        }
+
+        @include xs-size-max {
+          width: 100%;
+        }
+        #{$p}--item-link {
+          color: var(--c-grey);
+        }
+        #{$p}--item-label {
+          i {
+            font-style: unset;
+            color: var(--c-light);
+            &:before {
+              width: 20px;
+              height: 20px;
+              border-radius: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+    #{$p}--search-wrap {
+      margin-right: 45px;
+      display: flex;
+      #{$p}--search {
+        font-size: 20px;
+        i {
+          font-style: unset;
+        }
+        &:hover {
+          color: var(--c-alter);
+        }
+      }
+    }
+    #{$p}--wrap {
+      margin: 0 auto;
+    }
+    #{$p}--inner {
+      display: flex;
+      justify-content: space-between;
+      min-height: 26px;
+      @include sm-size-max {
+        flex-direction: column;
+      }
+      @include xs-size-max {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    #{$p}--right {
+      width: calc(50% + 48px);
+      justify-content: flex-end;
+      #{$p}--item {
+        margin-left: 35px;
+        @include sm-size-max {
+          margin-left: 0;
+          margin-right: 35px;
+          &:last-child {
+            margin-right: 0;
+          }
+          @include xs-size-max {
+            margin-right: 20px;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      @include sm-size-max {
+        width: calc(70% + 28px);
+      }
+
+      @include xs-size-max {
+        width: 100%;
+        justify-content: flex-start;
+      }
+      #{$p}--item-link {
+        color: var(--c-dark);
+      }
+      #{$p}--item {
+        @include xs-size-max {
+          &:last-of-type {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    #{$p}--left,
+    #{$p}--right {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      @include sm-size-max {
+        justify-content: flex-start;
+      }
+
+      &.hide-mobile {
+        @include xs-size-max {
+          display: none;
+        }
+      }
+    }
+    #{$p}--item {
+      position: relative;
+      @include menu-size-max {
+      }
+      @include sm-size-max {
+        margin-left: 0px;
+      }
+      &-label {
+        font-weight: normal;
+      }
+      i {
+        font-style: unset;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1em;
+        &.ion-ios-telephone-outline::before,
+        &.ion-ios-email-outline::before {
+          font-weight: bold;
+        }
+      }
+
+      @include sm-size-max {
+        padding: 6px 0;
+      }
+    }
+    #{$p}--item-link {
+      font-size: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      font-family: inherit;
+      &:hover i {
+        color: var(--c-alter);
+      }
+      &.icon:not(:last-of-type) {
+        margin-right: 20px;
+        @include xs-size-max {
+          margin-right: 15px;
+        }
+        i {
+          font-style: unset;
+          font-weight: inherit;
+          &::before {
+            font-weight: inherit;
+          }
+        }
+      }
+    }
+    &.aheto-navbar__remove-borders {
+      #{$p}--left,
+      #{$p}--right {
+        #{$p}--item {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

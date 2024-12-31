@@ -1,0 +1,132 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-features-slider {
+  $p: &;
+
+  &--karma-education1 {
+    padding: 0 40px 20px;
+    @include lg-size-max {
+      padding: 0 90px;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    @include sm-size-max{
+      padding: 0 40px;
+    }
+    @include xs-size-max {
+      padding: 0;
+    }
+    .swiper-pagination{
+      width: 100% ;
+      max-width: 570px;
+      display: flex;
+      padding-bottom: 15px;
+      margin: 35px auto 0;
+      @include md-size-max{
+        margin-top: 25px;
+      }
+    }
+    .swiper-pagination-bullet,
+    .swiper-pagination-bullet-active ~ .swiper-pagination-bullet{
+      display: block;
+      flex: 1 ;
+      background-color: #eeeeee;
+      height: 2px;
+      width: auto;
+      margin: 1px 0!important;
+      border-radius: 0;
+      position: relative;
+    }
+    .swiper-pagination-bullet,
+    .swiper-pagination-bullet-active {
+      background-color: var(--c-active);
+      height: 2px;
+      margin: 0!important;
+    }
+    .swiper-pagination-bullet-active {
+      &::after{
+        width: 15px;
+        height: 15px;
+        background-color: var(--c-active);
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: -8px;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .swiper-container {
+      padding: 25px 20px 0;
+      @include xs-size-max {
+        padding: 25px 10px 0;
+      }
+    }
+
+    .swiper-slide {
+      padding-bottom: 40px;
+
+    }
+
+    #{$p}--slider {
+      box-shadow: 0 10px 15px rgba(var(--ca-dark), 0.1);
+      border-radius: 5px;
+      background-color: var(--c-light);
+      overflow: hidden;
+      transition: 0.5s;
+      &:hover {
+        margin-top: -25px;
+        margin-bottom: 25px;
+      }
+    }
+
+    #{$p}__image {
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #{$p}__content {
+      padding: 30px 25px 15px;
+      position: relative;
+      transition: 0.5s;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #{$p}__descr {
+      width: 65px;
+      padding-right: 20px;
+      padding-top: 5px;
+      border-right: 1px solid rgba(var(--ca-grey), 0.5);
+
+    }
+
+    #{$p}__info {
+      margin-top: 10px;
+    }
+    #{$p}__title {
+      padding-left: 25px;
+      flex-grow: 1;
+      max-width: calc(100% - 70px);
+    }
+
+    #{$p}__bottom-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 22px;
+    }
+
+    #{$p}__info-text-bottom {
+      width: 50%;
+
+      i {
+        color: var(--c-alter);
+        margin-right: 5px;
+      }
+    }
+  }
+}

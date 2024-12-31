@@ -1,0 +1,34 @@
+version: "2"
+checks:
+  method-lines:
+    config:
+      threshold: 50
+  file-lines:
+    config:
+      threshold: 500
+plugins:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  fixme:
+    enabled: true
+  phpmd:
+    enabled: true
+    config:
+      rulesets: "phpmd.xml"
+  codenarc:
+    enabled: true
+
+exclude_patterns:
+- tests/*
+- vendor/*
+- assets/admin/css/*
+- assets/admin/js/*
+- assets/front/css/*
+- assets/front/js/*
+- assets/vendor/*

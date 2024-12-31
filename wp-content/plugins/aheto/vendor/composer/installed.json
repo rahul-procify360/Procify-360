@@ -1,0 +1,99 @@
+[
+    {
+        "name": "appsero/client",
+        "version": "v1.1.11",
+        "version_normalized": "1.1.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Appsero/client.git",
+            "reference": "b313bf878a010a0892496ab3844ec3dddc5a07ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Appsero/client/zipball/b313bf878a010a0892496ab3844ec3dddc5a07ac",
+            "reference": "b313bf878a010a0892496ab3844ec3dddc5a07ac",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2020-05-29T08:26:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Appsero\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tareq Hasan",
+                "email": "tareq@appsero.com"
+            }
+        ],
+        "description": "Appsero Client",
+        "keywords": [
+            "analytics",
+            "plugin",
+            "theme",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "cmb2/cmb2",
+        "version": "v2.5.1",
+        "version_normalized": "2.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CMB2/CMB2.git",
+            "reference": "1129acf4b7689010789d830f6fba0b7b68ad51ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CMB2/CMB2/zipball/1129acf4b7689010789d830f6fba0b7b68ad51ff",
+            "reference": "1129acf4b7689010789d830f6fba0b7b68ad51ff",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">5.2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-12-10T15:11:54+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "WebDevStudios",
+                "email": "contact@webdevstudios.com",
+                "homepage": "https://github.com/WebDevStudios",
+                "role": "Developer"
+            },
+            {
+                "name": "Justin Sternberg",
+                "email": "justin@dsgnwrks.pro",
+                "homepage": "https://dsgnwrks.pro",
+                "role": "Developer"
+            }
+        ],
+        "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
+        "homepage": "https://github.com/CMB2/CMB2",
+        "keywords": [
+            "metabox",
+            "plugin",
+            "wordpress"
+        ]
+    }
+]

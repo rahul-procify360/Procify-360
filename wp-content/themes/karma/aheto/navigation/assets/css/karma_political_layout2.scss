@@ -1,0 +1,30 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-nav-columns {
+    $nav: &;
+
+    &--karma-political {
+        &.two-columns {
+            #{$nav}__menu {
+                column-count: 2;
+                column-gap: 30px;
+            }
+        }
+
+        #{$nav}__menu {
+            li {
+                margin-bottom: 20px;
+
+                a {
+                    * {
+                        font-weight: inherit;
+                    }
+
+                    &:hover {
+                        color: var(--c-white);
+                    }
+                }
+            }
+        }
+    }
+}

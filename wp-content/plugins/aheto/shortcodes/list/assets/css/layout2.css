@@ -1,0 +1,1 @@
+.aheto-list--number[data-index]{position:relative;padding-left:75px}.aheto-list--number[data-index]::before{position:absolute;top:0;left:0;font-size:40px;line-height:1;content:attr(data-index);color:var(--c-active);font-family:Roboto,sans-serif}.aheto-list--number .aheto-list__title{margin:0}.aheto-list--number .aheto-list__text{margin-top:15px;margin-bottom:0}

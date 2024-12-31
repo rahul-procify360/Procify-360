@@ -1,0 +1,76 @@
+[08-Nov-2023 00:08:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[09-Nov-2023 12:11:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[18-Nov-2023 09:30:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[18-Nov-2023 20:56:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[22-Nov-2023 15:52:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[24-Nov-2023 23:19:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[11-Dec-2023 20:22:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[11-Dec-2023 20:23:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[31-Dec-2023 14:03:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[31-Dec-2023 14:10:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[02-Feb-2024 13:43:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[07-May-2024 17:16:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-includes/blocks/index.php on line 8
+[09-Jul-2024 01:55:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[02-Oct-2024 04:55:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[05-Oct-2024 12:55:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[02-Nov-2024 20:29:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[04-Nov-2024 01:28:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[05-Nov-2024 07:07:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8
+[02-Dec-2024 01:05:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/wpa_projects/procify360.com/wp-includes/blocks/index.php on line 8

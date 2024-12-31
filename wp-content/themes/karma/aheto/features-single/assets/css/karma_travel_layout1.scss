@@ -1,0 +1,89 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-content {
+  $features: &;
+
+  &--karma_travel {
+    max-width: 370px;
+    margin: 0 auto;
+    height: 470px;
+    border-radius: 5px;
+    padding: 15px 28px 15px 28px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    @include xs-size-max{
+      height: 370px;
+    }
+
+    &:hover {
+      margin-top: -30px;
+      margin-bottom: 30px;
+      box-shadow: 0 12px 49px rgba(var(--ca-dark), 0.14);
+      @include md-size-max {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      border-radius: 5px;
+      background-image: linear-gradient(to top, var(--c-black) 0%, rgba(var(--ca-black), 0) 63%);
+      opacity: 0.9;
+    }
+
+    #{$features}-block__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      z-index: 2;
+      height: 100%;
+
+      @include md-size-max {
+        flex-wrap: wrap;
+      }
+    }
+
+    #{$features}-block__title {
+      position: relative;
+      word-break: break-word;
+      z-index: 2;
+      margin-bottom: 10px;
+
+      a {
+        z-index: 2;
+        position: relative;
+        font-size: inherit;
+        font-family: inherit;
+        color: inherit;
+        letter-spacing: inherit;
+        line-height: inherit;
+        font-weight: inherit;
+        text-decoration: inherit;
+        text-transform: inherit;
+        &:hover{
+          color: var(--c-active);
+        }
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+
+
+    #{$features}-block__info-text {
+      z-index: 2;
+      word-break: break-word;
+      position: relative;
+    }
+  }
+}

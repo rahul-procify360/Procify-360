@@ -1,0 +1,110 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-heading {
+  $heading: &;
+  @mixin line_position_left {
+    #{$heading}__title{
+      &:after{
+        margin-right: auto;
+        margin-left: 0;
+        transform: translate(-50px, 0);
+      }
+    }
+  }
+  @mixin line_position_right {
+    #{$heading}__title{
+      &:after{
+        transform: translate(50px,0);
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+  }
+  @mixin line_position_center {
+    #{$heading}__title{
+      &:after{
+        margin-right: auto;
+        margin-left: auto;
+        transform: translate(0, 0);
+      }
+    }
+  }
+  &--karma_marketing__layout1 {
+    &.align-mob-left *{
+      @media screen and (max-width: 768px) {
+        text-align: left!important;
+        @include line_position_left;
+      }
+    }
+
+    &.align-mob-center *{
+      @media screen and (max-width: 768px) {
+        text-align: center!important;
+        @include line_position_center;
+      }
+    }
+
+    &.align-mob-right *{
+      @media screen and (max-width: 768px) {
+        text-align: right!important;
+        @include line_position_right;
+      }
+    }
+
+    &.align-tabl-left *{
+      @media screen and (max-width: 991px) {
+        text-align: left!important;
+        @include line_position_left;
+      }
+    }
+
+
+    &.align-tabl-center{
+      @media screen and (max-width: 991px) {
+        text-align: center!important;
+        @include line_position_center;
+      }
+    }
+
+    &.align-tabl-right *{
+      @media screen and (max-width: 991px) {
+        text-align: right!important;
+        @include line_position_right;
+      }
+    }
+    &.t-center{
+      @include line_position_center;
+    }
+    &.t-left{
+      @include line_position_left;
+    }
+    &.t-right{
+      @include line_position_right;
+    }
+    #{$heading}__title {
+      &:after{
+        content: '';
+        width: 100px;
+        display: block;
+        background: var(--c-grey);
+        height: 5px;
+        transform: translate(-50px, 0);
+        margin-top: 45px;
+        margin-bottom: 50px;
+        position: relative;
+      }
+      &-line-smaller{
+        &::after{
+          width: 40px;
+          height: 2px;
+          transform: translate(-20px,0);
+          margin-top: 35px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+
+}
+

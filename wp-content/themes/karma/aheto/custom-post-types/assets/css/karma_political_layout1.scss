@@ -1,0 +1,95 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-cpt {
+    $cpt: &;
+
+    &--karma-political__slider {
+        --img-height: 100;
+        --count: 0;
+        --count-lg: 0;
+        --count-md: 0;
+        --count-sm: 0;
+        --count-xs: 0;
+        --spaces: 0;
+        --spaces-lg: 0;
+        --spaces-md: 0;
+        --spaces-sm: 0;
+        --spaces-xs: 0;
+
+        position: relative;
+
+        .swiper {
+            position: relative;
+        }
+
+        .swiper-pagination {
+            margin: 0;
+        }
+
+        .swiper-slide {
+            justify-content: center;
+            display: flex;
+        }
+
+        .swiper-wrapper {
+            padding: 50px 30px;
+            margin: 0px -30px;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: var(--c-gray);
+            width: 56px;
+            height: 56px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border: 1px solid var(--c-grey);
+            border-radius: 50%;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background: var(--c-grey);
+            }
+
+            @include md-size-max {
+                display: none;
+            }
+        }
+
+        .swiper-button-prev {
+            left: -80px;
+
+            &::before {
+                content: '\f2ca';
+            }
+
+            &:hover::before {
+                color: var(--c-light);
+            }
+        }
+
+        .swiper-button-next {
+            right: -80px;
+
+            &::before {
+                content: '\f30f';
+            }
+
+            &:hover::before {
+                color: var(--c-light);
+            }
+        }
+
+        .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

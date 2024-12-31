@@ -1,0 +1,149 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-tm {
+  $tm: &;
+
+  &-wrapper--karma-events-layout1 {
+    position: relative;
+
+    .aheto-tm___gallery-thumbs {
+      max-width: 350px;
+      margin: 0 auto;
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .aheto--tm__gallery-top {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .swiper-button-prev:before {
+      content: "\f108";
+    }
+
+    .swiper-button-next:before {
+      content: "\f10b";
+    }
+
+    .swiper-button-prev {
+      left: -20px;
+      @include lg-size-max {
+        left: 5px;
+      }
+
+    }
+
+    .swiper-button-next {
+      right: -20px;
+      @include lg-size-max {
+        right: 5px;
+      }
+
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      transition: 0.5s;
+      border: 1px solid var(--c-grey);
+
+      &:hover {
+        color: var(--c-light);
+      }
+
+      @include sm-size-max {
+        width: 40px;
+        height: 40px;
+        top: 50%;
+      }
+      @include xs-size-max {
+        display: none;
+      }
+    }
+
+    .swiper-slide {
+      box-shadow: -10px 10px 40px rgba(var(--ca-dark), 0);
+      padding: 15px 0;
+      @include sm-size-max {
+        padding: 10px 55px;
+      }
+      @include xs-size-max {
+        padding: 10px 20px;
+      }
+
+      &.swiper-slide-active {
+        #{$tm}__avatar {
+          height: 110px;
+          width: 110px;
+          opacity: 1;
+          @include sm-size-max {
+            height: 70px;
+            width: 70px;
+          }
+        }
+      }
+    }
+
+    #{$tm}__stars {
+      display: flex;
+      margin-top: 30px;
+      margin-bottom: 0;
+      justify-content: center;
+
+      i {
+        display: inline-block;
+        margin-right: 1px;
+      }
+    }
+
+
+    #{$tm}__text {
+      margin-bottom: 0;
+    }
+
+    #{$tm}__avatar {
+      height: 66px;
+      width: 66px;
+      margin: auto;
+      display: block;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      opacity: 0.5;
+      @include sm-size-max {
+        opacity: 1;
+        height: 70px;
+        width: 70px;
+      }
+    }
+
+    #{$tm}__name-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #{$tm}__name {
+      margin-bottom: 0;
+    }
+
+    #{$tm}__position {
+      margin-left: 10px;
+      margin-bottom: 0;
+      font-weight: inherit;
+      color: inherit;
+    }
+  }
+}

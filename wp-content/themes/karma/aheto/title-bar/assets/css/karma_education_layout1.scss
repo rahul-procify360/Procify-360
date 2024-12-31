@@ -1,0 +1,72 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-titlebar {
+  $p: &;
+
+  &--karma_education-search {
+    .aheto-btn--full-width{
+      form {
+        flex-wrap: wrap;
+        label{
+          width: 100%;
+        }
+        input[type="submit"] {
+          width: 100%;
+          text-align: center;
+          border-radius: 5px;
+          display: table;
+        }
+        input[type="text"] {
+          border-radius: 5px;
+        }
+      }
+    }
+    form {
+      display: flex;
+      align-items: center;
+      @include xs-size-max{
+        flex-wrap: wrap;
+      }
+      label {
+        margin-bottom: 0;
+        flex-grow: 1;
+
+        input[type="text"] {
+          width: 100%;
+          box-shadow: 0 15px 50px rgba(var(--ca-dark), 0.15);
+          border-radius: 5px 0 0 5px;
+          background-color: var(--c-light);
+          padding: 27px 25px;
+          border: none;
+          outline: none;
+          color: var(--c-active);
+          &::placeholder{
+            color: var(--c-active);
+          }
+          @include sm-size-max{
+            padding: 22px 20px;
+          }
+          @include xs-size-max{
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      input[type="submit"] {
+        border-radius: 0 5px 5px 0;
+        text-transform: uppercase;
+        padding: 25px 50px;
+        text-align: center;
+        @include sm-size-max{
+          padding: 20px 15px;
+        }
+        @include xs-size-max{
+          width: 100%;
+          border-radius: 5px;
+          display: table;
+        }
+      }
+    }
+  }
+}

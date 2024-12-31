@@ -1,0 +1,1482 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cost Calculator\n"
+"POT-Creation-Date: 2019-05-10 14:58+0100\n"
+"PO-Revision-Date: 2019-05-10 14:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/js/block.build.js:92 admin/js/block.js:19 ql-cost-calculator.php:831
+msgid "choose..."
+msgstr ""
+
+#: admin/js/block.build.js:107 admin/js/block.js:31
+msgid "Cost Calculator Settings"
+msgstr ""
+
+#: admin/js/block.build.js:109 admin/js/block.js:33
+msgid "Cost Calculator shortcode id"
+msgstr ""
+
+#: admin/js/block.build.js:128 admin/js/block.js:53 admin/admin-page.php:2
+#: ql-cost-calculator.php:92 ql-cost-calculator.php:227
+#: ql-cost-calculator.php:839 ql-cost-calculator.php:845
+#: shortcodes/cost_calculator_contact_box.php:151
+#: shortcodes/cost_calculator_dropdown_box.php:165
+#: shortcodes/cost_calculator_input_box.php:57
+#: shortcodes/cost_calculator_slider_box.php:47
+#: shortcodes/cost_calculator_summary_box.php:57
+#: shortcodes/cost_calculator_switch_box.php:43
+msgid "Cost Calculator"
+msgstr ""
+
+#: admin/js/block.build.js:129 admin/js/block.js:54
+msgid "Block for displaying Cost Calculator form"
+msgstr ""
+
+#: admin/js/block.build.js:139 admin/js/block.js:65
+msgid "Please select shortcode id under settings panel"
+msgstr ""
+
+#: admin/js/block.build.js:143 admin/js/block.js:68
+msgid "Cost Calculator: "
+msgstr ""
+
+#: admin/admin-page-email-config.php:2
+msgid "Template configuration"
+msgstr ""
+
+#: admin/admin-page-email-config.php:22
+msgid "Admin email"
+msgstr ""
+
+#: admin/admin-page-email-config.php:27
+msgid "Admin SMTP (optional)"
+msgstr ""
+
+#: admin/admin-page-email-config.php:32
+msgid "Calculation template"
+msgstr ""
+
+#: admin/admin-page-email-config.php:37
+msgid "Form messages"
+msgstr ""
+
+#: admin/admin-page-email-config.php:47 admin/dropdown_box.php:14
+#: admin/input_box.php:14 admin/slider_box.php:14 admin/summary_box.php:14
+#: admin/switch_box.php:14
+msgid "Name"
+msgstr ""
+
+#: admin/admin-page-email-config.php:57
+msgid "Email"
+msgstr ""
+
+#: admin/admin-page-email-config.php:66 admin/admin-page-email-config.php:145
+#: admin/admin-page-email-config.php:191 admin/admin-page-email-config.php:282
+#: admin/admin-page-global-config.php:351
+msgid "Save Options"
+msgstr ""
+
+#: admin/admin-page-email-config.php:79
+#, php-format
+msgid ""
+"Plugin will use SMTP configuration from active theme. You can set SMTP "
+"details under <a href='%s' title='Theme Options'>Theme Options</a>"
+msgstr ""
+
+#: admin/admin-page-email-config.php:92
+msgid "Host"
+msgstr ""
+
+#: admin/admin-page-email-config.php:102
+msgid "Username"
+msgstr ""
+
+#: admin/admin-page-email-config.php:112
+msgid "Password"
+msgstr ""
+
+#: admin/admin-page-email-config.php:122
+msgid "Port"
+msgstr ""
+
+#: admin/admin-page-email-config.php:132
+msgid "SMTP Secure"
+msgstr ""
+
+#: admin/admin-page-email-config.php:138
+msgid "ssl"
+msgstr ""
+
+#: admin/admin-page-email-config.php:139
+msgid "tls"
+msgstr ""
+
+#: admin/admin-page-email-config.php:160
+msgid "Subject"
+msgstr ""
+
+#: admin/admin-page-email-config.php:170
+msgid "Calculation details header"
+msgstr ""
+
+#: admin/admin-page-email-config.php:179
+msgid "Available shortcodes:"
+msgstr ""
+
+#: admin/admin-page-email-config.php:203
+msgid "Name field required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:213
+msgid "Email field required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:223
+msgid "Phone field required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:233
+msgid "Message field required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:243
+msgid "reCaptcha required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:253
+msgid "Terms and conditions checkbox required message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:263
+msgid "Form thank you message"
+msgstr ""
+
+#: admin/admin-page-email-config.php:273
+msgid "Form error message"
+msgstr ""
+
+#: admin/admin-page-global-config.php:2
+msgid "Global settings"
+msgstr ""
+
+#: admin/admin-page-global-config.php:25 admin/admin-page.php:51
+msgid "Predefined skin"
+msgstr ""
+
+#: admin/admin-page-global-config.php:30 admin/admin-page.php:55
+msgid "Skin 1 (Clean)"
+msgstr ""
+
+#: admin/admin-page-global-config.php:31 admin/admin-page.php:56
+msgid "Skin 2 (Car Service)"
+msgstr ""
+
+#: admin/admin-page-global-config.php:32 admin/admin-page.php:57
+msgid "Skin 3 (Renovation)"
+msgstr ""
+
+#: admin/admin-page-global-config.php:39 admin/admin-page.php:63
+msgid "Main color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:52 admin/admin-page.php:74
+msgid "Box background color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:65 admin/admin-page.php:85
+msgid "Text color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:78 admin/admin-page.php:98
+msgid "Borders color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:91 admin/admin-page.php:109
+msgid "Labels color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:104 admin/admin-page.php:120
+msgid "Form labels color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:117 admin/admin-page.php:131
+msgid "Inactive color"
+msgstr ""
+
+#: admin/admin-page-global-config.php:130 admin/admin-page.php:147
+msgid "Primary font name"
+msgstr ""
+
+#: admin/admin-page-global-config.php:140 admin/admin-page.php:155
+msgid "Primary font google"
+msgstr ""
+
+#: admin/admin-page-global-config.php:146 admin/admin-page.php:160
+msgid "Default (Raleway)"
+msgstr ""
+
+#: admin/admin-page-global-config.php:178
+#: admin/admin-page-global-config.php:246 admin/admin-page.php:191
+#: admin/admin-page.php:246
+msgid "Google font subset"
+msgstr ""
+
+#: admin/admin-page-global-config.php:198 admin/admin-page.php:202
+msgid "Secondary font name"
+msgstr ""
+
+#: admin/admin-page-global-config.php:208 admin/admin-page.php:210
+msgid "Secondary font google"
+msgstr ""
+
+#: admin/admin-page-global-config.php:214 admin/admin-page.php:215
+msgid "Default (Lato)"
+msgstr ""
+
+#: admin/admin-page-global-config.php:266
+msgid "Send calculation email to admin"
+msgstr ""
+
+#: admin/admin-page-global-config.php:271
+#: admin/admin-page-global-config.php:284
+#: admin/admin-page-global-config.php:297
+#: admin/admin-page-global-config.php:325
+#: shortcodes/cost_calculator_input_box.php:110
+#: shortcodes/cost_calculator_switch_box.php:102
+msgid "yes"
+msgstr ""
+
+#: admin/admin-page-global-config.php:272
+#: admin/admin-page-global-config.php:285
+#: admin/admin-page-global-config.php:298
+#: admin/admin-page-global-config.php:324
+#: shortcodes/cost_calculator_input_box.php:110
+#: shortcodes/cost_calculator_switch_box.php:102
+msgid "no"
+msgstr ""
+
+#: admin/admin-page-global-config.php:279
+msgid "Send calculation email to client"
+msgstr ""
+
+#: admin/admin-page-global-config.php:292
+msgid "Save calculation in database"
+msgstr ""
+
+#: admin/admin-page-global-config.php:305
+msgid "Default calculation status"
+msgstr ""
+
+#: admin/admin-page-global-config.php:310
+msgid "draft"
+msgstr ""
+
+#: admin/admin-page-global-config.php:311
+msgid "pending"
+msgstr ""
+
+#: admin/admin-page-global-config.php:312
+msgid "publish"
+msgstr ""
+
+#: admin/admin-page-global-config.php:319
+msgid "Use reCaptcha in calculation forms"
+msgstr ""
+
+#: admin/admin-page-global-config.php:332
+msgid "Google reCaptcha Site key"
+msgstr ""
+
+#: admin/admin-page-global-config.php:342
+msgid "Google reCaptcha Secret key"
+msgstr ""
+
+#: admin/admin-page-import-dummy-data.php:2
+msgid "Cost Calculator Dummy Data"
+msgstr ""
+
+#: admin/admin-page-import-dummy-data.php:5
+msgid "Import dummy content"
+msgstr ""
+
+#: admin/admin-page.php:13
+msgid "Choose shortcode id for edit: "
+msgstr ""
+
+#: admin/admin-page.php:17 admin/dropdown_box.php:103
+#: shortcodes/cost_calculator_dropdown_box.php:12
+#: shortcodes/cost_calculator_dropdown_box.php:130
+msgid "Choose..."
+msgstr ""
+
+#: admin/admin-page.php:30
+msgid "Delete this shortcode"
+msgstr ""
+
+#: admin/admin-page.php:35 ql-cost-calculator.php:254
+msgid "Create new shortcode id *"
+msgstr ""
+
+#: admin/admin-page.php:38
+msgid ""
+"Please use only listed characters: letters, numbers, hyphen(-) and "
+"underscore(_)"
+msgstr ""
+
+#: admin/admin-page.php:39 ql-cost-calculator.php:258
+msgid "Unique identifier for cost calculator shortcode."
+msgstr ""
+
+#: admin/admin-page.php:43 ql-cost-calculator.php:256
+msgid "Show advanced settings..."
+msgstr ""
+
+#: admin/admin-page.php:47
+msgid "Colors config"
+msgstr ""
+
+#: admin/admin-page.php:143
+msgid "Fonts config"
+msgstr ""
+
+#: admin/admin-page.php:271 admin/admin-page.php:315
+msgid "Save Shortcode"
+msgstr ""
+
+#: admin/admin-page.php:275 admin/admin-page.php:311
+msgid "Add Row"
+msgstr ""
+
+#: admin/admin-page.php:281
+msgid "1 column"
+msgstr ""
+
+#: admin/admin-page.php:282
+msgid "2 columns"
+msgstr ""
+
+#: admin/admin-page.php:283
+msgid "3 columns"
+msgstr ""
+
+#: admin/admin-page.php:284
+msgid "4 columns"
+msgstr ""
+
+#: admin/admin-page.php:285
+msgid "2/3+1/3"
+msgstr ""
+
+#: admin/admin-page.php:286
+msgid "3/4+1/4"
+msgstr ""
+
+#: admin/admin-page.php:287
+msgid "1/4+1/2+1/4"
+msgstr ""
+
+#: admin/admin-page.php:289
+msgid "Remove Row"
+msgstr ""
+
+#: admin/admin-page.php:290
+msgid "Edit Row Settings"
+msgstr ""
+
+#: admin/admin-page.php:297
+msgid "Add Element"
+msgstr ""
+
+#: admin/admin-page.php:298
+msgid "Dropdown Box"
+msgstr ""
+
+#: admin/admin-page.php:299
+msgid "Slider Box"
+msgstr ""
+
+#: admin/admin-page.php:300
+msgid "Input Box"
+msgstr ""
+
+#: admin/admin-page.php:301
+msgid "Switch Box"
+msgstr ""
+
+#: admin/admin-page.php:302
+msgid "Summary Box"
+msgstr ""
+
+#: admin/admin-page.php:303
+msgid "Contact Box"
+msgstr ""
+
+#: admin/column.php:3
+msgid "Column width"
+msgstr ""
+
+#: admin/column.php:5 shortcodes/cost_calculator_row.php:13
+msgid "Full width"
+msgstr ""
+
+#: admin/column.php:6
+msgid "1/2"
+msgstr ""
+
+#: admin/column.php:7
+msgid "1/3"
+msgstr ""
+
+#: admin/column.php:8
+msgid "2/3"
+msgstr ""
+
+#: admin/column.php:9
+msgid "1/4"
+msgstr ""
+
+#: admin/column.php:10
+msgid "3/4"
+msgstr ""
+
+#: admin/column.php:11
+msgid "1/6"
+msgstr ""
+
+#: admin/column.php:12
+msgid "5/6"
+msgstr ""
+
+#: admin/column.php:14 admin/dropdown_box.php:127 admin/input_box.php:130
+#: admin/row.php:6 admin/slider_box.php:92 admin/switch_box.php:76
+#: shortcodes/cost_calculator_column.php:24
+#: shortcodes/cost_calculator_dropdown_box.php:153
+#: shortcodes/cost_calculator_input_box.php:164
+#: shortcodes/cost_calculator_row.php:25
+#: shortcodes/cost_calculator_slider_box.php:125
+#: shortcodes/cost_calculator_switch_box.php:107
+msgid "Top margin"
+msgstr ""
+
+#: admin/column.php:16 admin/dropdown_box.php:131 admin/input_box.php:134
+#: admin/row.php:10 admin/slider_box.php:96 admin/switch_box.php:80
+#: shortcodes/cost_calculator_column.php:26
+#: shortcodes/cost_calculator_dropdown_box.php:155
+#: shortcodes/cost_calculator_input_box.php:166
+#: shortcodes/cost_calculator_row.php:27
+#: shortcodes/cost_calculator_slider_box.php:127
+#: shortcodes/cost_calculator_switch_box.php:109
+msgid "None"
+msgstr ""
+
+#: admin/column.php:17 admin/dropdown_box.php:132 admin/input_box.php:135
+#: admin/row.php:11 admin/slider_box.php:97 admin/summary_box.php:43
+#: admin/switch_box.php:81 shortcodes/cost_calculator_column.php:26
+#: shortcodes/cost_calculator_dropdown_box.php:155
+#: shortcodes/cost_calculator_input_box.php:166
+#: shortcodes/cost_calculator_row.php:27
+#: shortcodes/cost_calculator_slider_box.php:127
+#: shortcodes/cost_calculator_summary_box.php:96
+#: shortcodes/cost_calculator_switch_box.php:109
+msgid "Small"
+msgstr ""
+
+#: admin/column.php:18 admin/dropdown_box.php:133 admin/input_box.php:136
+#: admin/row.php:12 admin/slider_box.php:98 admin/switch_box.php:82
+#: shortcodes/cost_calculator_column.php:26
+#: shortcodes/cost_calculator_dropdown_box.php:155
+#: shortcodes/cost_calculator_input_box.php:166
+#: shortcodes/cost_calculator_row.php:27
+#: shortcodes/cost_calculator_slider_box.php:127
+#: shortcodes/cost_calculator_switch_box.php:109
+msgid "Large"
+msgstr ""
+
+#: admin/column.php:20 admin/contact_box.php:144 admin/input_box.php:142
+#: admin/row.php:18 admin/slider_box.php:104 admin/summary_box.php:113
+#: admin/switch_box.php:88 shortcodes/cost_calculator_contact_box.php:270
+#: shortcodes/cost_calculator_input_box.php:170
+#: shortcodes/cost_calculator_slider_box.php:131
+#: shortcodes/cost_calculator_summary_box.php:152
+#: shortcodes/cost_calculator_switch_box.php:113
+msgid "Extra class name"
+msgstr ""
+
+#: admin/contact_box.php:1
+msgid "Contact Box Settings"
+msgstr ""
+
+#: admin/contact_box.php:6 shortcodes/cost_calculator_contact_box.php:156
+msgid "Form label"
+msgstr ""
+
+#: admin/contact_box.php:14 shortcodes/cost_calculator_contact_box.php:163
+msgid "Submit label"
+msgstr ""
+
+#: admin/contact_box.php:17 shortcodes/cost_calculator_contact_box.php:6
+#: shortcodes/cost_calculator_contact_box.php:165
+msgid "Submit now"
+msgstr ""
+
+#: admin/contact_box.php:22 shortcodes/cost_calculator_contact_box.php:170
+msgid "Name label"
+msgstr ""
+
+#: admin/contact_box.php:25 shortcodes/cost_calculator_contact_box.php:7
+#: shortcodes/cost_calculator_contact_box.php:172
+msgid "YOUR NAME"
+msgstr ""
+
+#: admin/contact_box.php:30 shortcodes/cost_calculator_contact_box.php:177
+msgid "Name field required"
+msgstr ""
+
+#: admin/contact_box.php:34 admin/contact_box.php:53 admin/contact_box.php:73
+#: admin/contact_box.php:92 admin/contact_box.php:122
+#: admin/contact_box.php:155 admin/dropdown_box.php:35
+#: admin/dropdown_box.php:93 admin/dropdown_box.php:112 admin/input_box.php:51
+#: admin/input_box.php:69 admin/input_box.php:115 admin/slider_box.php:35
+#: admin/slider_box.php:85 admin/switch_box.php:35 admin/switch_box.php:44
+#: admin/switch_box.php:69 shortcodes/cost_calculator_contact_box.php:179
+#: shortcodes/cost_calculator_contact_box.php:193
+#: shortcodes/cost_calculator_contact_box.php:207
+#: shortcodes/cost_calculator_contact_box.php:221
+#: shortcodes/cost_calculator_contact_box.php:242
+#: shortcodes/cost_calculator_contact_box.php:258
+#: shortcodes/cost_calculator_dropdown_box.php:82
+#: shortcodes/cost_calculator_dropdown_box.php:123
+#: shortcodes/cost_calculator_dropdown_box.php:138
+#: shortcodes/cost_calculator_input_box.php:94
+#: shortcodes/cost_calculator_input_box.php:149
+#: shortcodes/cost_calculator_slider_box.php:77
+#: shortcodes/cost_calculator_slider_box.php:120
+#: shortcodes/cost_calculator_switch_box.php:9
+#: shortcodes/cost_calculator_switch_box.php:73
+#: shortcodes/cost_calculator_switch_box.php:81
+msgid "Yes"
+msgstr ""
+
+#: admin/contact_box.php:35 admin/contact_box.php:54 admin/contact_box.php:72
+#: admin/contact_box.php:91 admin/contact_box.php:121
+#: admin/contact_box.php:155 admin/dropdown_box.php:34
+#: admin/dropdown_box.php:94 admin/dropdown_box.php:113 admin/input_box.php:50
+#: admin/input_box.php:70 admin/input_box.php:116 admin/slider_box.php:34
+#: admin/slider_box.php:86 admin/switch_box.php:34 admin/switch_box.php:52
+#: admin/switch_box.php:70 shortcodes/cost_calculator_contact_box.php:179
+#: shortcodes/cost_calculator_contact_box.php:193
+#: shortcodes/cost_calculator_contact_box.php:207
+#: shortcodes/cost_calculator_contact_box.php:221
+#: shortcodes/cost_calculator_contact_box.php:242
+#: shortcodes/cost_calculator_contact_box.php:258
+#: shortcodes/cost_calculator_dropdown_box.php:82
+#: shortcodes/cost_calculator_dropdown_box.php:123
+#: shortcodes/cost_calculator_dropdown_box.php:138
+#: shortcodes/cost_calculator_input_box.php:94
+#: shortcodes/cost_calculator_input_box.php:149
+#: shortcodes/cost_calculator_slider_box.php:77
+#: shortcodes/cost_calculator_slider_box.php:120
+#: shortcodes/cost_calculator_switch_box.php:10
+#: shortcodes/cost_calculator_switch_box.php:73
+#: shortcodes/cost_calculator_switch_box.php:88
+msgid "No"
+msgstr ""
+
+#: admin/contact_box.php:41 shortcodes/cost_calculator_contact_box.php:184
+msgid "Email label"
+msgstr ""
+
+#: admin/contact_box.php:44 shortcodes/cost_calculator_contact_box.php:9
+#: shortcodes/cost_calculator_contact_box.php:186
+msgid "YOUR EMAIL"
+msgstr ""
+
+#: admin/contact_box.php:49 shortcodes/cost_calculator_contact_box.php:191
+msgid "Email field required"
+msgstr ""
+
+#: admin/contact_box.php:60 shortcodes/cost_calculator_contact_box.php:198
+msgid "Phone label"
+msgstr ""
+
+#: admin/contact_box.php:63 shortcodes/cost_calculator_contact_box.php:11
+#: shortcodes/cost_calculator_contact_box.php:200
+msgid "YOUR PHONE"
+msgstr ""
+
+#: admin/contact_box.php:68 shortcodes/cost_calculator_contact_box.php:205
+msgid "Phone field required"
+msgstr ""
+
+#: admin/contact_box.php:79 shortcodes/cost_calculator_contact_box.php:212
+msgid "Message label"
+msgstr ""
+
+#: admin/contact_box.php:82 shortcodes/cost_calculator_contact_box.php:13
+#: shortcodes/cost_calculator_contact_box.php:214
+msgid "QUESTIONS OR COMMENTS"
+msgstr ""
+
+#: admin/contact_box.php:87 shortcodes/cost_calculator_contact_box.php:219
+msgid "Message field required"
+msgstr ""
+
+#: admin/contact_box.php:98 admin/summary_box.php:84
+#: shortcodes/cost_calculator_contact_box.php:226
+#: shortcodes/cost_calculator_summary_box.php:129
+msgid "Description"
+msgstr ""
+
+#: admin/contact_box.php:106 shortcodes/cost_calculator_contact_box.php:233
+msgid "Labels style"
+msgstr ""
+
+#: admin/contact_box.php:110 admin/input_box.php:81 admin/summary_box.php:42
+#: shortcodes/cost_calculator_column.php:13
+#: shortcodes/cost_calculator_contact_box.php:235
+#: shortcodes/cost_calculator_input_box.php:118
+#: shortcodes/cost_calculator_row.php:13
+#: shortcodes/cost_calculator_summary_box.php:96
+msgid "Default"
+msgstr ""
+
+#: admin/contact_box.php:111 admin/input_box.php:103
+#: shortcodes/cost_calculator_contact_box.php:235
+#: shortcodes/cost_calculator_input_box.php:140
+msgid "Placeholder"
+msgstr ""
+
+#: admin/contact_box.php:117 shortcodes/cost_calculator_contact_box.php:240
+msgid "Terms and conditions checkbox"
+msgstr ""
+
+#: admin/contact_box.php:128 shortcodes/cost_calculator_contact_box.php:248
+msgid "Terms and conditions message"
+msgstr ""
+
+#: admin/contact_box.php:136 admin/input_box.php:22
+#: shortcodes/cost_calculator_contact_box.php:264
+#: shortcodes/cost_calculator_input_box.php:78
+#: shortcodes/cost_calculator_row.php:11
+msgid "Type"
+msgstr ""
+
+#: admin/contact_box.php:152 shortcodes/cost_calculator_contact_box.php:256
+msgid "reCaptcha"
+msgstr ""
+
+#: admin/contact_box.php:159 shortcodes/cost_calculator_contact_box.php:259
+#, php-format
+msgid ""
+"You can change this setting under <a href='%s' title='Global Config'>Global "
+"Config</a>"
+msgstr ""
+
+#: admin/dropdown_box.php:1
+msgid "Dropdown Box Settings"
+msgstr ""
+
+#: admin/dropdown_box.php:6 admin/input_box.php:6 admin/slider_box.php:6
+#: admin/summary_box.php:6 admin/switch_box.php:6 ql-cost-calculator.php:850
+#: shortcodes/cost_calculator_dropdown_box.php:58
+#: shortcodes/cost_calculator_input_box.php:63
+#: shortcodes/cost_calculator_slider_box.php:53
+#: shortcodes/cost_calculator_summary_box.php:63
+#: shortcodes/cost_calculator_switch_box.php:49
+msgid "Id"
+msgstr ""
+
+#: admin/dropdown_box.php:22 admin/input_box.php:38 admin/slider_box.php:22
+#: admin/summary_box.php:105 admin/switch_box.php:22
+#: shortcodes/cost_calculator_dropdown_box.php:73
+#: shortcodes/cost_calculator_input_box.php:85
+#: shortcodes/cost_calculator_slider_box.php:68
+#: shortcodes/cost_calculator_summary_box.php:143
+#: shortcodes/cost_calculator_switch_box.php:64
+msgid "Label"
+msgstr ""
+
+#: admin/dropdown_box.php:30 admin/input_box.php:46 admin/slider_box.php:30
+#: admin/switch_box.php:30 shortcodes/cost_calculator_dropdown_box.php:80
+#: shortcodes/cost_calculator_input_box.php:92
+#: shortcodes/cost_calculator_slider_box.php:75
+#: shortcodes/cost_calculator_switch_box.php:71
+msgid "Hide label"
+msgstr ""
+
+#: admin/dropdown_box.php:41 shortcodes/cost_calculator_dropdown_box.php:88
+msgid "Number of options"
+msgstr ""
+
+#: admin/dropdown_box.php:62
+msgid "Option name "
+msgstr ""
+
+#: admin/dropdown_box.php:70
+msgid "Option value "
+msgstr ""
+
+#: admin/dropdown_box.php:81 admin/input_box.php:57 admin/slider_box.php:41
+#: admin/switch_box.php:57 shortcodes/cost_calculator_dropdown_box.php:114
+#: shortcodes/cost_calculator_input_box.php:101
+#: shortcodes/cost_calculator_slider_box.php:83
+#: shortcodes/cost_calculator_switch_box.php:93
+msgid "Default value"
+msgstr ""
+
+#: admin/dropdown_box.php:89 shortcodes/cost_calculator_dropdown_box.php:121
+msgid "Show 'choose' label"
+msgstr ""
+
+#: admin/dropdown_box.php:100 shortcodes/cost_calculator_dropdown_box.php:128
+msgid "Choose label"
+msgstr ""
+
+#: admin/dropdown_box.php:108 admin/input_box.php:111
+#: shortcodes/cost_calculator_dropdown_box.php:136
+#: shortcodes/cost_calculator_input_box.php:147
+msgid "Required"
+msgstr ""
+
+#: admin/dropdown_box.php:119 admin/input_box.php:122
+#: shortcodes/cost_calculator_dropdown_box.php:145
+#: shortcodes/cost_calculator_input_box.php:156
+msgid "Required field message"
+msgstr ""
+
+#: admin/dropdown_box.php:122 admin/input_box.php:125
+#: shortcodes/cost_calculator_dropdown_box.php:14
+#: shortcodes/cost_calculator_dropdown_box.php:147
+#: shortcodes/cost_calculator_input_box.php:17
+#: shortcodes/cost_calculator_input_box.php:158
+msgid "This field is required"
+msgstr ""
+
+#: admin/input_box.php:1
+msgid "Input Box Settings"
+msgstr ""
+
+#: admin/input_box.php:26 shortcodes/cost_calculator_input_box.php:80
+msgid "text"
+msgstr ""
+
+#: admin/input_box.php:27 shortcodes/cost_calculator_input_box.php:80
+msgid "number"
+msgstr ""
+
+#: admin/input_box.php:28 shortcodes/cost_calculator_input_box.php:80
+msgid "date"
+msgstr ""
+
+#: admin/input_box.php:29 shortcodes/cost_calculator_input_box.php:80
+msgid "email"
+msgstr ""
+
+#: admin/input_box.php:30 shortcodes/cost_calculator_input_box.php:80
+msgid "checkbox"
+msgstr ""
+
+#: admin/input_box.php:31 shortcodes/cost_calculator_input_box.php:80
+msgid "hidden"
+msgstr ""
+
+#: admin/input_box.php:32 shortcodes/cost_calculator_input_box.php:80
+msgid "submit"
+msgstr ""
+
+#: admin/input_box.php:65 admin/switch_box.php:65
+#: shortcodes/cost_calculator_input_box.php:108
+#: shortcodes/cost_calculator_switch_box.php:100
+msgid "Is checked"
+msgstr ""
+
+#: admin/input_box.php:76 shortcodes/cost_calculator_input_box.php:116
+msgid "Checkbox type"
+msgstr ""
+
+#: admin/input_box.php:80 shortcodes/cost_calculator_input_box.php:118
+msgid "Button"
+msgstr ""
+
+#: admin/input_box.php:87 shortcodes/cost_calculator_input_box.php:124
+msgid "Checked hidden text"
+msgstr ""
+
+#: admin/input_box.php:90 shortcodes/cost_calculator_input_box.php:13
+#: shortcodes/cost_calculator_input_box.php:126
+msgid "checked"
+msgstr ""
+
+#: admin/input_box.php:95 shortcodes/cost_calculator_input_box.php:132
+msgid "Not checked hidden text"
+msgstr ""
+
+#: admin/input_box.php:98 shortcodes/cost_calculator_input_box.php:14
+#: shortcodes/cost_calculator_input_box.php:134
+msgid "not checked"
+msgstr ""
+
+#: admin/row.php:1
+msgid "Row Settings"
+msgstr ""
+
+#: admin/slider_box.php:1
+msgid "Slider Box Settings"
+msgstr ""
+
+#: admin/slider_box.php:49 shortcodes/cost_calculator_slider_box.php:90
+msgid "Unit value"
+msgstr ""
+
+#: admin/slider_box.php:57 shortcodes/cost_calculator_slider_box.php:97
+msgid "Step"
+msgstr ""
+
+#: admin/slider_box.php:65 shortcodes/cost_calculator_slider_box.php:104
+msgid "Min value"
+msgstr ""
+
+#: admin/slider_box.php:73 shortcodes/cost_calculator_slider_box.php:111
+msgid "Max value"
+msgstr ""
+
+#: admin/slider_box.php:81 shortcodes/cost_calculator_slider_box.php:118
+msgid "Show input field"
+msgstr ""
+
+#: admin/summary_box.php:1
+msgid "Summary Box Settings"
+msgstr ""
+
+#: admin/summary_box.php:22
+msgid "Formula"
+msgstr ""
+
+#: admin/summary_box.php:30 shortcodes/cost_calculator_summary_box.php:87
+msgid "Currency"
+msgstr ""
+
+#: admin/summary_box.php:38 shortcodes/cost_calculator_summary_box.php:94
+msgid "Currency size"
+msgstr ""
+
+#: admin/summary_box.php:49 shortcodes/cost_calculator_summary_box.php:101
+msgid "Currency sign position"
+msgstr ""
+
+#: admin/summary_box.php:53 shortcodes/cost_calculator_summary_box.php:103
+msgid "before value"
+msgstr ""
+
+#: admin/summary_box.php:54 shortcodes/cost_calculator_summary_box.php:103
+msgid "after value"
+msgstr ""
+
+#: admin/summary_box.php:60 shortcodes/cost_calculator_summary_box.php:108
+msgid "Thousandth separator"
+msgstr ""
+
+#: admin/summary_box.php:68 shortcodes/cost_calculator_summary_box.php:115
+msgid "Decimal separator"
+msgstr ""
+
+#: admin/summary_box.php:76 shortcodes/cost_calculator_summary_box.php:122
+msgid "Decimal places"
+msgstr ""
+
+#: admin/summary_box.php:92 shortcodes/cost_calculator_summary_box.php:136
+msgid "Icon"
+msgstr ""
+
+#: admin/summary_box.php:96 shortcodes/cost_calculator_summary_box.php:138
+msgid "none"
+msgstr ""
+
+#: admin/summary_box.php:97 shortcodes/cost_calculator_summary_box.php:138
+msgid "calculation"
+msgstr ""
+
+#: admin/summary_box.php:98 shortcodes/cost_calculator_summary_box.php:138
+msgid "credit card"
+msgstr ""
+
+#: admin/summary_box.php:99 shortcodes/cost_calculator_summary_box.php:138
+msgid "wallet"
+msgstr ""
+
+#: admin/summary_box.php:108 shortcodes/cost_calculator_summary_box.php:16
+#: shortcodes/cost_calculator_summary_box.php:145
+msgid "Total cost: "
+msgstr ""
+
+#: admin/switch_box.php:1
+msgid "Switch Box Settings"
+msgstr ""
+
+#: admin/switch_box.php:41 shortcodes/cost_calculator_switch_box.php:79
+msgid "'Yes' text"
+msgstr ""
+
+#: admin/switch_box.php:49 shortcodes/cost_calculator_switch_box.php:86
+msgid "'No' text"
+msgstr ""
+
+#: importer/importer.php:29
+msgid ""
+"Auto import feature couldn't be loaded. Please make import manually <a "
+"href='/wp-admin/import.php'>here</a>. You can find import dummy files in "
+"'dummy_content_files' directory inside zip archive downloaded from "
+"ThemeForest."
+msgstr ""
+
+#: importer/importer.php:33
+msgid "The XML file is not available"
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:74 importer/parsers.php:85
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:89 importer/parsers.php:94 importer/parsers.php:284
+#: importer/parsers.php:473
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/wordpress-importer.php:121 importer/wordpress-importer.php:130
+#: importer/wordpress-importer.php:181 importer/wordpress-importer.php:185
+#: importer/wordpress-importer.php:194
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:122
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:165
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:165
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:166
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:186
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:202
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:227
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:253
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:254
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:256
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:266
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:269
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:273
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:286
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:297
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:300
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:308
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:310
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:311
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:361
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:413
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:456
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:505 importer/wordpress-importer.php:727
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:594
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:631
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:693
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:858
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:865
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:928
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:941
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:985
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:991
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:998
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:1003
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:1009
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1108
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1115
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1130
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1131
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: post-type-calculations.php:6 post-type-calculations.php:12
+#: post-type-calculations.php:18
+msgid "Calculations"
+msgstr ""
+
+#: post-type-calculations.php:7
+msgid "Calculation"
+msgstr ""
+
+#: post-type-calculations.php:8
+msgid "Add New"
+msgstr ""
+
+#: post-type-calculations.php:9
+msgid "Add New Calculation"
+msgstr ""
+
+#: post-type-calculations.php:10
+msgid "Edit Calculation"
+msgstr ""
+
+#: post-type-calculations.php:11
+msgid "New Calculation"
+msgstr ""
+
+#: post-type-calculations.php:13
+msgid "View Calculation"
+msgstr ""
+
+#: post-type-calculations.php:14
+msgid "Search Calculations"
+msgstr ""
+
+#: post-type-calculations.php:15
+msgid "No calculations found"
+msgstr ""
+
+#: post-type-calculations.php:16
+msgid "No calculations found in Trash"
+msgstr ""
+
+#: post-type-calculations.php:41
+msgid "Calculation name"
+msgstr ""
+
+#: post-type-calculations.php:42
+msgid "Order"
+msgstr ""
+
+#: post-type-calculations.php:43
+msgid "Date"
+msgstr ""
+
+#: ql-cost-calculator.php:22
+#, php-format
+msgid "<a href='%s' title='Documentation'>Documentation</a>"
+msgstr ""
+
+#: ql-cost-calculator.php:125
+msgid "Calculation from: [name]"
+msgstr ""
+
+#: ql-cost-calculator.php:126
+msgid "Calculation details"
+msgstr ""
+
+#: ql-cost-calculator.php:134
+msgid "Contact details"
+msgstr ""
+
+#: ql-cost-calculator.php:158
+msgid "Please enter your name."
+msgstr ""
+
+#: ql-cost-calculator.php:159
+msgid "Please enter valid e-mail."
+msgstr ""
+
+#: ql-cost-calculator.php:160
+msgid "Please enter your phone number."
+msgstr ""
+
+#: ql-cost-calculator.php:161
+msgid "Please enter your message."
+msgstr ""
+
+#: ql-cost-calculator.php:162 ql-cost-calculator.php:172
+msgid "Please verify captcha."
+msgstr ""
+
+#: ql-cost-calculator.php:163 ql-cost-calculator.php:173
+msgid "Checkbox is required."
+msgstr ""
+
+#: ql-cost-calculator.php:164
+msgid "Thank you for contacting us"
+msgstr ""
+
+#: ql-cost-calculator.php:165
+msgid "Sorry, we can't send this message"
+msgstr ""
+
+#: ql-cost-calculator.php:247
+msgid ""
+"Shortcode ID field accepts only the following characters: letters, numbers, "
+"hyphen(-) and underscore(_)"
+msgstr ""
+
+#: ql-cost-calculator.php:248
+msgid "Please make sure that cost calculator content area isn't empty."
+msgstr ""
+
+#: ql-cost-calculator.php:249
+msgid "Cost Calculator shortcode saved."
+msgstr ""
+
+#: ql-cost-calculator.php:250
+msgid "Click OK to delete selected shortcode."
+msgstr ""
+
+#: ql-cost-calculator.php:251
+msgid "Cost Calculator shortcode deleted."
+msgstr ""
+
+#: ql-cost-calculator.php:252
+msgid "Shortcode with given id already exists. Click OK to overwrite."
+msgstr ""
+
+#: ql-cost-calculator.php:253
+msgid "Click OK to delete selected row."
+msgstr ""
+
+#: ql-cost-calculator.php:255
+msgid "Current shortcode id *"
+msgstr ""
+
+#: ql-cost-calculator.php:257
+msgid "Hide advanced settings..."
+msgstr ""
+
+#: ql-cost-calculator.php:259
+msgid "Shortcode:"
+msgstr ""
+
+#: ql-cost-calculator.php:260
+msgid "Please wait and don't reload the page when import is in progress!"
+msgstr ""
+
+#: ql-cost-calculator.php:261
+msgid "Error during import:"
+msgstr ""
+
+#: ql-cost-calculator.php:332 ql-cost-calculator.php:389
+msgid "Options saved!"
+msgstr ""
+
+#: ql-cost-calculator.php:567
+msgid ""
+"Import file: dummy-cost-calculator.xml not found! Please upload import file "
+"manually into Media library. You can find this file inside zip archive "
+"downloaded from CodeCanyon."
+msgstr ""
+
+#: ql-cost-calculator.php:766
+msgid "Dummy content has been imported successfully!"
+msgstr ""
+
+#: ql-cost-calculator.php:796
+msgid "Cost Calculator with given id doesn't exists."
+msgstr ""
+
+#: ql-cost-calculator.php:799
+msgid "Id parameter missing in the [cost_calculator] shortcode."
+msgstr ""
+
+#: shortcodes/cost_calculator_column.php:11
+msgid "Column type"
+msgstr ""
+
+#: shortcodes/cost_calculator_column.php:13
+#: shortcodes/cost_calculator_row.php:13
+msgid "Cost calculator form"
+msgstr ""
+
+#: shortcodes/cost_calculator_column.php:17
+#: shortcodes/cost_calculator_row.php:18
+msgid "Form action url"
+msgstr ""
+
+#: shortcodes/cost_calculator_column.php:27
+msgid "Select top margin value for your column"
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:104
+msgid ""
+"Error while loading reCapcha. Please set the reCaptcha keys under Theme "
+"Options in admin area"
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:145
+msgid "Cost calculator contact box"
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:272
+#: shortcodes/cost_calculator_input_box.php:172
+#: shortcodes/cost_calculator_slider_box.php:133
+#: shortcodes/cost_calculator_switch_box.php:115
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:337
+msgid " field is required."
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:455
+msgid "Email sent but error when saving to database"
+msgstr ""
+
+#: shortcodes/cost_calculator_contact_box.php:468
+msgid "Sending disabled by administrator"
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:61
+msgid ""
+"Please provide unique id for each 'Cost calculator dropdown box' on your "
+"page."
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:66
+#: shortcodes/cost_calculator_input_box.php:71
+#: shortcodes/cost_calculator_slider_box.php:61
+#: shortcodes/cost_calculator_summary_box.php:71
+#: shortcodes/cost_calculator_switch_box.php:57
+msgid "Input name"
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:83
+#: shortcodes/cost_calculator_input_box.php:95
+#: shortcodes/cost_calculator_slider_box.php:78
+#: shortcodes/cost_calculator_switch_box.php:74
+msgid ""
+"Set to 'Yes' if you won't like to display label in the frontend but you "
+"still like to receive field value via email"
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:98
+msgid "Option name"
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:105
+msgid "Option value"
+msgstr ""
+
+#: shortcodes/cost_calculator_dropdown_box.php:159
+msgid "Cost calculator dropdown box"
+msgstr ""
+
+#: shortcodes/cost_calculator_input_box.php:51
+msgid "Cost calculator input box"
+msgstr ""
+
+#: shortcodes/cost_calculator_input_box.php:66
+#: shortcodes/cost_calculator_switch_box.php:52
+msgid ""
+"Please provide unique id for each 'Cost calculator input box' on your page."
+msgstr ""
+
+#: shortcodes/cost_calculator_row.php:13
+msgid "Paralax background"
+msgstr ""
+
+#: shortcodes/cost_calculator_row.php:13
+msgid "Paralax background with overlay"
+msgstr ""
+
+#: shortcodes/cost_calculator_row.php:14
+msgid "Select row type"
+msgstr ""
+
+#: shortcodes/cost_calculator_row.php:28
+msgid "Select top margin value for your row"
+msgstr ""
+
+#: shortcodes/cost_calculator_slider_box.php:41
+msgid "Cost calculator slider box"
+msgstr ""
+
+#: shortcodes/cost_calculator_slider_box.php:56
+msgid ""
+"Please provide unique id for each 'Cost calculator slider box' on your page."
+msgstr ""
+
+#: shortcodes/cost_calculator_summary_box.php:51
+msgid "Cost calculator summary box"
+msgstr ""
+
+#: shortcodes/cost_calculator_summary_box.php:66
+msgid ""
+"Please provide unique id for each 'Cost calculator summary box' on your page."
+msgstr ""
+
+#: shortcodes/cost_calculator_summary_box.php:79
+msgid "Summary formula"
+msgstr ""
+
+#: shortcodes/cost_calculator_summary_box.php:82
+msgid ""
+"Please put here the calculation formula for your form using the form "
+"elements ids. Available operators: + {-} * / ( ) {powerstart} ^ {powerend}. "
+"Example: square-feet*walls+square-feet*floors{-}20"
+msgstr ""
+
+#: shortcodes/cost_calculator_summary_box.php:146
+msgid "Label for summary value displayed in the email message"
+msgstr ""
+
+#: shortcodes/cost_calculator_switch_box.php:37
+msgid "Cost calculator switch box"
+msgstr ""

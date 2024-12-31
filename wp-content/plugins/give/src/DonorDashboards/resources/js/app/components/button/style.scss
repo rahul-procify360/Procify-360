@@ -1,0 +1,81 @@
+/* stylelint-disable selector-class-pattern */
+
+.give-donor-dashboard-button {
+    margin: 20px 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid var(--give-donor-dashboard-accent-color);
+    border-radius: 3px;
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    box-shadow: 0 0 0 0 #7ec980, 0 0 0 0 #4fa651;
+    transition: box-shadow 0.1s ease, background-color ease-in 0.3s;
+    cursor: pointer;
+
+    svg {
+        margin-left: 8px;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 1px #7ec980, 0 0 0 2px #4fa651;
+    }
+
+    &:disabled {
+        border: 1px solid #bbb;
+        background: #d0d0d0 !important;
+    }
+
+    &.give-donor-dashboard-button--primary {
+        color: #fff !important;
+        position: relative;
+        background: none;
+        box-shadow: none;
+        justify-content: center;
+        overflow: hidden;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: var(--give-donor-dashboard-accent-color);
+            z-index: 0;
+            transition: filter 0.3s ease;
+        }
+
+        &:hover:before {
+            filter: brightness(90%); // Darkens the background on hover
+        }
+
+        &.disabled:before {
+            display: none;
+        }
+
+        span {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    &.give-donor-dashboard-button--variant {
+        color: var(--give-donor-dashboard-accent-color) !important;
+        background: var(--givewp-shades-white);
+        box-shadow: none;
+        border: 1px solid var(--give-donor-dashboard-accent-color);
+        margin: 0;
+        justify-content: center;
+
+        &:hover {
+            filter: brightness(90%);
+        }
+
+        span {
+            color: inherit;
+        }
+    }
+}

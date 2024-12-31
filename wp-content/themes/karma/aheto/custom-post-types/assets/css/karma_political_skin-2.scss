@@ -1,0 +1,148 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-cpt-article {
+    $cpt: &;
+
+    &.aheto-cpt-article-def {
+        --img-height: 100;
+        --count-v: 4;
+        --spaces-v: 0;
+        --item-width: 100;
+
+        display: inline-flex;
+        flex-wrap: wrap;
+
+    }
+
+    &--karma_political_skin-2 {
+        height: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        min-height: 335px;
+
+        @media screen and (max-width: 767px) {
+            display: block;
+            padding-bottom: 30px;
+        }
+
+        #{$cpt}__inner {
+            background-color: var(--c-white);
+            position: relative;
+            height: 100%;
+            transition: all .3s ease;
+
+            &:hover {
+                transform: translateY(-20px);
+                box-shadow: 0 0 50px rgba(var(--ca-dark), 0.05);
+            }
+        }
+
+        #{$cpt}__title {
+            position: relative;
+            padding-top: 0;
+            margin-bottom: 20px;
+
+            @include xs-size-all {
+                margin-top: 60px;
+            }
+
+            a {
+                color: inherit;
+                line-height: inherit;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                letter-spacing: inherit;
+                font-style: inherit;
+
+                &:hover {
+                    color: var(--c-active);
+                }
+            }
+        }
+
+        #{$cpt}__excerpt p {
+            margin-bottom: 17px;
+        }
+
+        #{$cpt}__content {
+            background-color: #fff;
+            position: relative;
+            width: 100%;
+            min-height: 335px;
+            margin-bottom: 0px;
+            -webkit-transition: 0.2s all;
+            transition: 0.2s all;
+            height: 100%;
+            padding: 105px 30px 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+            #{$cpt}__event-content {
+                display: block;
+                width: 70px;
+                position: absolute;
+                top: -20px;
+                left: 30px;
+
+                #{$cpt}__event-day-content {
+                    text-align: center;
+                    color: #fff;
+                    display: block;
+                    background: var(--c-active);
+                    padding: 15px 0px;
+                    width: 100%;
+                    border-radius: 5px 5px 0px 0px;
+                }
+
+                #{$cpt}__event-month-content {
+                    color: #fff;
+                    background: var(--c-alter);
+                    display: block;
+                    text-align: center;
+                    border-radius: 0px 0px 5px 5px;
+                    padding-bottom: 5px;
+                }
+            }
+
+            @include xs-size-max {
+                padding: 27px 20px 27px;
+            }
+
+            #{$cpt}__content-header {
+                display: grid;
+
+                @include md-size-max {
+                    display: grid;
+                }
+            }
+        }
+
+        #{$cpt}__image-content {
+            margin-top: 30px;
+            position: relative;
+            display: flex;
+            align-self: end;
+
+            @include md-size-max {
+                margin-top: 0px;
+                height: 100%;
+                position: relative;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            #{$cpt}__img {
+                img {
+                    background-size: cover;
+                    min-height: 200px;
+                    max-height: 200px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

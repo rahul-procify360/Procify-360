@@ -1,0 +1,107 @@
+<?php
+
+use Aheto\Helper;
+
+add_action('aheto_before_aheto_features-single_register', 'rela_features_single_layout3');
+
+
+/**
+ * Features Single Shortcode
+ */
+function rela_features_single_layout3($shortcode)
+{
+
+    $preview_dir = '//assets.aheto.co/features-single/previews/';
+
+
+    $shortcode->add_layout('rela_layout3', [
+        'title' => esc_html__('Features Single 46', 'rela'),
+        'image' => $preview_dir . 'rela_layout3.jpg',
+    ]);
+
+
+    $shortcode->add_dependecy('rela_use_title_typo', 'template', 'rela_layout3');
+    $shortcode->add_dependecy('rela_title_typo', 'template', 'rela_layout3');
+    $shortcode->add_dependecy('rela_title_typo', 'rela_use_title_typo', 'true');
+
+    $shortcode->add_dependecy('rela_use_description_typo', 'template', 'rela_layout3');
+    $shortcode->add_dependecy('rela_description_typo', 'template', 'rela_layout3');
+    $shortcode->add_dependecy('rela_description_typo', 'rela_use_description_typo', 'true');
+
+    $shortcode->add_dependecy('rela_background-color', 'template', 'rela_layout3');
+    $shortcode->add_dependecy('rela_link_url', 'template', 'rela_layout3');
+
+    aheto_demos_add_dependency(['s_image', 's_heading', 's_description'], ['rela_layout3'], $shortcode);
+
+    $shortcode->add_params([
+        'rela_link_url' => [
+            'type' => 'text',
+            'heading' => esc_html__('Service URL', 'rela'),
+            'description' => esc_html__('Add url to for service', 'rela'),
+            'default' => '#',
+        ],
+        'rela_use_title_typo' => [
+            'type' => 'switch',
+            'heading' => esc_html__('Use custom font for heading?', 'rela'),
+            'grid' => 12,
+            'default' => '',
+        ],
+        'rela_title_typo' => [
+            'type' => 'typography',
+            'group' => 'Heading Typography',
+            'settings' => [
+                'text_align' => true,
+            ],
+            'selector' => '{{WRAPPER}} .aheto-features-block__title',
+        ],
+        'rela_use_description_typo' => [
+            'type' => 'switch',
+            'heading' => esc_html__('Use custom font for description?', 'rela'),
+            'grid' => 12,
+            'default' => '',
+        ],
+        'rela_description_typo' => [
+            'type' => 'typography',
+            'group' => 'Rela Description Typography',
+            'settings' => [
+                'text_align' => true,
+            ],
+            'selector' => '{{WRAPPER}} .aheto-features-block__description',
+        ],
+        'rela_background-color' => [
+            'type' => 'colorpicker',
+            'heading' => esc_html__('Background color', 'rela'),
+            'grid' => 6,
+            'selectors' => ['{{WRAPPER}} .aheto-features-block__image-wrap' => 'background-color: {{VALUE}}']
+        ],
+    ]);
+
+
+    \Aheto\Params::add_image_sizer_params($shortcode, [
+        'prefix' => 'rela_',
+        'dependency' => ['template', ['rela_layout3']]
+    ]);
+
+}
+
+function rela_features_single_layout3_dynamic_css($css, $shortcode)
+{
+
+    if (!empty($shortcode->atts['rela_use_title_typo']) && !empty($shortcode->atts['rela_title_typo'])) {
+        \aheto_add_props($css['global']['%1$s .aheto-features-block__title'], $shortcode->parse_typography($shortcode->atts['rela_title_typo']));
+    }
+
+    if (!empty($shortcode->atts['rela_use_description_typo']) && !empty($shortcode->atts['rela_description_typo'])) {
+        \aheto_add_props($css['global']['%1$s .aheto-features-block__description'], $shortcode->parse_typography($shortcode->atts['rela_description_typo']));
+    }
+
+    if (!empty($shortcode->atts['rela_background-color'])) {
+        $color = Sanitize::color($shortcode->atts['rela_background-color']);
+        $css['global']['%1$s .aheto-features-block__image-wrap']['background-color'] = $color;
+    }
+
+    return $css;
+}
+
+add_filter('aheto_features_single_dynamic_css', 'rela_features_single_layout3_dynamic_css', 10, 2);
+

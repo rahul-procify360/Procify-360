@@ -1,0 +1,52 @@
+@import "../../../../assets/css/mixin";
+.aheto-features-single {
+  $features: &;
+  &--karma-business {
+	#{$features}__info-wrap {
+		@include md-size-max {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+    #{$features}__title {
+      span {
+        color: var(--c-alter);
+      }
+    }
+
+    a {
+		margin-top: 58px;
+		position: relative;
+		padding: 0 40px 0 0;
+		border: none;
+		@include md-size-max {
+			margin-top: 30px;
+		}
+		i.aheto-btn__icon--left {
+			position: relative;
+			padding: 20.5px 25px;
+			background-color: var(--c-active);
+			margin-right: 26px;
+			transition: .3s all;
+			transform: none;
+			font-size: 140%;
+		}
+		&.aheto-btn.aheto-btn--primary:hover {
+			background-color: var(--c-active);
+			color: var(--c-light);
+			i {
+				background-color: var(--c-alter);
+				transition: .3s all;
+			}
+		}
+		@include small-size-max {
+			margin-top: 25px;
+			padding: 0 10px 0 0;
+			i {
+				margin-right: 10px;
+			}
+		}
+    }
+  }
+}

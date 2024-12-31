@@ -1,0 +1,137 @@
+// MEDIA QUERY MINI DESKTOP
+
+@mixin large-size-all {
+	@media screen and (min-width: 992px) and (max-width: 1230px) {
+	  @content;
+	}
+  }
+  // MEDIA QUERY DESKTOP
+  //min-width:1231
+  @mixin large-size-min {
+	@media screen and (min-width: 992px) {
+	  @content;
+	}
+  }
+  
+  @mixin large-size-max {
+	  @media screen and (max-width: 1199px) {
+		  @content;
+	  }
+  }
+  
+@mixin menu-size-max {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+@mixin menu-size-min {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin xs-size-max {
+	@media screen and (max-width: 769px) {
+		@content;
+	}
+}
+
+@mixin xs-size-min {
+	@media screen and (min-width: 767px) {
+		@content;
+	}
+}
+
+@mixin sm-size-max {
+	@media screen and (max-width: 991px) {
+		@content;
+	}
+}
+
+@mixin sm-size-min {
+	@media screen and (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin md-size-max {
+	@media screen and (max-width: 1199px) {
+		@content;
+	}
+}
+
+@mixin md-size-min {
+	@media screen and (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin lg-size-max {
+	@media screen and (max-width: 1440px) {
+		@content;
+	}
+}
+
+@mixin lg-size-min {
+	@media screen and (min-width: 1441px) {
+		@content;
+	}
+}
+
+//Aheto
+
+// MEDIA QUERY TABLET PORTRAIT
+
+@mixin small-size-all {
+	@media screen and (min-width: 571px) and (max-width: 767px) {
+	  @content;
+	}
+  }
+  @mixin small-size-max {
+	@media screen and (max-width: 767px) {
+	  @content;
+	}
+  }
+  @mixin small-size-min {
+	@media screen and (min-width: 481px) {
+	  @content;
+	}
+  }
+
+  // MEDIA QUERY TABLET LANDSCAPE
+//min-width: 768 max-width: 991
+@mixin medium-size-all {
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+	  @content;
+	}
+  }
+  //max-width: 991
+  @mixin medium-size-max {
+	@media screen and (max-width: 991px) {
+	  @content;
+	}
+  }
+  //min-width: 768
+  @mixin medium-size-min {
+	@media screen and (min-width: 768px) {
+	  @content;
+	}
+  }
+
+  // MEDIA QUERY TABLET PORTRAIT
+//max-width: 480
+@mixin xs-size-all {
+	@media screen and (max-width: 575px) {
+	  @content;
+	}
+  }
+  @mixin xs-size-max {
+	@media screen and (max-width: 480px) {
+	  @content;
+	}
+  }
+  @mixin xs-size-min {
+	@media screen and (min-width: 200px) {
+	  @content;
+	}
+  }

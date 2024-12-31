@@ -1,0 +1,4 @@
+[29-Dec-2023 07:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/thebrxne/procify360.com/wp-content/themes/karma/aheto/contact-forms/controllers/karma_marketing_layout1.php:6
+Stack trace:
+#0 {main}
+  thrown in /home3/thebrxne/procify360.com/wp-content/themes/karma/aheto/contact-forms/controllers/karma_marketing_layout1.php on line 6

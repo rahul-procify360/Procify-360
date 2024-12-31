@@ -1,0 +1,262 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-features-tabs {
+  $features: &;
+
+  &--karma-business {
+    text-align: center;
+    #{$features}__head {
+      text-align: center;
+      display: inline-flex;
+      flex-direction: column;
+      
+      @include large-size-max {
+        width: 100%;
+      }
+      @include small-size-max {
+        width: 100%;
+      }
+    }
+    #{$features}__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+      @include small-size-max {
+        flex-direction: column;
+      }
+
+      &-item {
+        position: relative;
+        margin: 0;
+        border-right: 2px solid var(--c-light);
+        flex: 1 0 192px;
+        @include large-size-max {
+          border-right: none;
+          border-bottom: 2px solid var(--c-light);
+        }
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          width: 0;
+          height: 0;
+          transform: translate(-50%, -100%);
+          transition: all 0.3s;
+          border-right: 11px solid transparent;
+          border-bottom: 18px solid #fff;
+          border-left: 11px solid transparent;
+          content: "";
+          opacity: 0;
+          @include large-size-max {
+            left: 49.85%;
+          }
+        }
+        &:last-child {
+          border-right: none;
+        }
+        @include large-size-max {
+          width: 100%;
+          flex: auto;
+        }
+        
+        @include small-size-max {
+          flex: 1;
+          width: 100%;
+        }
+        &:hover a,
+        &.active a {
+          color: var(--c-active);
+          background: var(--c-light);
+        }
+        &.active {
+          box-shadow: 0.5px 4px 62px 0px rgba(0, 0, 0, 0.07);
+          @include large-size-max {
+            box-shadow: none;
+          }
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+      &-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 39px 67px;
+        background: var(--c-alter2);
+        color: var(--c-active);
+        font-size: 1.14rem;
+        @media screen and (max-width: 1241px) {
+          padding: 39px 70px;
+        }
+        @include large-size-max {
+          padding: 25px 15px;
+        }
+        @include small-size-max {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        span {
+          color: var(--c-alter);
+          margin-right: 5px;
+        }
+      }
+
+      &-ico {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+      }
+    }
+
+    #{$features}__box {
+      position: relative;
+      height: 0;
+      transition: visibility, opacity 1s;
+      opacity: 0;
+      overflow: hidden;
+      visibility: hidden;
+
+      &.active {
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &-inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        width: calc(100% + 30px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include large-size-max {
+          margin: 0;
+          width: 100%;
+        }
+        @include md-size-max {
+          background-position: center;
+        }
+        @include small-size-max {
+          flex-direction: column;
+        }
+
+        &.reverse {
+          flex-direction: row-reverse;
+
+          @include small-size-max {
+            flex-direction: column;
+          }
+        }
+      }
+
+      &-content {
+        width: 49.7%;
+        text-align: left;
+        padding: 218px 15px 203px 15px;
+        background-color: rgba(var(--ca-alter), 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        @media screen and (min-width: 1920px) {
+          align-items: center;
+        }
+        @include large-size-max {
+          padding: 80px 15px;
+          align-items: flex-start;
+          width: 50%;
+        }
+        @include md-size-max {
+          padding: 80px 15px 80px 30px;
+          align-items: flex-start;
+          width: 50%;
+        }
+
+        @include small-size-max {
+          width: 100%;
+          text-align: left;
+          padding: 70px 15px 80px 15px;
+          background-color: rgba(var(--ca-alter), 0.8);
+        }
+        &.hide-overlay {
+          background-color: transparent;
+        }
+      }
+      &-title {
+        display: inline-block;
+        margin-right: 60px;
+        color: var(--c-light);
+        @include large-size-max {
+          margin-right: 0;
+        }
+      }
+      &-divider {
+        display: inline-block;
+        margin-right: 480px;
+        margin-top: 29px;
+        height: 5px;
+        width: 100px;
+        background-color: var(--c-light);
+        @include large-size-max {
+          margin-top: 10px;
+          margin-right: 0;
+        }
+        &.hide {
+          visibility: hidden;
+        }
+      }
+
+      &-buttons {
+        margin: 32px 88px 0;
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 1281px) {
+          margin: 32px 50px 0;
+        }
+
+        @include large-size-max {
+          margin: 0;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        a {
+          margin: 8px;
+          @include large-size-max {
+            margin: 30px 0 0 0;
+          }
+          &.aheto {
+            &-btn {
+              &--primary {
+                border-color: var(--c-light);
+                padding: 25px 30px;
+                font-size: 1.01rem;
+                display: flex;
+                align-items: center;
+                @include large-size-max {
+                  padding: 15px 20px;
+                }
+                &:after {
+                  content: "\f30f";
+                  margin-left: 11px;
+                  display: inline-block;
+                  font-family: "Ionicons";
+                  speak: none;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-variant: normal;
+                  text-transform: none;
+                  text-rendering: auto;
+                  line-height: 1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

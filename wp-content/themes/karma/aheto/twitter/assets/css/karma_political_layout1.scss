@@ -1,0 +1,53 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-twitter {
+    $twitter: &;
+
+    &--karma-political__simple {
+        #{$twitter}--wrap {
+            display: flex;
+            margin-bottom: 44px;
+
+            @include small-size-max {
+                margin-bottom: 30px;
+            }
+
+            @include xs-size-max {
+                margin-bottom: 15px;
+            }
+        }
+
+        #{$twitter}--desc {
+            color: var(--c-grey);
+        }
+
+        #{$twitter}--hash {
+            color: var(--c-dark);
+            margin-top: 7px;
+
+        }
+
+        #{$twitter}--icon {
+            color: var(--c-active);
+            position: relative;
+            top: 2px;
+            margin-right: 15px;
+        }
+
+        #{$twitter}--link {
+            a {
+                color: inherit;
+                font-family: inherit;
+                font-size: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+                letter-spacing: inherit;
+                font-style: inherit;
+
+                &:hover {
+                    color: var(--c-active)!important;
+                }
+            }
+        }
+    }
+}

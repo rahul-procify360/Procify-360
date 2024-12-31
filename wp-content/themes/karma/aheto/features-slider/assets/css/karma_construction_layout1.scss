@@ -1,0 +1,104 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-features-slider {
+  $p: &;
+  &--karma-construction1{
+    padding: 0 40px 20px;
+    @include lg-size-max{
+      padding: 0 90px;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    @include xs-size-max{
+      padding: 0 40px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+      width: 50px;
+      height: 50px;
+      top: 125px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      border: 1px solid #d9d9d9;
+      background-color: transparent;
+      transition: 0.5s;
+      &:hover{
+        background-color: #eeeeee;
+      }
+      @include xs-size-max{
+        width: 35px;
+        height: 35px;
+        font-size: 15px!important;
+      }
+    }
+    .swiper-button-prev{
+      @include lg-size-max{
+       left: 10px;
+      }
+      @include xs-size-max{
+       left: 0;
+      }
+    }
+    .swiper-button-next{
+      @include lg-size-max{
+        right: 10px;
+      }
+      @include xs-size-max{
+        right: 0;
+      }
+    }
+    #{$p}--slider{
+      padding-bottom: 40px;
+     &:hover{
+       #{$p}__content{
+         margin: -70px auto 0;
+         box-shadow: 0 0 30px rgba(var(--ca-dark), 0.1);
+         @include xs-size-max{
+           box-shadow: 0 0 10px rgba(var(--ca-dark), 0.3);
+         }
+       }
+     }
+    }
+    #{$p}__image{
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 5px;
+    }
+    #{$p}__content{
+      width: calc(100% - 40px);
+      margin: -50px auto 0;
+      box-shadow: 0 0 50px rgba(var(--ca-dark), 0.05);
+      border-radius: 5px;
+      background-color: var(--c-light);
+      padding: 35px 35px 50px;
+      position: relative;
+      transition: 0.5s;
+      @include xs-size-max{
+        box-shadow: 0 0 10px rgba(var(--ca-dark), 0.3);
+        padding: 35px 20px 20px;
+        width: calc(100% - 20px);
+      }
+    }
+    #{$p}__number{
+      position: absolute;
+      right: 30px;
+      top: 5px;
+      @include xs-size-max{
+       top: -5px;
+      }
+    }
+    #{$p}__info-link{
+      transition: 0.5s;
+      margin-top: 10px;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-features-slider {
+  $p: &;
+
+  &--karma-travel3 {
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+      background-color: var(--c-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include md-size-max {
+        width: 45px;
+        height: 45px;
+      }
+    }
+
+    .swiper-button-prev {
+      left: 0;
+    }
+
+    .swiper-button-next {
+      right: 0;
+    }
+
+    #{$p}__image {
+      height: 800px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      @include md-size-max {
+        height: 500px;
+      }
+      @include xs-size-max {
+        height: 350px;
+      }
+    }
+
+    #{$p}__content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 70px 50px;
+      background-image: linear-gradient(to top, var(--c-dark) 0, transparent 100%);
+      @include sm-size-max {
+        padding: 30px 50px;
+      }
+    }
+
+    #{$p}__label {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 17px;
+      border-radius: 15px;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+    }
+
+    #{$p}__desc {
+      margin-bottom: 0;
+    }
+
+    #{$p}__title {
+      margin-bottom: 10px;
+
+      a {
+        font-family: inherit;
+        font-style: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        line-height: inherit;
+        color: inherit;
+        text-decoration: inherit;
+        text-transform: inherit;
+
+        &:hover {
+          color: var(--c-active);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<?php
+use Aheto\Helper;
+/**
+ * The Pricing Tables Shortcode.
+ *
+ * @since      1.0.0
+ * @package    Aheto
+ * @subpackage Aheto\Shortcodes
+ * @author     Upqode <info@upqode.com>
+ */
+
+extract($atts);
+$this->generate_css();
+
+//Active
+$pointe_active = $pointe_active ? 'aheto-pricing__active' : '';
+
+// Wrapper.
+$this->add_render_attribute('wrapper', 'id', $element_id);
+$this->add_render_attribute('wrapper', 'class', 'aheto-pricing aheto-pricing--pointe-classic');
+$this->add_render_attribute('wrapper', 'class', $pointe_active);
+$this->add_render_attribute('wrapper', 'class', $this->the_custom_classes());
+
+
+// Button Link.
+$link = $this->get_button_attributes('link');
+
+/**
+ * Set dependent style
+ */
+$sc_dir = aheto()->plugin_url() . 'shortcodes/pricing-tables/';
+$custom_css = Helper::get_settings('general.custom_css_including');
+$custom_css = (isset($custom_css) && !empty($custom_css)) ? $custom_css : false;
+if ((empty($custom_css) || ($custom_css == "disabled")) && !Helper::is_Elementor_Live()) {
+	wp_enqueue_style('pointe-pricing-tables', $sc_dir . 'assets/css/pointe_layout1.css', null, null);
+}
+?>
+<div <?php $this->render_attribute_string('wrapper'); ?>>
+
+	<div class="aheto-pricing__header">
+
+		<?php
+		// Heading.
+		if (!empty($pointe_heading)) {
+			echo '<p class="aheto-pricing__title">' . wp_kses_post($pointe_heading) . '</p>';
+		}
+		?>
+
+		<div class="aheto-pricing__cost">
+			<?php
+			// Price.
+			if (!empty($price)) {
+				echo '<h5 class="aheto-pricing__cost-value">' . esc_html($price) . '</h5>';
+			}
+			?>
+		</div>
+
+	</div>
+
+	<div class="aheto-pricing__content">
+
+		<?php
+		$features = $this->parse_group($features);
+		if (!empty($features)) { ?>
+
+			<div class="aheto-pricing__list">
+
+				<?php foreach ($features as $item) { ?>
+
+					<div class="aheto-pricing__list-item"><?php echo wp_kses_post($item['feature']); ?></div>
+
+				<?php } ?>
+
+			</div>
+		<?php }
+
+		// Button Link.
+		if (!empty($pointe_add_button)) { ?>
+			<div class="aheto-pricing__link">
+				<?php echo \Aheto\Helper::get_button($this, $atts, 'pointe_'); ?>
+			</div>
+		<?php }
+		?>
+
+	</div>
+
+</div>

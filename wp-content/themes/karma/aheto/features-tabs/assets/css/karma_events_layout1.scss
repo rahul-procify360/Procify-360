@@ -1,0 +1,143 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-tabs {
+  $pricing: &;
+
+  &--karma_events-isotope {
+    box-shadow: 0 0 73px rgba(var(--ca-dark), 0.08);
+    background-color: var(--c-light);
+    padding-bottom: 30px;
+
+    #{$pricing}__box {
+      width: 100%;
+    }
+
+    #{$pricing}__list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      @include sm-size-max {
+        flex-wrap: wrap;
+      }
+
+      &-item {
+        padding: 0;
+        border: 1px solid var(--c-alter3);
+        background-color: var(--c-light);
+        width: 100%;
+        transition: 0.5s;
+        position: relative;
+
+        @include xs-size-min {
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(-50%, 0);
+          display: inline-block;
+          width: 0;
+          height: 0;
+          transition: 0.5s;
+          opacity: 0;
+          border-style: solid;
+          border-width: 15px 10px 0 10px;
+          border-color: var(--c-active) transparent transparent transparent;
+        }
+
+        &.active,
+        &:hover {
+          background-color: var(--c-active);
+
+          &::before {
+            opacity: 1;
+            @include sm-size-max{
+              opacity: 0;
+            }
+          }
+
+          a {
+            color: var(--c-light)!important;
+            span{
+              color: var(--c-light)!important;
+            }
+          }
+        }
+
+        a {
+          color: var(--c-alter);
+          display: block;
+          padding: 15px 20px;
+          text-align: center;
+
+          span {
+            display: block;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    #{$pricing}__box-main-title {
+      margin: 50px 0 40px;
+      @include sm-size-max{
+        margin: 30px 0 20px;
+        padding: 0 15px;
+      }
+    }
+    #{$pricing}__box-top {
+      display: flex;
+      @include sm-size-max{
+        display: none;
+      }
+
+      p {
+        color: var(--c-active);
+        padding: 20px 15px;
+        margin: 0;
+      }
+    }
+
+    #{$pricing}__box-inner {
+      display: flex;
+      @include sm-size-max{
+        flex-wrap: wrap;
+        padding: 15px 0;
+      }
+      p , h5{
+        margin: 0;
+        padding: 20px 15px;
+        @include sm-size-max{
+          padding: 5px 15px;
+        }
+      }
+    }
+
+    #{$pricing}__box-num {
+      width: 12%;
+      text-align: center!important;
+      @include sm-size-max{
+        width: 100%;
+      }
+    }
+
+    #{$pricing}__box-title,
+    #{$pricing}__box-label,
+    #{$pricing}__box-price,
+    #{$pricing}__box-descr {
+      width: 22%;
+      @include sm-size-max{
+        width: 100%;
+      }
+    }
+
+    #{$pricing}__box-bg {
+      background-color: rgba(255, 248, 251, 0.6)
+    }
+  }
+}

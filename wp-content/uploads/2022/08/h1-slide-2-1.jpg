@@ -1,0 +1,1122 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page not found &#8211; Karma</title>
+<style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#000000 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#000000 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#4c4c4c !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#4c4c4c !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#999999; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#999999; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#999999; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Karma &raquo; Feed" href="https://dev.viewdemo.co/wp/karma-6.0.0/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Karma &raquo; Comments Feed" href="https://dev.viewdemo.co/wp/karma-6.0.0/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Karma &raquo; iCal Feed" href="https://dev.viewdemo.co/wp/karma-6.0.0/events/?ical=1" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='preload stylesheet' as='style'
+id='tribe-common-skeleton-style' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css?ver=4.12.3' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='tribe-tooltip' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css?ver=4.12.3' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='wp-block-library' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='wc-block-style' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.16' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-icons' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/css/icons.css?ver=2.2.6' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-tooltipster' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-tooltipster-theme' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-animations' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/css/animations.css?ver=2.2.6' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-styles' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/css/styles.css?ver=2.2.6' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='booked-responsive' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/css/responsive.css?ver=2.2.6' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='contact-form-7' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='rs-plugin-settings' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.15' type='text/css' media='all' /><style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='preload stylesheet' as='style'
+id='give-styles' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/give/assets/dist/css/give.css?ver=2.6.3' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-fonts' href='//fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&#038;subset=latin,latin-ext&#038;display=swap' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='ionicons' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/fonts/ionicons.min.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='bootstrap' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/css/lib/bootstrap.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-general' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/css/general.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-shop' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/css/shop.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-error-page' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/css/error-page.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-main-style' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/css/style.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='karma-style' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/style.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-icons' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.7.0' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-animations' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.14' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-frontend' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.9.14' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-global' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/elementor/css/global.css?ver=1595929125' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-post-13' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/elementor/css/post-13.css?ver=1595929273' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elementor-post-260' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/elementor/css/post-260.css?ver=1595929273' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='jquery-qtip' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/style/jquery.qtip.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='cc-template' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/fonts/template/style.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='cc-google-font-raleway' href='//fonts.googleapis.com/css?family=Raleway%3A400&#038;subset=latin-ext&#038;ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='cc-google-font-lato' href='//fonts.googleapis.com/css?family=Lato%3A300%2C400&#038;subset=latin-ext&#038;ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='cost_calculator_style' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/style/style.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='cost_calculator_style_responsive' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/style/responsive.css?ver=5.4.2' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='preloader-with_image' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/css/preloader-with_image.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='aheto_google_fonts' href='https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&#038;display=swap' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='elegant' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/fonts/elegant.min.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='font-awesome' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='themify' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/fonts/themify-icons.min.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='style-main' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/css/style.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='aheto-shop' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/css/shop.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='style-skin' href='//dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/aheto-styles/aheto-karma.css?timestamp=1594024654' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='google-fonts-1' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.4.2&display=swap' type='text/css' media='all' /><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.2.15'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.15'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/give/assets/dist/js/babel-polyfill.js?ver=2.6.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var give_global_vars = {"ajaxurl":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php","checkout_nonce":"33b59aadeb","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","number_decimals":"2","give_version":"2.6.3","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php","ajaxNonce":"f635e7f9af","loading":"Loading","select_option":"Please select an option","default_gateway":"manual","permalinks":"1","number_decimals":2},"cookie_hash":"ebf81e7aa4c41d6f2e3bd585acf0a33d","session_nonce_cookie_name":"wp-give_session_reset_nonce_ebf81e7aa4c41d6f2e3bd585acf0a33d","session_cookie_name":"wp-give_session_ebf81e7aa4c41d6f2e3bd585acf0a33d","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-json\/give-api\/v2\/","rest_base":"give-api\/v2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/give/assets/dist/js/give.js?ver=2.6.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dev.viewdemo.co/wp/karma-6.0.0/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<meta name="generator" content="WooCommerce 4.2.0" />
+<meta name="generator" content="Give v2.6.3" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://dev.viewdemo.co/wp/karma-6.0.0"><link rel="https://theeventscalendar.com/" href="https://dev.viewdemo.co/wp/karma-6.0.0/wp-json/tribe/events/v1/" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.2.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/04/cropped-favicon_karma-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/04/cropped-favicon_karma-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/04/cropped-favicon_karma-180x180.png" />
+<meta name="msapplication-TileImage" content="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/04/cropped-favicon_karma-270x270.png" />
+<style type="text/css">body .aheto-footer, body .aheto-footer p{color:#999999;}body .aheto-footer a{color:#999999;}</style><style type="text/css"></style><script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.page-id-2828 .aheto-tm-wrapper--modern .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
+   border: solid 1px #FFC006 !important; }
+
+.header-scroll .elementor-2836 .elementor-element.elementor-element-665448bd .main-header__icon > i::before {
+    color: black; }
+.header-scroll .main-header--noize-modern.transparent_white .main-header__widget-box .main-header__icon {
+    color: var(--ca-dark);
+    background: transparent;
+}
+
+.page-id-2828 .header-scroll .elementor-2836 .elementor-element.elementor-element-665448bd .main-header__icon > i::before {
+   color: black; }
+.page-id-2828 .header-scroll .main-header--noize-modern.transparent_white .main-header__widget-box .main-header__icon {
+   color: var(--ca-dark);
+   background: transparent; }
+.page-id-2828 .main-header--noize-modern .main-header__widget-box .main-header__icon {
+background: transparent; }
+
+@media (min-width:1200px) {
+.aheto-content--famulus-logo {
+height: 600px; } }		</style>
+		</head>
+<body class="error404 theme-karma give-test-mode give-page woocommerce-no-js tribe-no-js page-template-iscsi3-pleskadmin-dev-wptask-co-wp-karma-6-0-0-wp-content-themes-karma-page-php karma-page no-sidebar elementor-default elementor-kit-7" >
+<!-- MAIN_WRAPPER -->
+
+                    <div class="aheto-preloader with_image">
+
+                        <img src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/06/logo_creative_80.png" alt="Karma">
+
+                    </div>
+				    <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader"
+            class="aheto-header  ">
+        <div class="container">
+
+					<div data-elementor-type="wp-post" data-elementor-id="13" class="elementor elementor-13" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-65b642d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="65b642d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-022b069 elementor-column elementor-col-100 elementor-top-column" data-id="022b069" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5905967 elementor-widget elementor-widget-aheto_navbar" data-id="5905967" data-element_type="widget" data-widget_type="aheto_navbar.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto_navbar_5f2a800816e3b  aheto-navbar aheto-navbar--modern two-columns  ">
+    <div class="aheto-navbar--wrap">
+        <div class="aheto-navbar--inner">
+
+			                <div class="aheto-navbar--left ">
+
+					
+                        <div class="aheto-navbar--item">
+
+							
+
+							                                <span class="aheto-navbar--item-label">
+
+                                 
+									
+									Phone:                            </span>
+							
+							                                <a href="tel:+0(123)456-78-90"
+                                   class="aheto-navbar--item-link">+0(123) 456-78-90</a>
+							
+							
+							
+                        </div>
+
+					
+                        <div class="aheto-navbar--item">
+
+							
+
+							                                <span class="aheto-navbar--item-label">
+
+                                 
+									
+									Email:                            </span>
+							
+							
+							                                <a href="mailto:hello@example.com"
+                                   class="aheto-navbar--item-link">hello@example.com</a>
+							
+							
+                        </div>
+
+					
+
+                </div>
+			                <div class="aheto-navbar--right ">
+
+					
+                        <div class="aheto-navbar--item">
+
+							
+							
+							
+							
+							                                <a href="#"
+                                   class="aheto-navbar--item-link">Register</a>
+							
+                        </div>
+
+					
+                        <div class="aheto-navbar--item">
+
+							
+							
+							
+							
+							                                <a href="#"
+                                   class="aheto-navbar--item-link">Login</a>
+							
+                        </div>
+
+					
+                        <div class="aheto-navbar--item">
+
+							
+							
+							
+							
+							<a class="aheto-navbar--item-link icon" href="#"><i class="ion-social-facebook"></i></a><a class="aheto-navbar--item-link icon" href="#"><i class="ion-social-instagram"></i></a><a class="aheto-navbar--item-link icon" href="#"><i class="ion-social-tumblr"></i></a><a class="aheto-navbar--item-link icon" href="#"><i class="ion-social-twitter"></i></a><a class="aheto-navbar--item-link icon" href="#"><i class="ion-social-youtube"></i></a>
+                        </div>
+
+					
+                </div>
+			
+        </div>
+    </div>
+</div>
+
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-f4095e4 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f4095e4" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1d2be1b elementor-column elementor-col-100 elementor-top-column" data-id="1d2be1b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3d3b142 elementor-widget elementor-widget-aheto_navigation" data-id="3d3b142" data-element_type="widget" data-widget_type="aheto_navigation.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto_navigation_5f2a80081e124   main-header main-header--modern main-header-js" data-mobile-menu="1199">
+    <div class="main-header__main-line">
+        <div class="aheto-logo main-header__logo">
+            <a href="https://dev.viewdemo.co/wp/karma-6.0.0/">
+				<img width="141" height="31" src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/images/placeholder.jpg" data-lazy-src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/03/logo.png" class="aheto-logo__image" alt="logo karma" /><img width="141" height="31" src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/images/placeholder.jpg" data-lazy-src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/03/logo.png" class="aheto-logo__image aheto-logo__image-scroll" alt="logo karma" />            </a>
+        </div>
+        <div class="main-header__menu-box">
+            <span class="mobile-menu-title">Menu</span>
+			<nav class="menu-home-page-container"><ul id="menu-menu-1" class="main-menu main-menu--inline"><li id="menu-item-20" class="menu-item--mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-20"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/">Home</a>
+<div class="sub-menu mega-menu">
+<div class="mega-menu__col"><div class="mega-menu__title">Menu I</div>
+	<ul class="mega-menu__list">
+		<li id="menu-item-4828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4828"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/">Home Main</a></li>
+		<li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4261"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-attorney/">Home Attorney</a></li>
+		<li id="menu-item-3698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3698"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-finance/">Home Finance</a></li>
+		<li id="menu-item-14422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14422"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/saas-3/">Home SAAS</a></li>
+		<li id="menu-item-2769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2769"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-business-2/">Home Business</a></li>
+		<li id="menu-item-847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-847"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-political/">Home Political</a></li>
+		<li id="menu-item-5044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5044"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/life-coach/">Home Life Coach</a></li>
+		<li id="menu-item-16535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16535"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-life-coach-2/">Home Life Coach 2</a></li>
+		<li id="menu-item-14423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14423"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-saas-2/">Home SAAS 2</a></li>
+		<li id="menu-item-21728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21728"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/digital-agency-2/">Digital Agency 2</a></li>
+		<li id="menu-item-23522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23522"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/it-startup/">IT Startup</a></li>
+		<li id="menu-item-25442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25442"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/karma-restaurant/">Home Restaurant</a></li>
+	</ul>
+</div>
+<div class="mega-menu__col"><div class="mega-menu__title">Menu II</div>
+	<ul class="mega-menu__list">
+		<li id="menu-item-16579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16579"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/creative-portfolio-2/">Creative Portfolio 2</a></li>
+		<li id="menu-item-5683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5683"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/business-consulting/">Home Consulting</a></li>
+		<li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/homepage-nail-bar/">Home Nail Bar</a></li>
+		<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-marketing/">Home Marketing</a></li>
+		<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-business/">Home Business</a></li>
+		<li id="menu-item-13615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13615"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-corporate/">Home Corporate</a></li>
+		<li id="menu-item-13617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13617"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-tattoo/">Home Tattoo</a></li>
+		<li id="menu-item-13616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13616"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-coworking/">Home Coworking</a></li>
+		<li id="menu-item-14105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14105"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-gardening/">Home Gardening</a></li>
+		<li id="menu-item-24760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24760"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/software-agency/">Software Agency</a></li>
+		<li id="menu-item-20386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20386"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/boutique-hotel/">Boutique Hotel</a></li>
+		<li id="menu-item-24384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24384"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/dark-portfolio/">Dark Portfolio</a></li>
+		<li id="menu-item-25526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25526"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-shop/">Home Shop</a></li>
+		<li id="menu-item-26580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26580"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-corporate-illustrated/">Home Corporate Illustrated</a></li>
+	</ul>
+</div>
+<div class="mega-menu__col"><div class="mega-menu__title">Menu III</div>
+	<ul class="mega-menu__list">
+		<li id="menu-item-18356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18356"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/summer-camp/">Summer Camp</a></li>
+		<li id="menu-item-14104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14104"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-architecture/">Home Architecture</a></li>
+		<li id="menu-item-14226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14226"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-creative-portfolio/">Home Creative Portfolio</a></li>
+		<li id="menu-item-14232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14232"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-events/">Home Events</a></li>
+		<li id="menu-item-14346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14346"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-logistics/">Home Logistics</a></li>
+		<li id="menu-item-14425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14425"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-construction/">Home Construction</a></li>
+		<li id="menu-item-2747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2747"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-business-2-2/">Home Business</a></li>
+		<li id="menu-item-16419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16419"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/digital-agency/">Home Digital Agency</a></li>
+		<li id="menu-item-16443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16443"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-portfolio-3/">Home Portfolio 3</a></li>
+		<li id="menu-item-18745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18745"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/business-4/">Home Business 4</a></li>
+		<li id="menu-item-23632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23632"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-education/">Home Education</a></li>
+		<li id="menu-item-17313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17313"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/corporate-red/">Corporate RED</a></li>
+		<li id="menu-item-26175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26175"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/home-construction-3/">Home Construction 2</a></li>
+	</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22"><a href="#">Pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-956"><a href="#">About Us</a>
+	<ul class="sub-menu">
+		<li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/about-classic/">About Classic</a></li>
+		<li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/about-simple/">About Simple</a></li>
+		<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/about-modern/">About Modern</a></li>
+		<li id="menu-item-2921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2921"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/about-4/">About Advanced</a></li>
+		<li id="menu-item-5771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5771"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/about-common/">About Common</a></li>
+	</ul>
+</li>
+	<li id="menu-item-957" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-957"><a href="#">Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-classic/">Service Classic</a></li>
+		<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-simple/">Service Simple</a></li>
+		<li id="menu-item-693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-693"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-modern/">Service Modern</a></li>
+		<li id="menu-item-720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-details/">Service Advanced</a></li>
+		<li id="menu-item-3040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3040"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-4/">Service Details</a></li>
+		<li id="menu-item-5804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5804"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-details-2/">Service Details 2</a></li>
+		<li id="menu-item-5820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5820"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-details-3/">Service Details 3</a></li>
+		<li id="menu-item-5878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5878"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/service-details-4/">Service Details 4</a></li>
+	</ul>
+</li>
+	<li id="menu-item-958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-958"><a href="#">Pricing</a>
+	<ul class="sub-menu">
+		<li id="menu-item-894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-894"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/pricing-1/">Pricing Classic</a></li>
+		<li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/pricing-2/">Pricing Simple</a></li>
+		<li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/pricing-3/">Pricing Modern</a></li>
+		<li id="menu-item-3061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3061"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/price-4/">Pricing Advanced</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4442"><a href="#">Team</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3558"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/team/">Team</a></li>
+		<li id="menu-item-3863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3863"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/leadership/">Leadership</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4443"><a href="#">Mission</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4212"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/our-mission/">Our Mission Classic</a></li>
+		<li id="menu-item-4102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4102"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/our-mission-2/">Our Mission Simple</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5901" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5901"><a href="#">Awards</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5282"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/awards-classic/">Awards Classic</a></li>
+		<li id="menu-item-5527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5527"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/awards-simple/">Awards Simple</a></li>
+		<li id="menu-item-3935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3935"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/awards/">Awards Modern</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5902" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5902"><a href="#">Why choose us</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5163"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/why-choose-us/">Why Choose Us Classic</a></li>
+		<li id="menu-item-5699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5699"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/why-choose-us-2/">Why Choose Us Simple</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4441"><a href="#">Coming soon</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3561"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/coming-soon/">Coming Soon Classic</a></li>
+		<li id="menu-item-3557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3557"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/coming-soon-2/">Coming Soon Simple</a></li>
+		<li id="menu-item-4949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4949"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/coming-soon-modern/">Coming Soon Modern</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4615"><a href="#">Testimonials</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4543"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/reviews-2/">Testimonials Simple</a></li>
+		<li id="menu-item-4306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4306"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/reviews/">Testimonials Classic</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">404</a>
+	<ul class="sub-menu">
+		<li id="menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/404-2/">404 Classic</a></li>
+		<li id="menu-item-3738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3738"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/404-page-2/">404 Simple</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4439"><a href="#">F.A.Q.</a>
+	<ul class="sub-menu">
+		<li id="menu-item-730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-730"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/faq/">F.A.Q. Classic</a></li>
+		<li id="menu-item-3792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3792"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/faq-2/">F.A.Q. Simple</a></li>
+	</ul>
+</li>
+	<li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-959"><a href="#">Other</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/author-bio/">Author Bio</a></li>
+		<li id="menu-item-3559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3559"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/get-a-quote/">Get a Quote</a></li>
+		<li id="menu-item-3644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3644"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/book-an-appointment/">Book an Appointment</a></li>
+		<li id="menu-item-3994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/careers/">Careers</a></li>
+		<li id="menu-item-4814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4814"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/magazines/">Magazines</a></li>
+		<li id="menu-item-5698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5698"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/our-partners/">Our Partners</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23"><a href="#">Projects</a>
+<ul class="sub-menu">
+	<li id="menu-item-2187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2187"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/list-metro/">Portfolio List Metro</a></li>
+	<li id="menu-item-2188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2188"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio-masonry/">Portfolio List Masonry</a></li>
+	<li id="menu-item-2186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2186"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/grid-portfolio/">Portfolio List Grid</a></li>
+	<li id="menu-item-2206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2206"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio-list-mosaic/">Portfolio List Mosaic</a></li>
+	<li id="menu-item-2300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2300"><a href="#">Portfolio Details</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/gradient-watch/">Portfolio Default</a></li>
+		<li id="menu-item-2303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2303"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/classic-watch/">Portfolio Modern</a></li>
+		<li id="menu-item-2304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2304"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/abstract-shape/">Portfolio Creative</a></li>
+		<li id="menu-item-2305" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2305"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/creatsy-phonecase/">Portfolio Simple</a></li>
+		<li id="menu-item-2306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2306"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/nude-numercard/">Portfolio with Slider</a></li>
+		<li id="menu-item-2307" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2307"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/sweet-chocolate/">Portfolio Unique</a></li>
+		<li id="menu-item-2308" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2308"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/portfolio/jnrk-fruit/">Portfolio Classic</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5904"><a href="#">Case Studies</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4813"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/case-studies-1/">Case Studies Classic</a></li>
+		<li id="menu-item-4517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4517"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/case-studies-2/">Case Studies Simple</a></li>
+		<li id="menu-item-4889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4889"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/case-studies-detail/">Case Studies Detail</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24"><a href="#">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-2238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2238"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/blog-centered/">Blog Centered</a></li>
+	<li id="menu-item-2299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2299"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/blog-grid/">Blog Grid</a></li>
+	<li id="menu-item-2428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2428"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/blog-metro/">Blog Metro</a></li>
+	<li id="menu-item-5900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5900"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/blog-classic/">Blog Classic</a></li>
+	<li id="menu-item-2429" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2429"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/2020/03/22/completely-disintermediate-skills/">Post Details</a></li>
+</ul>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25"><a href="#">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-775" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-775"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/contact-multi-locations/">Contact Multi Locations</a></li>
+	<li id="menu-item-795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-795"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/contact-simple/">Contact Simple</a></li>
+	<li id="menu-item-850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-850"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/contact-sidebar/">Contact Sidebar</a></li>
+	<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/contact-modern/">Contact Modern</a></li>
+	<li id="menu-item-4888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4888"><a href="https://dev.viewdemo.co/wp/karma-6.0.0/location/">Location</a></li>
+</ul>
+</li>
+</ul></nav>        </div>
+        <div class="main-header__widget-box">
+			            <ul class="icons-widget main-header__icons">
+				                    <li class="icons-widget__item">
+                        <a class="icons-widget__link search-btn js-open-search" href="#">
+                            <i class="icon ion-ios-search-strong" aria-hidden="true"></i>
+                        </a>
+                    </li>
+								                    <li class="icons-widget__item">
+                        <a class="icons-widget__link" href="https://dev.viewdemo.co/wp/karma-6.0.0/cart/">
+                            <i class="icon ion-bag" aria-hidden="true"></i>
+                            <span class="button-number">0</span>
+                        </a>
+                    </li>
+				            </ul>
+            <button class="hamburger main-header__hamburger js-toggle-mobile-menu" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+        </div>
+
+    </header>
+	
+    <div class="karma-error--wrap">
+
+        <div class="karma-error--big-title">OOPS!</div>
+
+        <div class="karma-error--small-title">404</div>
+
+        <h1 class="karma-error--title">Page not found</h1>
+
+        <a href="https://dev.viewdemo.co/wp/karma-6.0.0/" class="karma-error--button">Go home</a>
+
+    </div>
+
+    <footer class="aheto-footer ">
+
+        <div class="container">
+
+					<div data-elementor-type="wp-post" data-elementor-id="260" class="elementor elementor-260" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-61659d1 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="61659d1" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-64042ed elementor-column elementor-col-25 elementor-top-column" data-id="64042ed" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-08503aa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="08503aa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-00ab38a elementor-column elementor-col-50 elementor-inner-column" data-id="00ab38a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9c2a51a elementor-widget elementor-widget-image" data-id="9c2a51a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="https://dev.viewdemo.co/wp/karma-6.0.0/">
+							<img width="32" height="31" src="https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/03/footer-logo-1-1.png" class="attachment-full size-full" alt="footer logo" />								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-bb369b5 elementor-column elementor-col-50 elementor-inner-column" data-id="bb369b5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-056ee83 elementor-widget elementor-widget-aheto_heading" data-id="056ee83" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main t-left align-tablet-default align-mob-default aheto_heading_5f2a80083ea10 ">
+
+	
+	<h4 class="aheto-heading__title ">KARMA</h4>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d7d7cb2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d7d7cb2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-aac0271 elementor-column elementor-col-100 elementor-inner-column" data-id="aac0271" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ee33cc1 elementor-widget elementor-widget-aheto_contact-info" data-id="ee33cc1" data-element_type="widget" data-widget_type="aheto_contact-info.default">
+				<div class="elementor-widget-container">
+			
+<div class="widget widget_aheto__contact_info--modern aheto_contact-info_5f2a8008418d0 ">
+
+	
+	<div class="widget_aheto__infos">
+
+					<div class="widget_aheto__info widget_aheto__info--address">
+				<i class="widget_aheto__icon ion-android-map "></i>				<p>Grand Conference Hall 
+- 881 7th Ave New York, NY </p>
+			</div>
+					<div class="widget_aheto__info widget_aheto__info--tel">
+				<i class="widget_aheto__icon ion-android-call "></i>				<a class="widget_aheto__link" href="tel:+1805737800">
+					+ 1805 73 78 00				</a>
+			</div>
+					<div class="widget_aheto__info widget_aheto__info--mail">
+				<i class="widget_aheto__icon ion-android-mail "></i>				<a class="widget_aheto__link" href="mailto:info@karma.com ">
+					info@karma.com 				</a>
+			</div>
+		
+	</div>
+
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-2937ec5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="2937ec5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6953d84 elementor-column elementor-col-100 elementor-inner-column" data-id="6953d84" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ea538dd elementor-widget elementor-widget-aheto_social-networks" data-id="ea538dd" data-element_type="widget" data-widget_type="aheto_social-networks.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-socials-networks aheto_social-networks_5f2a800843242 ">
+
+	<div class="aheto-socials aheto-socials--circle left-align left-align-mob">
+
+		<a href="#" class="aheto-socials__link" target="_blank"><i class="aheto-socials__icon icon ion-social-facebook"></i></a><a href="#" class="aheto-socials__link" target="_blank"><i class="aheto-socials__icon icon ion-social-twitter"></i></a><a href="#" class="aheto-socials__link" target="_blank"><i class="aheto-socials__icon icon ion-social-tumblr"></i></a><a href="#" class="aheto-socials__link" target="_blank"><i class="aheto-socials__icon icon ion-social-youtube"></i></a>	</div>
+
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-acfb1ce elementor-column elementor-col-25 elementor-top-column" data-id="acfb1ce" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-8b6936b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="8b6936b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-72da344 elementor-column elementor-col-100 elementor-inner-column" data-id="72da344" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-934e981 elementor-widget elementor-widget-aheto_heading" data-id="934e981" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main  align-tablet-default align-mob-default aheto_heading_5f2a800846046 ">
+
+	
+	<h5 class="aheto-heading__title ">Extra Links</h5>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-77fc25e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="77fc25e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-79c96ff elementor-column elementor-col-50 elementor-inner-column" data-id="79c96ff" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-83bfb34 elementor-widget elementor-widget-aheto_navigation" data-id="83bfb34" data-element_type="widget" data-widget_type="aheto_navigation.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto_navigation_5f2a80084c46d ">
+
+	<div class="widget-nav-menu widget-nav-menu--columns -columns">
+
+		
+		<div class="menu-main-container"><ul id="menu-footer-menu-1" class="menu widget-nav-menu__menu"><li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-280"><a href="#">About</a></li>
+<li id="menu-item-281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-281"><a href="#">Contacts</a></li>
+<li id="menu-item-282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-282"><a href="#">Typography</a></li>
+<li id="menu-item-283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-283"><a href="#">Careers</a></li>
+<li id="menu-item-284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Shop</a></li>
+</ul></div>
+	</div>
+
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-a0cabd5 elementor-column elementor-col-50 elementor-inner-column" data-id="a0cabd5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5fbe494 elementor-widget elementor-widget-aheto_navigation" data-id="5fbe494" data-element_type="widget" data-widget_type="aheto_navigation.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto_navigation_5f2a800853714 ">
+
+	<div class="widget-nav-menu widget-nav-menu--columns -columns">
+
+		
+		<div class="menu-main-container"><ul id="menu-footer-menu-2" class="menu widget-nav-menu__menu"><li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">News</a></li>
+<li id="menu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">Testimonials</a></li>
+<li id="menu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="#">Services</a></li>
+<li id="menu-item-288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-288"><a href="#">Our Team</a></li>
+</ul></div>
+	</div>
+
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-eb681a5 elementor-column elementor-col-25 elementor-top-column" data-id="eb681a5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-9d77938 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="9d77938" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-bca0119 elementor-column elementor-col-100 elementor-inner-column" data-id="bca0119" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cb0ea4b elementor-widget elementor-widget-aheto_heading" data-id="cb0ea4b" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main  align-tablet-default align-mob-default aheto_heading_5f2a80085803f ">
+
+	
+	<h5 class="aheto-heading__title ">Lastest Events</h5>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9cd5bd3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="9cd5bd3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-454510c elementor-column elementor-col-100 elementor-inner-column" data-id="454510c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4ab0b1a elementor-widget elementor-widget-aheto_recent-posts" data-id="4ab0b1a" data-element_type="widget" data-widget_type="aheto_recent-posts.default">
+				<div class="elementor-widget-container">
+			<div class="widget widget_recent_posts--modern modern aheto_recent-posts_5f2a80085c4e3 "><ul>
+		<li class="with-thumb">
+							<div class="widget-img" style=background-image:url(https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/07/image-of-multiethnic-young-business-people-working-JDVFVF4-scaled.jpg)></div>
+						<div class="widget-text">
+				<a href="https://dev.viewdemo.co/wp/karma-6.0.0/2020/07/31/what-does-the-future-of-the-construction-industry-look-like/" class="post-title">What does the future of the construction industry look like?</a>
+				<span class="post-date">31 July, 2020</span>
+			</div>
+		</li>
+
+
+		
+		<li class="with-thumb">
+							<div class="widget-img" style=background-image:url(https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/07/business-talk-MKWN6QV-scaled.jpg)></div>
+						<div class="widget-text">
+				<a href="https://dev.viewdemo.co/wp/karma-6.0.0/2020/07/31/dont-take-the-bait-on-phishing-attacks/" class="post-title">Don’t take the bait on phishing attacks</a>
+				<span class="post-date">31 July, 2020</span>
+			</div>
+		</li>
+
+
+		
+		<li class="with-thumb">
+							<div class="widget-img" style=background-image:url(https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/uploads/2020/07/contemporary-people-working-in-office-ZDAJYRU-scaled.jpg)></div>
+						<div class="widget-text">
+				<a href="https://dev.viewdemo.co/wp/karma-6.0.0/2020/07/31/7-quick-design-improvements-to-engage-users-and-convert-leads/" class="post-title">7 quick design improvements to engage users and convert leads</a>
+				<span class="post-date">31 July, 2020</span>
+			</div>
+		</li>
+
+
+		</ul></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-18550d1 elementor-column elementor-col-25 elementor-top-column" data-id="18550d1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-faf286e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="faf286e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f74abe2 elementor-column elementor-col-100 elementor-inner-column" data-id="f74abe2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6fd58f8 elementor-widget elementor-widget-aheto_heading" data-id="6fd58f8" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main  align-tablet-default align-mob-default aheto_heading_5f2a800861b5a ">
+
+	
+	<h5 class="aheto-heading__title ">Subscribe</h5>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-737383d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="737383d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-22d89a7 elementor-column elementor-col-100 elementor-inner-column" data-id="22d89a7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-295c72b elementor-widget elementor-widget-aheto_contact-forms" data-id="295c72b" data-element_type="widget" data-widget_type="aheto_contact-forms.default">
+				<div class="elementor-widget-container">
+			
+<div class="widget widget_aheto__cf--subscribe-classic aheto_contact-forms_5f2a800864732  full_width_button">
+
+	
+	<div class="widget_aheto__form">
+
+					<div class="aheto-form-btn aheto-btn--primary    ">
+				<div role="form" class="wpcf7" id="wpcf7-f292-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response" role="alert" aria-live="polite"></div>
+<form action="/wp/karma-6.0.0/wp-content/uploads/2020/06/h1-slide-2.jpg#wpcf7-f292-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="292" />
+<input type="hidden" name="_wpcf7_version" value="5.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f292-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<p><span class="wpcf7-form-control-wrap email-982"><input type="email" name="email-982" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email" /></span><input type="submit" value="SUBSCRIBE" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form></div>			</div>
+		
+	</div>
+
+	
+</div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-897a2fd elementor-widget elementor-widget-aheto_heading" data-id="897a2fd" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main  align-tablet-default align-mob-default aheto_heading_5f2a8008668b3 ">
+
+	
+	<p class="aheto-heading__title ">Get latest updates and offers.</p>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c74f243 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c74f243" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b6bee0b elementor-column elementor-col-50 elementor-top-column" data-id="b6bee0b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e3c5dfb elementor-widget elementor-widget-aheto_heading" data-id="e3c5dfb" data-element_type="widget" data-widget_type="aheto_heading.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto-heading aheto-heading--main  align-tablet-default align-mob-default aheto_heading_5f2a80086b46e ">
+
+	
+	<p class="aheto-heading__title ">© Karma Business. All Right Reserved 2020.</p>
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c40a736 elementor-column elementor-col-50 elementor-top-column" data-id="c40a736" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-24adaf9 elementor-widget elementor-widget-aheto_navigation" data-id="24adaf9" data-element_type="widget" data-widget_type="aheto_navigation.default">
+				<div class="elementor-widget-container">
+			
+<div class="aheto_navigation_5f2a80087191a ">
+
+    <div class="widget-nav-menu widget-nav-menu--classic-inline">
+
+		<div class="menu-main-container"><ul id="menu-footer-menu-4" class="menu widget-nav-menu__menu right-align"><li id="menu-item-661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-661"><a href="#">Privacy</a></li>
+<li id="menu-item-662" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-662"><a href="#">Terms</a></li>
+<li id="menu-item-663" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-663"><a href="#">Site Map</a></li>
+<li id="menu-item-664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-664"><a href="#">Purchase</a></li>
+</ul></div>
+    </div>
+
+</div>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+        </div>
+
+    </footer>
+	    <div class="site-search" id="search-box">
+        <button class="close-btn js-close-search"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <div class="form-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form role="search" method="get" class="search-form" action="https://dev.viewdemo.co/wp/karma-6.0.0/"
+                              autocomplete="off">
+                            <div class="input-group">
+                                <input type="search" value="" name="s" class="search-field"
+                                       placeholder="Enter Keyword" required="">
+                            </div>
+                        </form>
+                        <p class="search-description">Input your search keywords and press Enter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+			<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='preload stylesheet' as='style'
+id='navbar-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/navbar/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='navigation-style-3' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/navigation/assets/css/layout3.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='heading-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/heading/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='contact-info-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/contact-info/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='social-networks-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/social-networks/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='navigation-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/navigation/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='recent-posts-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/recent-posts/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='contact-forms-style-1' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/contact-forms/assets/css/layout1.css' type='text/css' media='all' /><link rel='preload stylesheet' as='style'
+id='navigation-style-2' href='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/shortcodes/navigation/assets/css/layout2.css' type='text/css' media='all' /><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var booked_js_vars = {"ajax_url":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/booked/assets/js/functions.js?ver=2.2.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var get = {"ajaxurl":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/js/frontend.js?ver=1.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp\/karma-6.0.0\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.2.0'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/js/navigation.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/js/lib/skip-link-focus-fix.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/js/lib/fitvids.js?ver=5.4.2'></script>
+<script src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/vendors/isotope/isotope.min.js' defer></script><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/themes/karma/assets/js/script.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/selectmenu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/js/jquery.ui.touch-punch.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/js/jquery.costCalculator.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/js/jquery.qtip.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/js/jquery.blockUI.min.js?ver=5.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cost_calculator_config = [];
+cost_calculator_config = {"ajaxurl":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-admin\/admin-ajax.php","is_rtl":0};;
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/ql-cost-calculator/js/cost_calculator.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/vendors/typed/typed.min.js'></script>
+<script src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/vendors/lazyload/lazyload.min.js?ver=0.9.0' defer></script><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/vendors/script.min.js' defer></script><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.9.14'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/aheto/assets/frontend/vendors/swiper/swiper.min.js' defer></script><script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=2.9.14'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.14","urls":{"assets":"https:\/\/dev.viewdemo.co\/wp\/karma-6.0.0\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"general":{"elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":0,"title":"Page not found &#8211; Karma","excerpt":""}};
+</script>
+<script type='text/javascript' src='https://dev.viewdemo.co/wp/karma-6.0.0/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.14'></script>
+		<script type="text/javascript">
+			function initElements($scope) {
+				if(typeof elementor !== "undefined") {
+					elementor.widgetsCache["aheto_custom-post-types"].controls.taxonomies.select2options.ajax = {
+						url: 'https://dev.viewdemo.co/wp/karma-6.0.0/wp-admin/admin-ajax.php',
+						dataType: 'json',
+						data: function (params) {
+							return {
+								query: params.term,
+								action: 'autocomplete_aheto_taxonomies'
+							}
+						},
+						processResults: function (data) {
+							return {
+								results: data
+							}
+						}
+					}
+					elementor.widgetsCache["aheto_custom-post-types"].controls.exclude.select2options.ajax = {
+						url: 'https://dev.viewdemo.co/wp/karma-6.0.0/wp-admin/admin-ajax.php',
+						dataType: 'json',
+						data: function (params) {
+							return {
+								query: params.term,
+								action: 'autocomplete_aheto_exclude_field_search',
+								postType: jQuery('select', '.elementor-control-post_type.elementor-control-type-select').val()
+							}
+						},
+						processResults: function (data) {
+							return {
+								results: data
+							}
+						}
+					}
+					elementor.widgetsCache["aheto_custom-post-types"].controls.include.select2options.ajax = {
+						url: 'https://dev.viewdemo.co/wp/karma-6.0.0/wp-admin/admin-ajax.php',
+						dataType: 'json',
+						data: function (params) {
+							return {
+								query: params.term,
+								action: 'autocomplete_aheto_include_field_search'
+							}
+						},
+						processResults: function (data) {
+							return {
+								results: data
+							}
+						}
+					}
+				}
+			}
+			window.addEventListener('load', function() {
+				setTimeout(() => {
+					initElements();
+				}, 4000);
+			});
+			(typeof elementor !== "undefined") && elementor.hooks.addAction( 'panel/open_editor/widget', function( panel, model, view ) {
+				if ( 'aheto_custom-post-types' === model.attributes.widgetType ) {
+					initElements();
+					setTimeout(() => {
+						initElements();
+					}, 1000);
+				}
+			} );
+		</script>
+		
+</body>
+</html>

@@ -1,0 +1,90 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-contact {
+    $p: &;
+
+    &--karma-political-simple {
+        display: flex;
+        align-items: center;
+
+        &.t-center {
+            justify-content: center;
+        }
+
+        &.t-right {
+            justify-content: flex-end;
+        }
+
+        #{$p}__icon {
+            width: 32px;
+            height: 32px;
+            background-color: var(--c-active);
+            color: var(--c-light);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        #{$p}__link {
+            display: block;
+            width: fit-content;
+            transition: all .3s ease;
+
+            &:hover {
+                color: var(--c-white)!important;
+            }
+        }
+
+        #{$p}__mail {
+            margin-top: 7px;
+        }
+
+        #{$p}__socials {
+            display: flex;
+
+            a {
+                width: 45px;
+                height: 45px;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                display: flex;
+                color: var(--c-white);
+                line-height: 3em;
+                border: 1px solid var(--c-grey);
+                margin: 4px;
+                border-radius: 50%;
+                transition: all .3s ease-in-out;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background: var(--c-active);
+                    transition: all .3s ease-in-out;
+                    transform: scale(0);
+                }
+
+                &:hover:before {
+                    transform: scale(1);
+                }
+
+                &:hover {
+                    border-color: var(--c-active);
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                i {
+                    z-index: 10;
+                }
+            }
+        }
+    }
+}

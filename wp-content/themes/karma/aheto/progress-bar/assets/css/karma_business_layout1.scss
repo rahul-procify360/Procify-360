@@ -1,0 +1,58 @@
+@import "../../../../assets/css/mixin";
+.aheto-progress {
+  $counter: &;
+  &__business-circle {
+
+    #{$counter}__title {
+      margin: 30px 0 0 0;
+    }
+    #{$counter}__desc{
+      margin: 7px 0 0 0;
+    }
+
+    #{$counter}__chart-holder {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #{$counter}__chart-bg {
+      stroke-width: .8;
+      stroke: rgba(var(--ca-grey), .2);
+    }
+  
+    #{$counter}__chart-circle {
+      transform: rotate(-90deg);
+      stroke-width: .8;
+      transform-origin: center;
+      stroke: var(--c-alter);
+  
+      // Animation
+      &.active {
+        animation: circle-chart-fill 2.5s reverse;
+      }
+    }
+  
+    #{$counter}__chart-symbol {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      color: var(--c-dark);
+      display: flex;
+      align-items: baseline;
+      span {
+        font: inherit;
+      }
+    }
+  
+    #{$counter}__chart {
+      position: relative;
+      @keyframes circle-chart-fill {
+        to {
+          stroke-dasharray: 0 100;
+        }
+      }
+    }
+  }
+}

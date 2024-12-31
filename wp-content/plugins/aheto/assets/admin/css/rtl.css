@@ -1,0 +1,316 @@
+/*!
+ * Plugin:  Aheto
+ * URL:     https://upqode.com/aheto/
+ * Name:	rtl.css
+ */
+.aheto-wrap.main-wrap{
+	padding-right:0;
+	padding-left:20px;
+}
+.aheto-wrap.limit-wrap{
+	max-width:1115px;
+}
+.aheto-preloader{
+	left:0;
+	right:auto;
+}
+.aheto-wrap .aheto-option-sidebar{
+	border-radius:0 30px 30px 0;
+}
+.aheto-wrap .aheto-logo{
+	padding:25px 0 25px 30px;
+}
+.aheto-regenerate-button-wrap{
+	padding-right: 0;
+	padding-left: 30px;
+}
+.aheto-wrap .aheto-option-sidebar-nav a{
+	padding:25px 0 25px 30px;
+}
+.aheto-wrap .aheto-option-sidebar-nav a.nav-active::after{
+	right: auto;
+	left:-60%;
+}
+.aheto-wrap .aheto-option-sidebar-nav a span{
+	right:75%;
+	left:auto;
+}
+.aheto-wrap .aheto-option-sidebar-nav a span::before{
+	right:-16px;
+	left:auto;
+	border-left-color: rgba(40,44,106,.95);
+	border-right-color:transparent;
+}
+.aheto-wrap .aheto-option-content{
+	margin-right:-30px;
+	margin-left:0;
+}
+.aheto-wrap .aheto-option-header h4{
+	padding-left:0;
+	padding-right:50px;
+}
+.aheto-wrap .aheto-option-header h4 span.img-box{
+	margin-left: 10px;
+	margin-right: 0;
+	order:0;
+}
+
+.aheto-wrap .aheto-option-content .right-sidebar-option{
+	order:2;
+}
+.aheto-wrap .aheto-option-content .right-sidebar-option label::after{
+	right:5px;
+}
+.aheto-switch label::after{
+	top:3px;
+}
+.aheto-setup-steps .step::before{
+	left:auto;
+	right:0;
+	transform: translate(50%,23px);
+}
+.aheto-import-theme-data .active-buttons .custom-btn:nth-of-type(2), .aheto-required-plugins .active-buttons .custom-btn:nth-of-type(2), .aheto-wizard-form-wrap .active-buttons .custom-btn:nth-of-type(2) {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.aheto-import-theme-data .bottom-buttons .custom-btn:nth-of-type(2), .aheto-required-plugins .bottom-buttons .custom-btn:nth-of-type(2), .aheto-wizard-form-wrap .bottom-buttons .custom-btn:nth-of-type(2) {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.aheto-required-plugins--list li span{
+	padding: 0 10px 0 0;
+}
+.aheto-import-theme-data .summary-time h4{
+	margin-right:0;
+	margin-left:10px;
+}
+.aheto-import-theme-data--list .item .envato_default_content div{
+	padding-right:80px;
+	padding-left:0;
+}
+.aheto-dashboard-page__download-steps{
+	padding-left:0;
+	padding-right:25px;
+}
+.aheto-import-theme-data--list .item .envato_default_content div span{
+	left:auto;
+	right:0;
+}
+.aheto-import-theme-data--list .item .radio-buttons{
+	left:20px;
+	right:auto;
+}
+.aheto-dashboard-page__download-steps li{
+	padding: 13px 25px 13px 15px;
+}
+.aheto-dashboard-page__download-steps .download-steps__info{
+	padding-right:30px;
+	padding-left:0;
+}
+.aheto-dashboard-page__download-steps li span.check{
+	right:0;
+	left:auto;
+}
+.save-settings span.img-box{
+	margin-right:0;
+	margin-left:10px;
+}
+#setting-panel-container-aheto-general-settings_options label i{
+	margin-right: 0;
+	margin-left: 15px;
+}
+#setting-panel-blocks.cmb2-panel > .cmb-type-switch .cmb-th label, #setting-panel-general.cmb2-panel > .cmb-type-switch .cmb-th label {
+    padding-right: 0;
+    padding-left: 105px;
+}
+#setting-panel-blocks.cmb2-panel > .cmb-type-switch .cmb2-radio-list, #setting-panel-general.cmb2-panel > .cmb-type-switch .cmb2-radio-list{
+	left:20px;
+	right:0;
+}
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow{
+	right:1px !important;
+	left:auto !important;
+}
+.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered{
+	padding-left: 8px;
+padding-right: 20px;
+text-align:left;
+}
+.select2-container--default .select2-results > .select2-results__options{
+	text-align:left;
+}
+#setting-panel-container-aheto-general-settings_options .cmb2-checkbox-list.cmb2-list li{
+	padding-left: 40px;
+	padding-right: 0;
+}
+.cmb2-wrap input[type="checkbox"], .cmb2-wrap input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+#setting-panel-container-aheto-general-settings_options .cmb2-checkbox-list.cmb2-list li label{
+	padding-right: 30px;
+	padding-left:0;
+}
+#setting-panel-container-aheto-general-settings_options .cmb2-checkbox-list.cmb2-list li label{
+	padding-right:30px;
+	padding-left:0;
+}
+.cmb2-checkbox-list label::before{
+	right:0;
+	left:auto;
+}
+.CodeMirror pre{
+	padding:0 30px;
+}
+
+.cmb2-wrap input:not([type="hidden"]) + .button-secondary, .cmb2-wrap input:not([type="hidden"]) + input, .cmb2-wrap input:not([type="hidden"]) + select{
+	margin-right:0;
+	margin-left:20px;
+}
+#setting-panel-skins .skins__nav-icon{
+	right:auto !important;
+	left:15px;
+}
+#setting-panel-skins .skins__menu{
+	padding: 25px 20px 25px 40px;
+	left:auto !important;
+	right:10px;
+}
+#setting-panel-skins .skins__menu-item i{
+	padding-left:10px;
+	padding-right:0;
+}
+.cmb2-panel#setting-panel-colors .setting-panel-colors__item .wp-picker-input-wrap label{
+	margin-right: 30px !important;
+	margin-left: 0 !important;
+}
+.cmb2-panel#setting-panel-colors .setting-panel-colors__item .wp-picker-input-wrap label::before{
+	right:auto;
+	left:10px;
+}
+.cmb2-panel#setting-panel-colors .setting-panel-colors__item .wp-picker-input-wrap input.wp-picker-clear{
+	right:auto;
+	left:0;
+}
+.cmb2-panel#setting-panel-colors .setting-panel-colors__item .color-name{
+	left:10px !important;
+	text-align:left;
+}
+.cmb2-panel#setting-panel-colors .default-color__element:first-child{
+	    border-radius: 0 10px 10px 0 !important;
+}
+.cmb2-panel#setting-panel-colors .default-color__element:last-child {
+    border-radius: 10px 0 0 10px !important;
+	}
+.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+}
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__clear{
+	font-size:20px;
+}
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow{
+	left:5px;
+}
+.select2-search--dropdown .select2-search__field,
+#setting-panel-typography .col .select2-selection, #setting-panel-typography .col input[type="text"]:not(.wp-color-picker), #setting-panel-typography .col select{
+	direction:ltr;
+}
+.form-table .wp-picker-input-wrap label{
+	order:1;
+}
+#setting-panel-typography .typography-info__shot span{
+	padding-left:10px;
+	padding-right:10px;
+}
+#setting-panel-typography .col{
+	text-align:left;
+}
+.cmb2-checkbox-list label{
+	padding-right:35px;
+	padding-left:0;
+}
+
+.changelog-wrapper .changelog-block .changelog-bug-fixes i,
+.changelog-wrapper .changelog-block .changelog-new-features i,
+.aheto-system-info-section header i{
+	margin-left: 15px;
+	margin-right: 0!important;
+}
+
+.cmb2-wrap select{
+	background-position: 16px 20px!important;
+}
+
+body .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered{
+	text-align: right!important;
+	padding-left: 20px !important;
+	padding-right: 0 !important;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow{
+	right: auto!important;
+	left: 19px!important;
+}
+
+#setting-panel-container-aheto-general-settings_options #setting-panel-blocks .cmb2-id-info .close{
+	left: 20px!important;
+	right: auto!important;
+}
+
+body .cmb2-wrap input:not([type=hidden])+.button-secondary,
+body .cmb2-wrap input:not([type=hidden])+input,
+body .cmb2-wrap input:not([type=hidden])+select{
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+body #setting-panel-skins .skins__block{
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+body #setting-panel-skins .skins__menu{
+	padding: 25px 20px 25px 40px;
+}
+
+body .typography-anchor{
+	display: flex;
+}
+
+body .typography-open i{
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+body .select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__clear{
+	float: right;
+	margin-left: 8px;
+}
+
+body .wp-picker-container .wp-color-result.button{
+	margin: 6px 6px 0 0;
+}
+
+body .template-kit-import h3 small{
+	left: 13px;
+	right: auto;
+}
+
+body .aheto-box .aheto-list-icon .img-box,
+body .aheto-template-kits-skins+.limit-wrap .template-kit-col-right .template-kit-import .template-preview{
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+body .aheto-box .aheto-list-icon .img-box{
+	height: 45px;
+}
+
+body .plugin-box label .checked{
+	right: auto;
+	left: 17px;
+}
+
+.aheto-box .aheto-list-icon>li > div{
+	width: calc(100% - 54px);
+}

@@ -1,0 +1,96 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-content {
+  $features: &;
+
+  &--karma_events-layout2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    #{$features}-block__content {
+      width: 57%;
+      padding: 30px 30px 39%;
+      position: relative;
+      background-size: cover;
+      @include lg-size-max{
+        width: 50%;
+      }
+      @include sm-size-max{
+        width: 100%;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: calc(50% - 25px);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 30px 25px 0;
+        border-color: transparent var(--c-light) transparent transparent;
+      }
+    }
+
+    #{$features}-block__content-wrap {
+      width: 94px;
+      height: 94px;
+      background-color: var(--c-light);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #{$features}-block__content-price-text {
+      margin-bottom: 0;
+    }
+    #{$features}-block__title {
+      margin-bottom: 30px;
+      @include sm-size-max{
+        margin-bottom: 15px;
+      }
+    }
+
+    #{$features}-block__content-price {
+      margin-bottom: 0;
+    }
+
+    #{$features}-block__heading {
+      width: 43%;
+      box-shadow: 31px 0 54px rgba(var(--ca-dark), 0.05);
+      padding: 65px 50px 55px 30px;
+      display: flex;
+      flex-direction: column;
+      @include lg-size-max{
+        width: 50%;
+        padding: 65px 25px 55px 30px;
+      }
+      @include sm-size-max{
+        width: 100%;
+        padding: 30px;
+      }
+    }
+    #{$features}-block__info-address {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 35px;
+      @include sm-size-max{
+        margin-bottom: 15px;
+      }
+      &::before{
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "\f393";
+        font-family: 'Ionicons';
+        font-size: 18px;
+        color: var(--c-active);
+      }
+    }
+    #{$features}-block__info-text {
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import '../../../../assets/css/mixin';
+
+
+.aheto-cpt-article {
+  $cpt: &;
+
+  &--karma_travel_skin-2 {
+
+
+    #{$cpt}__inner {
+      max-width: 400px;
+      margin-right:  auto;
+      margin-left: auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: 0 15px 40px rgba(var(--ca-dark), 0.05);
+      background-color: var(--c-light);
+    }
+
+    #{$cpt}__content {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      padding: 33px 30px 30px;
+      @include xs-size-max{
+        padding: 25px 20px 25px;
+      }
+    }
+
+    #{$cpt}__title {
+      position: relative;
+      flex-grow: 1;
+      margin-bottom: 30px;
+      @include xs-size-max{
+        margin-bottom: 15px;
+      }
+
+      a {
+        color: inherit;
+        line-height: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        font-style: inherit;
+        z-index: 2;
+
+        &:hover {
+          color: var(--c-active);
+        }
+      }
+    }
+
+    #{$cpt}__img {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 68%;
+      position: relative;
+    }
+    #{$cpt}__footer {
+      display: flex;
+    }
+    #{$cpt}__footer-item {
+      width: 50%;
+      padding: 0 3px;
+      i{
+        color: var(--c-alter);
+        font-family: 'Ionicons';
+        padding-right: 2px;
+      }
+    }
+  }
+}

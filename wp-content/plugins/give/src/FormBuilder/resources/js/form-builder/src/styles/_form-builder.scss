@@ -1,0 +1,337 @@
+/**
+ * Add space to avoid overlap with elements fixed to the bottom right of the editor.
+ */
+
+.sidebar-panel {
+    padding-bottom: 80px;
+}
+
+
+/**
+ * Add box-sizing so that input do not expand outside of the container
+ */
+
+.givewp-next-gen-sidebar.givewp-next-gen-sidebar-primary {
+    input:not([type=radio]):not([type=checkbox]),
+    textarea,
+    .components-form-token-field__input-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .block-editor-panel-color-gradient-settings {
+        padding: 1rem 0;
+    }
+}
+
+/** ------------------------------- */
+
+/**
+ * Force full width on textareas
+ */
+
+.givewp-next-gen-sidebar.givewp-next-gen-sidebar-primary textarea {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.givewp-next-gen-sidebar {
+    max-width: 100%;
+    width: var(--givewp-sidebar-width);
+    background: white;
+    border: 1px solid lightgray;
+    bottom: 0;
+    //color: slategray;
+    height: calc(100vh - 65px); // Account for header height above sidebar
+    //overflow: hidden; // The Inspector Popout needs to be visible.
+    overflow-y: scroll;
+
+    &.givewp-next-gen-sidebar-primary {
+        .block-editor-block-inspector {
+            > h2 {
+                border-bottom: 1px solid #e0e0e0;
+                font-size: 0.875rem;
+                line-height: 1rem;
+                margin: 0;
+                padding: var(--givewp-spacing-4);
+                text-align: center;
+            }
+
+            &__no-blocks {
+                border-bottom: 1px solid #e0e0e0;
+                color: var(--givewp-gray-60);
+                line-height: 1rem;
+                padding: var(--givewp-spacing-4);
+            }
+        }
+    }
+
+    &__inner {
+        padding: 1rem;
+    }
+
+    &__heading {
+        color: var(--givewp-gray-50);
+        padding: 1rem 0;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    > .components-panel {
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: -1px;
+        margin-top: -1px;
+
+        > .components-panel__header {
+            background: white;
+        }
+    }
+
+    .block-editor-block-inspector__card {
+        margin: 0;
+    }
+}
+
+.givewp-next-gen-inspector-popout {
+    box-sizing: border-box;
+    padding: 20px;
+
+    position: absolute;
+    right: calc(100% + 25px); // Position beside the sidebar.
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.givewp-next-gen-inspector-popout--container {
+    color: black;
+    outline: 1px solid lightgray;
+    background-color: white;
+}
+
+/**
+ * Form prepublish panel
+ */
+.givewp-next-gen-prepublish-panel {
+    position: fixed;
+    z-index: 99999999999;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    min-height: 100vh;
+    animation: givewp-next-gen-prepublish-panel__slide-in-animation 0.1s forwards;
+
+    &__animate {
+        transform: translateX(100%);
+    }
+
+    &__header {
+        padding: var(--givewp-spacing-3);
+        border-bottom: 1px solid lightgray;
+
+        &-actions {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            button {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+
+    &__content {
+        padding: var(--givewp-spacing-4);
+        font-size: 0.75rem;
+        line-height: 1.5;
+
+        strong {
+            color: #1e1e1e;
+            font-size: 0.875rem;
+            font-weight: 600;
+            line-height: 1.14;
+        }
+
+        &_publish {
+            padding: var(--givewp-spacing-4);
+
+            strong {
+                color: #1e1e1e;
+                font-size: 0.813rem;
+                font-weight: 500;
+                line-height: 1.14;
+            }
+        }
+    }
+
+    &__spinner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        min-height: 100%;
+        height: 100%;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    &__site-card {
+        display: flex;
+        align-items: center;
+
+        &-icon {
+            border: none;
+            border-radius: 4px;
+            margin-right: var(--givewp-spacing-3);
+            height: 36px;
+            width: 36px;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            font-size: 0.75rem;
+            line-height: 1.5;
+            gap: 3px;
+
+            &-name {
+                color: #0e0e0e;
+            }
+
+            &-url {
+                color: #737373;
+            }
+        }
+    }
+
+    &_link {
+        span {
+            font-size: 0.688rem;
+            line-height: 1.4;
+        }
+
+        div {
+            display: block !important;
+        }
+
+        svg {
+            fill: none;
+        }
+    }
+
+    &_input {
+
+        margin-top: 0;
+
+        div {
+            display: block !important;
+        }
+    }
+
+    &_visibility {
+        font-size: 0.75rem;
+        line-height: 1.4;
+        margin-top: -8px;
+        color: #595959;
+    }
+
+    &_view {
+
+        &_button {
+            margin-top: var(--givewp-spacing-2);
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+            font-size: 0.813rem;
+            padding: 0.75rem 1rem;
+        }
+    }
+
+    &_copy_link {
+        text-decoration: none;
+        font-size: 0.75rem;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.4;
+        outline: 0;
+
+        svg {
+            float: left;
+            margin-right: 5px;
+            margin-top: 1px;
+        }
+    }
+
+
+}
+
+@keyframes givewp-next-gen-prepublish-panel__slide-in-animation {
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.givewp-embed-button {
+    svg {
+        fill: none;
+        stroke: #4d4d4d;
+    }
+
+    &:hover {
+        svg {
+            stroke: #2271b1;
+        }
+    }
+
+    &.is-pressed {
+        svg {
+            fill: #000;
+            stroke: #fff;
+        }
+    }
+;
+}
+
+.iti {
+    width: 100%;
+}
+
+/**
+ * WordPress 6.6 compatibility
+ */
+.givewp-next-gen-sidebar-secondary {
+    // Hide the Blocks, Patterns, Media tabs
+    .block-editor-inserter__tablist-and-close-button {
+        display: none;
+    }
+}
+
+
+/**
+ * WordPress 6.7 compatibility
+ */
+.givewp-next-gen-sidebar-secondary {
+    // Hide the Blocks, Patterns, Media tabs (css name change)
+    .block-editor-tabbed-sidebar__tablist-and-close-button {
+        display: none;
+    }
+
+    // WP adds a fixed width to the tabbed sidebar, we need to override it
+    .block-editor-inserter__main-area .block-editor-tabbed-sidebar {
+        width: 100%;
+    }
+}
+

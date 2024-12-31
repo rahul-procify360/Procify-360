@@ -1,0 +1,121 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-contact-form {
+    $p: &;
+
+    &--karma-political__simple {
+        #{$p}__form {
+
+            .wpcf7 {
+                form p {
+                    position: relative;
+                    max-width: 270px;
+
+                    @include md-size-max {
+                        max-width: 100%;
+                    }
+                }
+
+                span {
+                    font: inherit;
+                    color: inherit;
+                    display: block;
+                }
+
+                input:not([type="submit"]) {
+                    padding: 12px 20px;
+                    width: 100%;
+                    font: inherit;
+                    max-width: 100%;
+                    border-radius: 5px;
+                    border: none;
+                    color: var(--c-white);
+                    background-color: rgba(var(--ca-light), 0.05);
+
+                    &::placeholder {
+                        color: rgba(var(--ca-light), 0.6);
+                    }
+                }
+
+                textarea {
+                    max-height: 120px;
+                    margin-top: 20px;
+                    background-color: rgba(var(--ca-light), 0.05);
+                    color: var(--c-white);
+                    width: 100%;
+                    padding: 15px 20px;
+                    border-radius: 5px;
+                    border: none;
+                    resize: none;
+                }
+
+                .wpcf7-submit {
+                    margin-top: 20px;
+                    background: var(--c-active);
+                    position: relative;
+                    padding-right: 35px;
+                    padding-left: 35px;
+                    box-shadow: none;
+                    border: 0;
+                    outline: none;
+                    color: var(--c-white);
+                    border-radius: 5px;
+                    transition: all .3s ease-in-out;
+
+                    &:hover {
+                        background: var(--c-white);
+                        color: var(--c-black);
+                    }
+                }
+
+                .submit-wrap {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 50px;
+                    height: 50px;
+
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        height: inherit;
+                        width: inherit;
+                        font-size: 160%;
+                        align-items: center;
+                        justify-content: center;
+                        background: transparent;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        color: var(--c-light);
+                        transition: all .3s ease;
+                    }
+
+                    &:hover::before {
+                        background: var(--c-active);
+                        color: var(--c-light);
+                    }
+                }
+
+                .ajax-loader {
+                    display: none;
+                }
+
+                .wpcf7-response-output {
+                    margin: 0;
+                }
+            }
+
+            div.wpcf7-validation-errors,
+            div.wpcf7-acceptance-missing {
+                border: 2px solid #ff6138 !important;
+            }
+
+            .wpcf7-response-output {
+                font-size: 14px;
+            }
+        }
+    }
+}
+

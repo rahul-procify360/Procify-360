@@ -1,0 +1,26 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-socials {
+  $p: &;
+
+  &-networks--karma_dark_portfolio {
+    #{$p} {
+      display: flex;
+      align-items: center;
+    }
+    
+    #{$p}__link {
+      width: 25px;
+      height: 25px;
+      padding: 2px 0 0 2px;
+      border: 1px solid transparent;
+      color: rgba(var(--ca-alter), 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 7px;
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-pricing {
+  $p: &;
+
+  &--karma_construction-simple  {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: var(--c-light);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: 0.35s  all;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 50px  rgba(var(--ca-dark), 0.05);
+    &#{$p}--karma_construction-active {
+      #{$p}__btn {
+        margin-top: 5px;
+      }
+    }
+      &:hover,
+    &#{$p}--karma_construction-active{
+      margin-top: -25px;
+      margin-bottom: 25px;
+      @include sm-size-max{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      #{$p}__box-price {
+        margin-top: 20px;
+        @include sm-size-max{
+          margin-top: 0;
+        }
+      }
+      #{$p}__btn {
+        background-color: var(--c-active);
+        border: 1px solid var(--c-active);
+        color: var(--c-light);
+        &:hover{
+          color: var(--c-active);
+          background-color: var(--c-light);
+        }
+      }
+    }
+    #{$p}--tableColumn {
+      transition: 0.35s;
+    }
+    #{$p}__btn {
+      width: 100%;
+      padding: 13px 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 25px auto 0;
+      border-radius: 0;
+      background-color: var(--c-alter2);
+      color: var(--c-grey);
+      font-family: var(--t-primary-font-family);
+      border: 1px solid var(--c-alter2);
+      &:hover{
+        color: var(--c-alter2);
+        background-color: var(--c-grey);
+      }
+    }
+
+    #{$p}__box-descr {
+      margin-bottom: 9px;
+      padding-left: 25px;
+      position: relative;
+      &::before{
+        content: '';
+        position: absolute;
+        left: 3px;
+        top: 50%;
+        width: 5px;
+        height: 5px;
+        background-color: var(--c-active);
+        border-radius: 50%;
+      }
+    }
+
+    #{$p}__box-image {
+      max-height: 50px;
+      img{
+        max-height: 50px;
+      }
+    }
+    #{$p}__content {
+      flex: 1;
+      padding: 35px 35px 0;
+    }
+    #{$p}__list {
+      margin-top: 42px;
+      position: relative;
+      padding-bottom: 20px;
+      &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        border: 1px solid rgba(var(--ca-grey), 0.2);
+      }
+    }
+
+    #{$p}__box-title {
+      margin: 0 0 25px;
+      position: relative;
+
+      span{
+        color: var(--c-active);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,1 @@
+.give-skeleton{animation:give-skeleton-loading 1s linear infinite alternate;display:inline-block;position:relative;top:.1rem}@keyframes give-skeleton-loading{0%{background-color:#c2cfd6}to{background-color:#f0f3f5}}

@@ -1,0 +1,4 @@
+2023-12-08T12:22:53+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count was called but no order types were registered: it may have been called too early.
+2023-12-08T12:22:53+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count was called but no order types were registered: it may have been called too early.
+2023-12-08T12:47:34+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count was called but no order types were registered: it may have been called too early.
+2023-12-08T12:47:34+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count was called but no order types were registered: it may have been called too early.

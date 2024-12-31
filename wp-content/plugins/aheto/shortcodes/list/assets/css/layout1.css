@@ -1,0 +1,1 @@
+.aheto-list--bullets ul{margin:0;padding:0}.aheto-list--bullets li{padding-left:25px;margin-bottom:12px;position:relative;color:var(--c-grey)}.aheto-list--bullets li::before{content:"";background-color:var(--c-active);width:8px;height:8px;position:absolute;top:8px;left:0;border-radius:50%}.aheto-list--bullets li:last-of-type{margin-bottom:0}

@@ -1,0 +1,57 @@
+.pure-g {
+	padding: 10px;
+	/* border: 1px solid #ccc; */
+}
+.cf7-views-cont {
+	overflow-x: auto;
+}
+.cf7-views-table {
+	margin-top: 10px;
+}
+
+/* Pagination links */
+
+.field-pagination .views-pagination {
+	clear: both;
+	padding: 0;
+	text-align: right;
+	padding: 10px;
+	margin: 0px;
+}
+.field-pagination .views-pagination li {
+	display: inline;
+}
+.field-pagination .views-pagination a {
+	border: 1px solid #d5d5d5;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	padding: 4px 8px;
+	text-decoration: none;
+	margin: 2px;
+}
+.field-pagination .views-pagination a:hover,
+.field-pagination .views-pagination a:active {
+	background: #efefef;
+}
+.field-pagination .views-pagination span.current {
+	background-color: #687282;
+	border: 1px solid #d5d5d5;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	padding: 4px 8px;
+	text-decoration: none;
+	margin: 2px;
+}
+.field-pagination .views-pagination span.disabled {
+	border: 1px solid #eeeeee;
+	color: #dddddd;
+	margin: 2px;
+	padding: 2px 5px;
+}
+.field-paginationInfo {
+	text-align: right;
+}

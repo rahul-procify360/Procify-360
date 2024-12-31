@@ -1,0 +1,79 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-titlebar {
+  $p: &;
+
+  &--karma_travel-search {
+    .aheto-btn--full-width{
+      form {
+        flex-wrap: wrap;
+        label{
+          width: 100%;
+        }
+        input[type="submit"] {
+          width: 100%;
+          text-align: center;
+          border-radius: 5px;
+          display: table;
+        }
+        input[type="text"] {
+          border-radius: 5px;
+        }
+      }
+    }
+    form {
+      display: flex;
+      align-items: center;
+      @include xs-size-max{
+        flex-wrap: wrap;
+      }
+      label {
+        margin-bottom: 0;
+        flex-grow: 1;
+        position: relative;
+
+        input[type="text"] {
+          width: 100%;
+          box-shadow: 0 15px 50px rgba(var(--ca-dark), 0.15);
+          border-radius: 5px 0 0 5px;
+          background-color: var(--c-light);
+          padding: 21px 25px 21px 45px;
+          border: none;
+          outline: none;
+          color: var(--c-active);
+          &::placeholder{
+            color: var(--c-active);
+          }
+          @include sm-size-max{
+            padding: 18px 20px 18px 45px;
+          }
+          @include xs-size-max{
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+        i{
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          left: 25px;
+        }
+      }
+
+      input[type="submit"] {
+        border-radius: 0 5px 5px 0!important;
+        text-transform: uppercase;
+        padding: 23px 50px!important;
+        text-align: center;
+        @include sm-size-max{
+          padding: 20px 15px!important;
+        }
+        @include xs-size-max{
+          width: 100%;
+          border-radius: 5px!important;;
+          display: table;
+        }
+      }
+    }
+  }
+}

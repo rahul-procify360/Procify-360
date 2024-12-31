@@ -1,0 +1,147 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-media {
+    &--karma_education-video {
+        .swiper  {
+            &-wrapper {
+                align-items: center ;
+            }
+
+            &-container {
+                height: 600px;
+                padding: 50px 25px 80px;
+                @include sm-size-max{
+                    height: 500px;
+                    padding: 50px 25px 40px;
+                }
+            }
+            &-slide {
+                position: relative;
+                z-index: 1;
+                transform: scale(1);
+                transition: all 0.5s;
+                max-height: 373px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-size: cover;
+                background-position: center;
+                border-radius: 5px;
+                filter: blur(2px);
+                opacity: 0.001;
+                @include sm-size-max{
+                    max-height: 250px;
+                }
+                .aheto-btn-video {
+                    display: none;
+                }
+                &.swiper-slide-prev,
+                &.swiper-slide-next,
+                &.swiper-slide-active{
+                    opacity: 1;
+                }
+                &-active {
+                    filter: blur(0);
+                    position: relative;
+                    z-index: 5;
+                    max-height: 200px;
+                    transform: scale(2.5);
+                    transition: all 0.5s;
+                    @include sm-size-max{
+                        max-height: 150px;
+                    }
+                    .aheto-btn-video {
+                        display: flex;
+                    }
+                }
+            }
+            &-pagination-bullets {
+                margin-top: 60px;
+                @include sm-size-max{
+                    margin-top: 20px;
+                }
+            }
+
+            &-button-prev,
+            &-button-next {
+                top: 50%;
+                bottom: auto;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: var(--c-light);
+                transform: translate(0, -75%);
+                box-shadow: 0 4px 6px rgba(var(--ca-dark), 0.07);
+                opacity: 1;
+                color: var(--c-active);
+                @include sm-size-max{
+                    display: none;
+                }
+                &:hover {
+                    background-color: var(--c-active);
+                    color: var(--c-light);
+                }
+
+                &::before {
+                    font-weight: bold;
+                    font-size: 0.9em;
+
+                }
+            }
+            &-button-prev {
+                left: 0;
+
+                &::before {
+                    content: "\f3d2" ;
+                }
+
+            }
+
+            &-button-next {
+                right: 0;
+                &:before {
+                    content: "\f3d3" ;
+                }
+
+            }
+
+        }
+        &.hide-pagination {
+            .swiper-pagination {
+                @include sm-size-min {
+                    display: none;
+                }
+                @include sm-size-max {
+                    &-bullets {
+                        margin-top: 30px;
+                    }
+                    &-bullet {
+                        background-color: var(--c-light);
+                        opacity: 0.6;
+                        &-active {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .aheto-video {
+            &__play {
+                background-color: var(--c-light);
+                &::before {
+                    border: 4px solid var(--c-light);
+                }
+                i {
+                    color: var(--c-dark);
+                }
+            }
+        }
+
+    }
+}

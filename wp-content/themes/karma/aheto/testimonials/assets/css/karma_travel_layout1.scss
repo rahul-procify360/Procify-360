@@ -1,0 +1,110 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-tm {
+  $tm: &;
+
+  &-wrapper--karma-travel-layout1 {
+    position: relative;
+    padding: 0 85px;
+    @include xs-size-max {
+      padding: 0 45px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: flex;
+      justify-content: center;
+      padding: 0 5px;
+    }
+
+    .swiper-button-prev {
+      left: 0;
+
+      &::before {
+        content: '\f3d5';
+      }
+    }
+
+    .swiper-button-next {
+      right: 0;
+
+      &::before {
+        content: '\f3d6';
+      }
+    }
+
+
+    .swiper-slide {
+      padding: 15px 0;
+      position: relative;
+    }
+
+    #{$tm}__box-image {
+      position: absolute;
+      right: 0;
+      top: 15px;
+
+      img {
+        width: 40px;
+        height: auto;
+      }
+    }
+
+    #{$tm}__stars {
+      display: flex;
+      margin-top: 0;
+      margin-bottom: 20px;
+
+      i {
+        display: inline-block;
+        margin-right: -1px;
+      }
+    }
+
+
+    #{$tm}__title {
+      margin-bottom: 25px;
+      @include xs-size-max {
+        margin-bottom: 15px;
+      }
+    }
+
+    #{$tm}__bottom {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 45px;
+      @include xs-size-max {
+        margin-top: 25px;
+      }
+    }
+
+    #{$tm}__bottom-text {
+      display: flex;
+      padding-left: 20px;
+      flex-direction: column;
+      justify-content: center;
+      width: calc(100% - 70px);
+    }
+
+    #{$tm}__text {
+      margin-bottom: 0;
+    }
+
+    #{$tm}__avatar {
+      height: 70px;
+      width: 70px;
+      display: block;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+    }
+
+    #{$tm}__name {
+      margin-bottom: 0;
+    }
+
+    #{$tm}__position {
+      margin-bottom: 0;
+    }
+  }
+}

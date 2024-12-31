@@ -1,0 +1,72 @@
+@import '../../../../assets/css/mixin';
+
+
+.aheto-cpt-article {
+  $cpt: &;
+
+  &--karma_events_skin-1 {
+    box-shadow: 0 4px 20px rgba(var(--ca-dark), 0.1);
+    background-color: var(--c-light);
+    height: 100%;
+    #{$cpt}__inner {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    #{$cpt}__content {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      padding: 25px 40px 45px;
+      @include xs-size-max{
+        padding: 25px 20px 25px;
+      }
+    }
+
+    #{$cpt}__title {
+      position: relative;
+      flex-grow: 1;
+
+      a {
+        color: inherit;
+        line-height: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        font-style: inherit;
+        z-index: 2;
+
+        &:hover {
+          color: var(--c-grey);
+        }
+      }
+    }
+
+    #{$cpt}__img {
+      padding-bottom: 68%;
+      position: relative;
+    }
+    #{$cpt}__footer {
+      display: flex;
+      padding: 15px;
+      border-top: 1px solid var(--c-alter2);
+    }
+    #{$cpt}__footer-item {
+      width: 33%;
+      padding: 0 3px;
+      i{
+        color: var(--c-active);
+        font-family: 'Ionicons';
+        font-size: 16px;
+        padding-right: 5px;
+      }
+    }
+    #{$cpt}__date {
+     text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+2023-05-21T05:36:41+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to cost_calculator_phpmailer_init() must be an instance of PHPMailer, instance of PHPMailer\PHPMailer\PHPMailer given, called in /home3/thebrxne/erp.probsoltechnology/new/wp-includes/class-wp-hook.php on line 308 and defined in /home3/thebrxne/erp.probsoltechnology/new/wp-content/plugins/ql-cost-calculator/ql-cost-calculator.php:864
+Stack trace:
+#0 /home3/thebrxne/erp.probsoltechnology/new/wp-includes/class-wp-hook.php(308): cost_calculator_phpmailer_init(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 /home3/thebrxne/erp.probsoltechnology/new/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/thebrxne/erp.probsoltechnology/new/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home3/thebrxne/erp.probsoltechnology/new/wp-includes/pluggable.php(538): do_action_ref_array('phpmailer_init', Array)
+#4 /home3/thebrxne/erp.probsoltechnology/new/wp-admin/includes/class-wp-automatic-updater.php(963): wp_mail(Array, '[new] Your site...', 'Howdy! You in /home3/thebrxne/erp.probsoltechnology/new/wp-content/plugins/ql-cost-calculator/ql-cost-calculator.php on line 864
+

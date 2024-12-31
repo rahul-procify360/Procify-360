@@ -1,0 +1,108 @@
+@import '../../../../assets/css/mixin';
+
+
+.aheto-cpt-article {
+    $cpt: &;
+
+    &--karma_political_skin-1 {
+        height: 100%;
+
+        @media screen and (max-width: 767px) {
+            max-width: 350px;
+        }
+
+        #{$cpt}__inner {
+            background-color: var(--c-white);
+            position: relative;
+            height: 100%;
+            transition: all .3s ease;
+
+            &:hover {
+                transform: translateY(-20px);
+                box-shadow: 0 0 50px rgba(var(--ca-dark), 0.05);
+            }
+        }
+
+        #{$cpt}__title {
+            position: relative;
+            padding-top: 0;
+            margin-bottom: 35px;
+            margin-top: 25px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background-color: rgba(var(--ca-active), .03);
+                left: 0px;
+                bottom: -17.5px;
+            }
+
+            a {
+                color: inherit;
+                line-height: inherit;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                letter-spacing: inherit;
+                font-style: inherit;
+
+                &:hover {
+                    color: var(--c-active);
+                }
+            }
+        }
+
+        #{$cpt}__excerpt p {
+            margin-bottom: 17px;
+        }
+
+        #{$cpt}__content {
+            padding: 20px 35px 25px;
+            min-height: 286px;
+
+            @include xs-size-max{
+                padding: 27px 20px 27px;
+            }
+
+            #{$cpt}__content-header {
+                display: inline-flex;
+
+                a {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 12px;
+                        left: -15px;
+                        background-color: var(--c-light);
+                    }
+                }
+            }
+        }
+
+        #{$cpt}__author {
+            display: flex;
+            align-items: center;
+            color: var(--c-dark);
+            
+            img {
+                border-radius: 50%;
+                margin-right: 12px;
+            }
+        }
+
+        #{$cpt}__img {
+            padding-bottom: 250px;
+            background-size: cover;
+            position: relative;
+            background-color: #c0c0c0;
+        }
+    }
+}

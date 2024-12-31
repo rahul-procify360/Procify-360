@@ -1,0 +1,24 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-content-block {
+  $p: &;
+
+  &--karma_marketing-layout2 {
+    display: flex;
+    #{$p}__number{
+      padding-right: 5px;
+    }
+    #{$p}__title {
+      margin-bottom: 15px;
+
+      @include large-size-max {
+        margin-bottom: 15px;
+      }
+    }
+
+    #{$p}__info-text {
+      margin-bottom: 0;
+    }
+  }
+
+}

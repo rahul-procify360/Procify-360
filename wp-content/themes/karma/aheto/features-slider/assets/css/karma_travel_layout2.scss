@@ -1,0 +1,138 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-features-slider {
+  $p: &;
+
+  &--karma-travel2 {
+    .swiper-wrapper{
+      padding: 40px 0 0;
+    }
+    .swiper-pagination{
+      margin-top: 90px;
+      @include md-size-max{
+        margin-top: 70px;
+      }
+      @include xs-size-max{
+        margin-top: 30px;
+      }
+    }
+    .swiper-pagination-bullet{
+      background: rgba(var(--ca-grey), 0.8);
+      width: 15px;
+      height: 15px;
+      &-active{
+        background: var(--c-active);
+      }
+    }
+
+
+    #{$p}__content {
+      max-width: 408px;
+      margin: 0 auto;
+      border-radius: 5px;
+      background-color: var(--c-light);
+      overflow: hidden;
+      transition: 0.5s;
+
+      &:hover {
+        margin-top: -35px;
+
+        #{$p}__links {
+          a {
+            background-color: var(--c-active);
+            border-color: var(--c-active);
+            color: var(--c-light);
+            &:hover{
+              background-color: var(--c-light);
+              color: var(--c-active);
+            }
+          }
+        }
+      }
+    }
+
+    #{$p}__image {
+      width: 100%;
+      min-height: 260px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 25px 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    #{$p}__rating-wrap {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+      #{$p}__rating-text{
+        margin: 0 0 2px 5px;
+      }
+    }
+
+    #{$p}__top-info {
+      display: flex;
+    }
+
+    #{$p}__labels {
+      width: 33.3%;
+      padding: 13px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid rgba(var(--ca-grey), 0.3);
+
+      &:not(:first-child) {
+        border-left: 1px solid rgba(var(--ca-grey), 0.3);
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+
+    #{$p}__price-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 22px 0 13px;
+
+      p {
+        margin: 0 3px;
+      }
+    }
+
+    #{$p}__desc {
+      padding: 0 30px;
+      margin-bottom: 30px;
+      @include xs-size-max {
+        margin-bottom: 20px;
+      }
+    }
+
+    #{$p}__title {
+      margin-bottom: 8px;
+    }
+
+    #{$p}__links {
+      margin-bottom: 60px;
+      @include xs-size-max{
+        margin-bottom: 45px;
+      }
+
+      a {
+        display: table;
+        margin: 0 auto;
+
+        i {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import '../../../../assets/css/mixin';
+
+.aheto-banner-slider {
+    $banner_slider: &;
+
+
+    &--karma-travel {
+        position: relative;
+        #{$banner_slider}-wrap {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: bottom center;
+
+            @include small-size-max {
+                padding-top: 50px;
+            }
+        }
+
+
+        #{$banner_slider}__content {
+            max-width: 1000px;
+            padding: 70px 15px 50px 15px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media screen and (max-width: 1024px) {
+                padding: 0 15px 50px 15px;
+            }
+            @include small-size-max {
+                padding: 110px 15px;
+            }
+        }
+
+
+        #{$banner_slider}__label {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            border-radius: 50%;
+            transform: rotate(25deg);
+            position: absolute;
+            right: -110px;
+            top: -45px;
+            @include sm-size-max{
+                width: 65px;
+                height: 65px;
+                right: -65px;
+                top: -25px;
+            }
+            @include xs-size-max{
+                right: calc(50% - 33px);
+                top: -80px;
+            }
+        }
+        #{$banner_slider}__title {
+            padding: 0 30px;
+            text-align: center;
+            word-break: break-word;
+
+            @include small-size-max {
+                padding: 0;
+            }
+        }
+
+        #{$banner_slider}__subtitle {
+            padding: 0 15px;
+            text-align: center;
+            position: relative;
+            display: table;
+            margin:  0 auto;
+            max-width: 500px;
+            @include sm-size-max{
+                max-width: 350px;
+            }
+        }
+
+        #{$banner_slider}__links {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+}

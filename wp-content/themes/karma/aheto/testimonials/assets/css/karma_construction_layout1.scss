@@ -1,0 +1,136 @@
+@import "../../../../assets/css/mixin";
+
+.aheto-tm {
+  $tm: &;
+
+  &-wrapper--karma-construction-classic {
+    position: relative;
+    .swiper{
+      position: relative;
+      right: -300px;
+      @media screen and (max-width: 1024px) {
+        right: 0;
+      }
+    }
+    .swiper-pagination{
+      width: calc(100% - 100px);
+      max-width: 1040px;
+      display: flex;
+      padding-bottom: 15px;
+      margin-top: 80px;
+      @include md-size-max{
+        margin-top: 45px;
+      }
+      @include sm-size-max{
+        width: 100%;
+      }
+    }
+    .swiper-pagination-bullet,
+    .swiper-pagination-bullet-active ~ .swiper-pagination-bullet{
+      display: block;
+      flex: 1 ;
+      background-color: #4d4d4d;
+      height: 1px;
+      width: auto;
+      margin: 1px 0!important;
+      border-radius: 0;
+      position: relative;
+    }
+    .swiper-pagination-bullet,
+    .swiper-pagination-bullet-active {
+      background-color: var(--c-active);
+      height: 3px;
+      margin: 0!important;
+    }
+    .swiper-pagination-bullet-active {
+      &::after{
+        width: 15px;
+        height: 15px;
+        background-color: var(--c-active);
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: -8px;
+        transform: translate(-50%, -50%);
+      }
+    }
+      .swiper-button-prev:before {
+      content: "\f3d5";
+    }
+
+    .swiper-button-next:before {
+      content: "\f3d6";
+    }
+
+    .swiper-button-prev {
+      left: -80px;
+    }
+
+    .swiper-button-next {
+      right: -80px;
+    }
+
+    @include md-size-max {
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+    }
+
+    #{$tm}__slide-wrap {
+      margin-bottom: 30px;
+      border-radius: 5px;
+      background-color: var(--c-light);
+      padding: 25px 40px 40px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    #{$tm}__stars {
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: var(--c-active);
+
+      i {
+        display: inline-block;
+        margin-right: 1px;
+      }
+    }
+
+    #{$tm}__title-wrap {
+      position: relative;
+    }
+
+    #{$tm}__text {
+      margin-bottom: 45px;
+    }
+
+    #{$tm}__author {
+      display: flex;
+      align-items: center;
+    }
+
+    #{$tm}__avatar {
+      height: 70px;
+      width: 70px;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    #{$tm}__name {
+      margin-top: 5px;
+    }
+
+    #{$tm}__position {
+      margin-bottom: 0;
+      font-weight: inherit;
+      color: inherit;
+    }
+  }
+}
